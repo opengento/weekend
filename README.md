@@ -7,4 +7,4 @@
 1. https://github.com/opengento/magento2-frankengento
 1. https://github.com/opengento/magento2-sample-ai-data
 1. https://github.com/opengento/magento2-admin-assistant
-1. https://github.com/opengento/magento2-country-store-url
+1. https://github.com/opengento/magento2-country-path-url
