@@ -2,11 +2,11 @@
 
 ## 2024 - Sélestat 
 
-1. https://github.com/opengento/magento2-makegento-cli
-2. https://github.com/opengento/magento2-on-fly-3d-generator
-   - https://github.com/opengento/on-fly-3d-generator-service
-3. https://github.com/opengento/magento2-varnish-flush-controller
-4. https://github.com/opengento/magento2-better-bo/
+1. [magento2-makegento-cli](https://github.com/opengento/magento2-makegento-cli)
+2. [magento2-on-fly-3d-generator](https://github.com/opengento/magento2-on-fly-3d-generator)
+   - [on-fly-3d-generator-service](https://github.com/opengento/on-fly-3d-generator-service)
+3. [magento2-varnish-flush-controller](https://github.com/opengento/magento2-varnish-flush-controller)
+4. [magento2-better-bo](https://github.com/opengento/magento2-better-bo)
 
 ## 2024 - Toulouse 
 
