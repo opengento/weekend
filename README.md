@@ -2,8 +2,10 @@
 
 ## 2024 - Sélestat 
 
-1. Lorem
-2. Ipsum
+1. https://github.com/opengento/magento2-makegento-cli
+2. https://github.com/opengento/magento2-on-fly-3d-generator
+   - https://github.com/opengento/on-fly-3d-generator-service
+3. https://github.com/opengento/magento2-varnish-flush-controller
 
 ## 2024 - Toulouse 
 
