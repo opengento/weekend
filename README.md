@@ -6,6 +6,7 @@
 2. https://github.com/opengento/magento2-on-fly-3d-generator
    - https://github.com/opengento/on-fly-3d-generator-service
 3. https://github.com/opengento/magento2-varnish-flush-controller
+4. https://github.com/opengento/magento2-better-bo/
 
 ## 2024 - Toulouse 
 
