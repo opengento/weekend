@@ -7,6 +7,8 @@
    - [on-fly-3d-generator-service](https://github.com/opengento/on-fly-3d-generator-service)
 3. [magento2-varnish-flush-controller](https://github.com/opengento/magento2-varnish-flush-controller)
 4. [magento2-better-bo](https://github.com/opengento/magento2-better-bo)
+5. [magento2-minimal-price](https://github.com/opengento/magento2-minimal-price)
+6. [magento2-snowflake](https://github.com/opengento/magento2-snowflake) Upgrade!
 
 ## 2024 - Toulouse 
 
