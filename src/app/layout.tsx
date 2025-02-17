@@ -1,23 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import {Montserrat, Roboto} from "next/dist/compiled/@next/font/dist/google";
-import TranslationsProvider
-  from "@/components/TranslationsProvider/TranslationsProvider";
-
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  display: "swap",
-  weight: ["300", "600", "700"],
-  subsets: ["latin"],
-  style: ["normal"],
-});
-const roboto = Roboto({
-  variable: "--font-roboto",
-  display: "swap",
-  weight: ["300", "400", "500", "700"],
-  subsets: ["latin"],
-  style: ["normal"],
-});
+import Header from "@/layouts/Header/Header";
+import Footer from "@/layouts/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Weekend Opengento",
@@ -35,12 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-    <body className={`${roboto.variable} ${montserrat.variable} antialiased bg-camel`}>
-      <TranslationsProvider>
-        <Header/>
-        <main>{children}</main>
-        <Footer/>
-      </TranslationsProvider>
+    <body>
+      <Header />
+      <main>{children}</main>
+      <Footer />
     </body>
     </html>
   );
