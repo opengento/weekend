@@ -1,4 +1,7 @@
+"use client";
+
 import Logo from "@/components/Logo/Logo";
+import { useTranslation } from "next-i18next";
 
 interface MainLogo {
   size?: "small" | "medium" | "large";
@@ -6,11 +9,13 @@ interface MainLogo {
 }
 
 const MainLogo = ({ size = "medium", showText = true }: MainLogo) => {
+  const { t } = useTranslation(["common"]);
+
   return (
     <Logo
       href="/"
-      logoSrc="/images/logo/opengento.svg"
-      logoText="Opengento"
+      logoSrc={t("common:logoSrc")}
+      logoText={t("common:logoText")}
       showText={showText}
       size={size}
     />

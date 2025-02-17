@@ -1,0 +1,83 @@
+{
+  "header": [
+    {
+      "label": "Programme",
+      "href": "/program"
+    },
+    {
+      "label": "Sponsors",
+      "href": "/sponsors"
+    },
+    {
+      "label": "Préparer ma venue",
+      "href": "/place"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2025 Opengento.",
+    "menu": [
+      {
+        "title": "Weekend Opengento",
+        "nav": [
+          {
+            "label": "Les organisateurs",
+            "href": "/staff"
+          },
+          {
+            "label": "Les événements passés",
+            "href": "/events"
+          },
+          {
+            "label": "Organiser un événement",
+            "href": "/organize-event"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      },
+      {
+        "title": "Légale",
+        "nav": [
+          {
+            "label": "Conditions d'utilisation",
+            "href": "/term-of-use"
+          },
+          {
+            "label": "Politique de confidentialité",
+            "href": "/privacy-policy"
+          },
+          {
+            "label": "Code de conduite",
+            "href": "/code-of-conduct"
+          },
+          {
+            "label": "L'association",
+            "href": "https://www.opengento.fr/",
+            "target": "_blank"
+          }
+        ]
+      }
+    ],
+    "socialTitle": "Social",
+    "social": [
+      {
+        "code": "github",
+        "href": "https://github.com/opengento"
+      },
+      {
+        "code": "linkedin",
+        "href": "https://www.linkedin.com/company/opengento/"
+      },
+      {
+        "code": "youtube",
+        "href": "https://www.youtube.com/@opengento1877"
+      }
+    ]
+  }
+}

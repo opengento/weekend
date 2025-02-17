@@ -16,6 +16,31 @@ const Hero = () => {
           </p>
           <button className="btn btn-primary">Get Started</button>
         </div>
+
+        <div>
+          {/* For TSX uncomment the commented types below */}
+          <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div className="flex flex-col">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value": 15} as React.CSSProperties}>15</span>
+    </span>
+              days
+            </div>
+            <div className="flex flex-col">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value": 10} as React.CSSProperties}>10</span>
+    </span>
+              hours
+            </div>
+            <div className="flex flex-col">
+    <span className="countdown font-mono text-5xl">
+      <span style={{"--value": 24} as React.CSSProperties}>24</span>
+    </span>
+              min
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );

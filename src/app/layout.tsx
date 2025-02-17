@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/layouts/Header/Header";
 import Footer from "@/layouts/Footer/Footer";
+import TranslationsProvider
+  from "@/components/TranslationsProvider/TranslationsProvider";
 
 export const metadata: Metadata = {
   title: "Weekend Opengento",
@@ -20,9 +22,11 @@ export default function RootLayout({
   return (
     <html lang="fr">
     <body>
-      <Header />
-      <main>{children}</main>
-      <Footer />
+      <TranslationsProvider>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </TranslationsProvider>
     </body>
     </html>
   );
