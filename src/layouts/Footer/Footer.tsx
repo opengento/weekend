@@ -65,6 +65,7 @@ const Footer = () => {
                 key={`social-${index}`}
                 href={social.href}
                 target="_blank"
+                className="text-primary"
               >
                 {socialIcons[social.code]}
               </Link>
