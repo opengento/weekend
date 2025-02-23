@@ -16,7 +16,7 @@ i18next
     fallbackLng: 'fr',
     supportedLngs: ['fr', 'en'],
     lng: 'fr', // default language
-    ns: ['common', 'hero', 'place', 'speakers', 'sponsors'],
+    ns: ['common', 'events', 'navigation'],
     interpolation: {
       escapeValue: false,
     },

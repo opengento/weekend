@@ -13,9 +13,9 @@ export default {
     themes: [
       {
         opengento: {
-          "primary": "#f59e0b",
+          "primary": "#ed8120",
           "secondary": "#111827",
-          "accent": "#9ca3af",
+          "accent": "#cec2b7",
           "neutral": "#ffffff",
           "base-100": "#fff9f3",
           "info": "#fde047",

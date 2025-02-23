@@ -3,12 +3,12 @@
 import Logo from "@/components/Logo/Logo";
 import { useTranslation } from "next-i18next";
 
-interface MainLogo {
+interface MainLogoProps {
   size?: "small" | "medium" | "large";
   showText?: boolean;
 }
 
-const MainLogo = ({ size = "medium", showText = true }: MainLogo) => {
+const MainLogo = ({ size = "medium", showText = true }: MainLogoProps) => {
   const { t } = useTranslation(["common"]);
 
   return (

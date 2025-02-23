@@ -17,7 +17,7 @@ const Hero = () => {
           <button className="btn btn-primary">Get Started</button>
         </div>
 
-        <div>
+        <div className="hidden lg:block">
           {/* For TSX uncomment the commented types below */}
           <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
             <div className="flex flex-col">

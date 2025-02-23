@@ -2,32 +2,32 @@
 
 import Container from "@/layouts/Container";
 import MainLogo from "@/components/Logo/MainLogo";
-import {useTranslation} from "next-i18next";
+import { useTranslation } from "next-i18next";
 import type { UrlObject } from 'url';
 import { HTMLAttributeAnchorTarget } from "react";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
-interface Nav {
+interface NavProps {
   label: string;
   href: string | UrlObject;
   target?: HTMLAttributeAnchorTarget | undefined;
 }
 
-interface Menu {
+interface MenuProps {
   title: string;
-  nav: Nav[];
+  nav: NavProps[];
 }
 
-interface Social {
+interface SocialProps {
   code: "github" | "linkedin" | "youtube";
   href: string | UrlObject;
 }
 
 const Footer = () => {
   const { t } = useTranslation(["navigation"]);
-  const menus = t("footer.menu", { returnObjects: true }) as Menu[];
-  const socials = t("footer.social", { returnObjects: true }) as Social[];
+  const menus = t("footer.menu", { returnObjects: true }) as MenuProps[];
+  const socials = t("footer.social", { returnObjects: true }) as SocialProps[];
 
   const socialIcons = {
     "github": <FaGithub className="size-8" />,
@@ -36,11 +36,11 @@ const Footer = () => {
   }
 
   return (
-    <Container size="large" className="bg-neutral">
-      <footer className="footer text-base-content p-10">
+    <footer className="bg-neutral">
+      <Container size="large" className="footer text-base-content p-10">
         <aside>
           <MainLogo showText={false} size="large"/>
-          <p>{t("footer.copyright")}</p>
+          <p className="whitespace-pre-wrap">{t("footer.copyright")}</p>
         </aside>
         {menus.map((menu, index) => (
           <nav key={`menu-${index}`}>
@@ -71,8 +71,8 @@ const Footer = () => {
             ))}
           </div>
         </nav>
-      </footer>
-    </Container>
+      </Container>
+    </footer>
   );
 }
 

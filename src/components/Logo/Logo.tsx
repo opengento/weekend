@@ -21,7 +21,7 @@ const Logo = ({
     <Link
       href={href}
       className={classNames(
-        "flex flex-row justify-center items-center gap-1",
+        "flex flex-row justify-center items-center gap-1 font-semibold",
         {
           "text-lg": size === "small",
           "text-xl": size === "medium",
@@ -45,7 +45,7 @@ const Logo = ({
         />
       )}
       {showText && (
-        <>{logoText}</>
+        <span className="hidden md:inline-block">{logoText}</span>
       )}
     </Link>
   );
