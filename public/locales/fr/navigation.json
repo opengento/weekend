@@ -46,15 +46,15 @@
         "nav": [
           {
             "label": "Conditions d'utilisation",
-            "href": "/term-of-use"
+            "href": "/mentions-legales"
           },
           {
             "label": "Politique de confidentialité",
-            "href": "/privacy-policy"
+            "href": "/mentions-legales#privacy-policy"
           },
           {
             "label": "Code de conduite",
-            "href": "/code-of-conduct"
+            "href": "/code-de-conduite"
           },
           {
             "label": "L'association",
