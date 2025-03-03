@@ -17,11 +17,13 @@ export default function Page() {
           Code de conduite
         </Typography>
         <Typography color="dark">
-          Toutes les personnes participant à la conférence,
-          y compris sponsors et bénévoles
-          s’engagent à accepter le code d’éthique et de déontologie, ou « code de conduite » suivant.
+          Toutes les personnes participant à la conférence, y compris sponsors et bénévoles
+          s’engagent à accepter le code d’éthique et de déontologie, ou « code de conduite » suivant.
+          <br/>
           L’organisation s’attachera à faire respecter ce code durant l’événement.
-          Nous attendons la coopération de chacun‧e pour assurer un environnement sain pour tou‧te‧s.
+          <br/>
+          Nous attendons la coopération de chacun‧e pour assurer un
+          environnement sain pour tou‧te‧s.
         </Typography>
       </Article>
       <Article>

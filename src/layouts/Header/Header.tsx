@@ -6,7 +6,6 @@ import type {UrlObject} from "url";
 import {HTMLAttributeAnchorTarget} from "react";
 import Link from "next/link";
 import RegistrationButton from "@/components/Event/Aware/RegistrationButton";
-import Container from "@/layouts/Container";
 
 interface NavProps {
   label: string;

@@ -37,7 +37,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-neutral">
-      <Container size="large" className="footer text-base-content p-10">
+      <Container size="large" className="footer md:footer-horizontal text-base-content p-10">
         <aside>
           <MainLogo showText={false} size="large"/>
           <p className="whitespace-pre-wrap">{t("footer.copyright")}</p>

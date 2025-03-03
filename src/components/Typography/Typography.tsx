@@ -35,14 +35,14 @@ const Typography = ({
   };
 
   const colors: Record<TypographyColor, string> = {
-    primary: "text-blue-600 dark:text-blue-400",
-    secondary: "text-purple-600 dark:text-purple-400",
-    success: "text-green-600 dark:text-green-400",
-    error: "text-red-600 dark:text-red-400",
-    warning: "text-yellow-600 dark:text-yellow-400",
-    info: "text-cyan-600 dark:text-cyan-400",
-    light: "text-white dark:text-gray-600",
-    dark: "text-gray-900 dark:text-white",
+    primary: "text-primary-content",
+    secondary: "text-secondary-content",
+    success: "text-success-content",
+    error: "text-error-content",
+    warning: "text-warning-content",
+    info: "text-info",
+    light: "text-neutral-content",
+    dark: "text-base-content",
   };
 
   const weights: Record<TypographyWeight, string> = {
@@ -72,8 +72,8 @@ const Typography = ({
       error: "bg-error",
       warning: "bg-warning",
       info: "bg-info",
-      light: "bg-light",
-      dark: "bg-dark",
+      light: "bg-neutral",
+      dark: "bg-color-base-300",
     };
 
   const classes = [

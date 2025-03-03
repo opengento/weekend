@@ -6,7 +6,6 @@ export default function Home() {
     <>
       <Hero/>
 
-
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img

@@ -18,6 +18,7 @@ const MainLogo = ({ size = "medium", showText = true }: MainLogoProps) => {
       logoText={t("common:logoText")}
       showText={showText}
       size={size}
+      className={`text-[${t("common:logoTextColor")}]`}
     />
   );
 };
