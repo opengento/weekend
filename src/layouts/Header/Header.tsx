@@ -3,9 +3,8 @@
 import MainLogo from "@/components/Logo/MainLogo";
 import { useTranslation } from "next-i18next";
 import type {UrlObject} from "url";
-import {HTMLAttributeAnchorTarget} from "react";
+import { HTMLAttributeAnchorTarget } from "react";
 import Link from "next/link";
-import RegistrationButton from "@/components/Event/Aware/RegistrationButton";
 
 interface NavProps {
   label: string;
@@ -45,7 +44,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <RegistrationButton/>
+          <button className="btn btn-primary btn-outline">ToDo</button>
           <div className="drawer-end">
             <input id="main-mobile-menu" type="checkbox" className="drawer-toggle"/>
             <div className="drawer-content lg:hidden">

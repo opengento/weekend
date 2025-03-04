@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import classNames from "classnames";
+import type { UrlObject } from "url";
 
 interface LogoProps {
   size?: "small" | "normal"| "medium" | "large";
   logoSrc?: string | undefined;
   logoText?: string;
   showText?: boolean;
-  href: string;
+  href: string | UrlObject;
   className?: string;
 }
 

@@ -1,5 +1,16 @@
 {
   "logoSrc": "/images/logo/opengento.svg",
   "logoText": "Opengento",
-  "logoTextColor": "#675f57"
+  "from": "de",
+  "to": "à",
+  "days": "jours",
+  "hours": "heures",
+  "min": "minutes",
+  "visitCompany": "Visiter le site",
+  "platinum": "Platinum",
+  "gold": "Gold",
+  "silver": "Silver",
+  "bronze": "Bronze",
+  "sponsor": "Sponsor",
+  "sponsors": "Sponsors"
 }
