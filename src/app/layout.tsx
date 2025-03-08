@@ -24,7 +24,7 @@ export default function RootLayout({
       <body>
         <TranslationsProvider>
           <Header />
-          <main>{children}</main>
+          <main className="min-h-svh">{children}</main>
           <Footer />
         </TranslationsProvider>
       </body>

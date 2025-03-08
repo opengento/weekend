@@ -1,22 +1,18 @@
-import {IndividualProps} from "@/components/Individual/individual.types";
+import { IndividualProps } from "@/components/Individual/individual.types";
 import Image from "next/image";
-import { useCallback, useRef } from "react";
+import IndividualCard from "@/components/Individual/IndividualCard";
+import Drawer from "@/components/Drawer/Drawer";
 
 interface Avatar {
   individual: IndividualProps;
 }
 
 const IndividualAvatar = ({ individual }: Avatar) => {
-
-  const ref = useRef<HTMLDialogElement>(null);
-  const handleShow = useCallback(() => {ref.current?.showModal();}, [ref]);
-
   return (
-    <>
-      <button className="btn" onClick={handleShow}>
+    <Drawer
+      button={(
         <div className="avatar">
-          <div
-            className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+          <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
             <Image
               src={individual.avatarSrc}
               alt={individual.name}
@@ -26,20 +22,11 @@ const IndividualAvatar = ({ individual }: Avatar) => {
             />
           </div>
         </div>
-      </button>
-      <dialog className="modal" ref={ref}>
-        <form method="dialog">
-          <button color="ghost" className="absolute right-2 top-2">x</button>
-        </form>
-        <div className="modal-box">
-          <h3 className="font-bold text-lg">Hello!</h3>
-          <p className="py-4">Press ESC key or click outside to close</p>
-        </div>
-        <form method="dialog" className="modal-backdrop">
-          <button>close</button>
-        </form>
-      </dialog>
-    </>
+      )}
+      size="2xl"
+    >
+      <IndividualCard individual={individual}/>
+    </Drawer>
   );
 };
 
