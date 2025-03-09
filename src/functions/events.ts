@@ -5,8 +5,27 @@ import getCompany from "@/functions/company";
 import { CompanyProps } from "@/components/Company/company.types";
 import {
   EventSponsorProps,
-  EventSponsorTypeProps
+  EventSponsorTypeProps,
+  EventStaffProps
 } from "@/components/Event/event.types";
+import {IndividualProps} from "@/components/Individual/individual.types";
+import getIndividual from "@/functions/individual";
+
+const decorateStaff = (staff: EventStaffProps[]) => {
+  const { t } = useTranslation(["individuals"]);
+
+  return staff.reduce(
+    (staffIndividuals: IndividualProps[], staff) => {
+      const individual = getIndividual(staff);
+      if (individual) {
+        staffIndividuals.push(individual);
+      }
+
+      return staffIndividuals;
+    },
+    []
+  );
+}
 
 const decorateSponsors = (sponsors: EventSponsorProps[]) => {
   const { t } = useTranslation(["companies"]);
@@ -24,4 +43,4 @@ const decorateSponsors = (sponsors: EventSponsorProps[]) => {
   );
 }
 
-export default decorateSponsors;
+export default { decorateStaff, decorateSponsors };

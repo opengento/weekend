@@ -1,4 +1,5 @@
 import type { UrlObject } from "url";
+import { IndividualProps } from "@/components/Individual/individual.types";
 
 type EventDate = {
   from: Date;
@@ -53,6 +54,8 @@ type EventSponsor = {
   companyId: number;
 }
 
+type EventStaff = IndividualProps["id"];
+
 type Media = {
   name: string;
   alt: string;
@@ -82,7 +85,7 @@ type Event = {
   programs: EventProgram[];
   place: EventPlace;
   sponsors: EventSponsor[];
-  staff: number[];
+  staff: EventStaff[];
   gallery: Media[];
 };
 
@@ -90,4 +93,5 @@ export type EventProgramProps = EventProgram;
 export type EventActionProps = EventAction;
 export type EventSponsorTypeProps = EventSponsorType;
 export type EventSponsorProps = EventSponsor;
+export type EventStaffProps = EventStaff;
 export type EventProps = Event;

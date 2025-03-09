@@ -2,7 +2,7 @@ import {
   EventSponsorProps,
   EventSponsorTypeProps
 } from "@/components/Event/event.types";
-import decorateSponsors from "@/functions/events";
+import utilEvents from "@/functions/events";
 import Image from "next/image";
 import Link from "next/link";
 import classNames from "classnames";
@@ -14,12 +14,12 @@ interface SponsorList {
 }
 
 const SponsorList = ({ id, sponsors }: SponsorList) => {
-  const sponsorsByType = decorateSponsors(sponsors);
+  const sponsorsByType = utilEvents.decorateSponsors(sponsors);
 
   return (
     <div className="grid grid-cols-12 gap-4">
       {(Object.keys(sponsorsByType) as EventSponsorTypeProps[]).map((sponsorType, index) => (
-        <Fragment key={`sponsors-${index}`}>
+        <Fragment key={`sponsors-${id}-${index}`}>
           {sponsorsByType[sponsorType].map((company, key) => (
             <div
               className={classNames(

@@ -11,11 +11,11 @@ const Modal = ({ ref, close = true, backdrop = true, children }: Modal) => {
   return (
     <dialog className="modal" ref={ref}>
       <div className="modal-box">
-        <form method="dialog">
-          {close && (
+        {close && (
+          <form method="dialog">
             <button className="btn btn-md btn-circle btn-ghost absolute right-2 top-2">✕</button>
-          )}
-        </form>
+          </form>
+        )}
         {children}
       </div>
       {backdrop && (
