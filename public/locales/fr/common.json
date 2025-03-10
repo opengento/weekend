@@ -14,5 +14,19 @@
   "silver": "Silver",
   "bronze": "Bronze",
   "sponsor": "Sponsor",
-  "sponsors": "Sponsors"
+  "sponsors": "Sponsors",
+  "pushCards": [
+    {
+      "icon": "people-group",
+      "label": "Community Driven"
+    },
+    {
+      "icon": "graduation-cap",
+      "label": "Learning & Share"
+    },
+    {
+      "icon": "calendar",
+      "label": "Events & Network"
+    }
+  ]
 }
