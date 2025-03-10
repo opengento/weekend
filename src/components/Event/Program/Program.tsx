@@ -12,8 +12,14 @@ const Program = ({ id, event }: Program) => {
     <div className="tabs tabs-border">
       {event.programs.map((program, index) => (
         <Fragment key={`program-${id}-${index}`}>
-          <input type="radio" name={id} className="tab" aria-label={program.title}/>
-          <div className="tab-content p-4 border-0">
+          <input
+            type="radio"
+            name={id}
+            className="tab"
+            aria-label={program.title}
+            defaultChecked={index === 0}
+          />
+          <div className="tab-content px-4 py-8 border-0">
             <Timeline id={id} program={program} />
           </div>
         </Fragment>

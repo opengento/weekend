@@ -4,12 +4,26 @@ import { useTranslation } from "next-i18next";
 import getCompany from "@/functions/company";
 import { CompanyProps } from "@/components/Company/company.types";
 import {
+  EventProps,
   EventSponsorProps,
   EventSponsorTypeProps,
   EventStaffProps
 } from "@/components/Event/event.types";
-import {IndividualProps} from "@/components/Individual/individual.types";
+import { IndividualProps } from "@/components/Individual/individual.types";
 import getIndividual from "@/functions/individual";
+
+const getEvent = (id?: string | undefined) => {
+  const { t } = useTranslation(["events"]);
+  if (id === undefined) {
+    id = t("events:activeEventId");
+  }
+
+  return ((id) => {
+    const { t } = useTranslation([`events/${id}`]);
+
+    return t("event", { returnObjects: true }) as EventProps;
+  })(id);
+};
 
 const decorateStaff = (staff: EventStaffProps[]) => {
   const { t } = useTranslation(["individuals"]);
@@ -43,4 +57,4 @@ const decorateSponsors = (sponsors: EventSponsorProps[]) => {
   );
 }
 
-export default { decorateStaff, decorateSponsors };
+export { getEvent, decorateStaff, decorateSponsors };

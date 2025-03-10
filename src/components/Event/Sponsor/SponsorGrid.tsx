@@ -2,11 +2,11 @@ import {
   EventSponsorProps,
   EventSponsorTypeProps
 } from "@/components/Event/event.types";
-import utilEvents from "@/functions/events";
 import Image from "next/image";
 import Link from "next/link";
 import classNames from "classnames";
 import { Fragment } from "react";
+import { decorateSponsors } from "@/functions/events";
 
 interface SponsorList {
   id: string;
@@ -14,7 +14,7 @@ interface SponsorList {
 }
 
 const SponsorList = ({ id, sponsors }: SponsorList) => {
-  const sponsorsByType = utilEvents.decorateSponsors(sponsors);
+  const sponsorsByType = decorateSponsors(sponsors);
 
   return (
     <div className="grid grid-cols-12 gap-4">

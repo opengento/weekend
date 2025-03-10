@@ -8,8 +8,8 @@ import CompanyCard from "@/components/Company/CompanyCard";
 import classNames from "classnames";
 import { Fragment } from "react";
 import Image from "next/image";
-import utilEvents from "@/functions/events";
 import { useTranslation } from "next-i18next";
+import { decorateSponsors } from "@/functions/events";
 
 interface SponsorList {
   id: string;
@@ -18,7 +18,7 @@ interface SponsorList {
 
 const SponsorList = ({ id, sponsors }: SponsorList) => {
   const { t } = useTranslation(["common"]);
-  const sponsorsByType = utilEvents.decorateSponsors(sponsors);
+  const sponsorsByType = decorateSponsors(sponsors);
 
   return (
     <div className="flex flex-col">

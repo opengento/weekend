@@ -1,0 +1,124 @@
+{
+  "event": {
+    "title": "Exemple de weekend Opengento",
+    "bannerSrc": "",
+    "description": "La possibilité de se réunir dans une ambiance conviviale et détendue pour parler dev, infra, méthodes de travail mais pas que ! C’est surtout le plaisir de se retrouver et de se rencontrer, (en chair et en os), et pas que sur Slack ou X, mais surtout d’apprendre et de partager !",
+    "content": "Le Week-end est ouvert aux adhérents Opengento, l’adhésion coûte 5€ à vie.\nLe prix de l’événement à titre individuel comprend tout sauf le déplacement, le tarif est de 200 € / personne.\n\nPour ce second épisode de 2024, nous vous donnons rendez-vous en Alsace, dans le village de Sélestat !\nL’événement aura lieu le 8, 9 et 10 novembre 2024.\n\nPour ceux qui n’ont jamais participé à cet événement, voici un petit résumé :\n\nWE du vendredi dans la journée / Arrivées à partir de 15h jusqu’au soir\nHackathon avec des sujets divers & variés à voter le vendredi soir et libre à chacun de le suivre ou de faire ce qu’il a envie du WE\nTraiteur, boisson & gîte de qualité !",
+    "actions": {
+      "callForSpeaker": {
+        "label": "",
+        "url": "",
+        "level": "secondary"
+      },
+      "registration": {
+        "label": "",
+        "url": "",
+        "level": "primary"
+      }
+    },
+    "date": {
+      "from": "29/02/2048",
+      "to": "31/02/2048"
+    },
+    "programs": [
+      {
+        "title": "Vendredi 18 février 2024",
+        "schedules": [
+          {
+            "name": "Arrivée des participants",
+            "description": "Accueil des premiers arrivants directement à la Villa pour l'apéritif !",
+            "date": {
+              "from": "2024-02-18T14:00:00",
+              "to": "2024-02-18T19:00:00"
+            }
+          },
+          {
+            "name": "Brainstorming",
+            "description": "Proposition des sujets et formation des équipes.",
+            "date": {
+              "from": "2024-02-18T21:00:00",
+              "to": "2024-02-18T23:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Samedi 19 février 2024",
+        "schedules": [
+          {
+            "name": "Coding Sessin",
+            "description": "Beaucoup de code et de café !",
+            "date": {
+              "from": "2024-02-19T10:00:00",
+              "to": "2024-02-19T18:00:00"
+            }
+          },
+          {
+            "name": "Party!",
+            "description": "Moins de code, moins de café, mais plus de bières !",
+            "date": {
+              "from": "2024-02-19T21:00:00",
+              "to": "2024-02-19T23:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Dimanche 20 février 2024",
+        "schedules": [
+          {
+            "name": "Bye bye !",
+            "description": "C'est l'heure de rentrer !",
+            "date": {
+              "from": "2024-02-20T14:00:00",
+              "to": "2024-02-20T19:00:00"
+            }
+          }
+        ]
+      }
+    ],
+    "place": {
+      "name": "Villa",
+      "address": "404 rue not found",
+      "access": {
+        "publicTransport": {
+          "title": "Transports en commun",
+          "itinerary": [
+            {
+              "icons": [],
+              "name": "Gare SNCF",
+              "href": ""
+            }
+          ]
+        },
+        "parking": {
+          "title": "Venir en voiture",
+          "description": "Si vous venez en voiture, plusieurs parkings sont disponibles à proximité, tels que :",
+          "location": [
+            {
+              "name": "Parking Parkour",
+              "href": ""
+            },
+            {
+              "name": "Parking 42",
+              "href": ""
+            }
+          ]
+        }
+      }
+    },
+    "sponsors": [
+      {
+        "type": "gold",
+        "name": "Opengento",
+        "description": "Association loi 1901.",
+        "url": "https://www.opengento.fr/",
+        "logoSrc": "/images/logo/opengento.svg"
+      }
+    ],
+    "staff": [
+      {}
+    ],
+    "gallery": []
+  }
+}
