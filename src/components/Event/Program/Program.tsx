@@ -9,7 +9,7 @@ interface Program {
 
 const Program = ({ id, event }: Program) => {
   return (
-    <div className="tabs tabs-border">
+    <div className="tabs tabs-lg tabs-border">
       {event.programs.map((program, index) => (
         <Fragment key={`program-${id}-${index}`}>
           <input
