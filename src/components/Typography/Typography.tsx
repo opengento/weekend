@@ -64,10 +64,7 @@ const Typography = ({
 
     const underlineColors: Record<TypographyUnderlineColor, string> = {
       primary: "bg-primary",
-      "primary-100": "bg-primary-100",
-      "purple-100": "bg-purple-100",
       secondary: "bg-secondary",
-      "secondary-100": "bg-secondary-100",
       success: "bg-success",
       error: "bg-error",
       warning: "bg-warning",
@@ -93,7 +90,7 @@ const Typography = ({
       <span className="relative z-10">{children}</span>
       {underlineColor && (
         <span
-          className={`absolute inset-x-0 bottom-0 h-[50%] ${underlineColors[underlineColor]}`}
+          className={`absolute rounded -inset-x-1 bottom-0 h-[42%] ${underlineColors[underlineColor]}`}
         />
       )}
     </>

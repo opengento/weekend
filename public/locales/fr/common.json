@@ -15,18 +15,30 @@
   "bronze": "Bronze",
   "sponsor": "Sponsor",
   "sponsors": "Sponsors",
-  "pushCards": [
-    {
-      "icon": "people-group",
-      "label": "Community Driven"
+  "push": {
+    "faq": {
+      "title": "Des question ? Des réponses !",
+      "content": "Nous avons hâte de vous accueillir à cet événement exceptionnel ! \nN’hésitez pas à nous contacter si vous avez des questions pratiques.",
+      "label": "Visiter la FAQ",
+      "href": "/faq"
     },
-    {
-      "icon": "graduation-cap",
-      "label": "Learning & Share"
+    "contact": {
+      "label": "Nous contacter",
+      "href": "/contact"
     },
-    {
-      "icon": "globe",
-      "label": "Events & Network"
-    }
-  ]
+    "trust": [
+      {
+        "icon": "people-group",
+        "label": "Community Driven"
+      },
+      {
+        "icon": "graduation-cap",
+        "label": "Learning & Share"
+      },
+      {
+        "icon": "globe",
+        "label": "Events & Network"
+      }
+    ]
+  }
 }
