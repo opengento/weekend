@@ -38,7 +38,7 @@ interface Push {
 
 const Push = ({ cards }: Push) => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-3">
+    <section className="grid grid-cols-1 md:grid-cols-3 gap-8">
       {cards.map((card, index) => (
         <Card icon={card.icon} label={card.label} key={`push-card-${index}`}/>
       ))}

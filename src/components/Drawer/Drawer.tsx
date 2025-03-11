@@ -24,24 +24,21 @@ const Drawer = ({button, size = "md", children}: Drawer) => {
           aria-label="close sidebar"
           className="drawer-overlay"></label>
         <div className={classNames(
-          "bg-base-200 min-h-full p-8 relative",
+          "bg-base-200 min-h-full p-8 relative w-xs",
           {
-            "w-xs": size === "xs",
-            "w-sm": size === "sm",
-            "w-md": size === "md",
-            "w-lg": size === "lg",
-            "w-xl": size === "xl",
-            "w-2xl": size === "2xl",
+            "sm:w-sm": ["sm", "md", "lg", "xl", "2xl"].includes(size),
+            "md:w-md": ["md", "lg", "xl", "2xl"].includes(size),
+            "lg:w-lg": ["lg", "xl", "2xl"].includes(size),
+            "xl:w-xl": ["xl", "2xl"].includes(size),
+            "2xl:w-2xl": size === "2xl",
           }
         )}>
           <label
             htmlFor={id}
             className={classNames(
-              "drawer-button btn btn-circle btn-ghost absolute right-2 top-2",
+              "drawer-button btn btn-circle btn-ghost absolute right-2 top-2 btn-md",
               {
-                "btn-sm": ["xs", "sm"].includes(size),
-                "btn-md": size === "md",
-                "btn-lg": ["lg", "xl", "2xl"].includes(size),
+                "lg:btn-lg": ["lg", "xl", "2xl"].includes(size),
               }
             )}
           >
