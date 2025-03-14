@@ -15,6 +15,21 @@
   "bronze": "Bronze",
   "sponsor": "Sponsor",
   "sponsors": "Sponsors",
+  "membership": {
+    "title": "Nous rejoindre c'est :",
+    "advantages": [
+      "Échanger avec des experts de la communauté",
+      "La possibilité de participer aux événements",
+      "Agrandir son réseau de partenaires",
+      "Un accès aux projets Open-Source"
+    ],
+    "conditions": [
+      "Opengento c’est pour la vie !",
+      "L’adhésion à durée illimitée pour 5 €"
+    ],
+    "label": "Je deviens membre !",
+    "href": "/membres"
+  },
   "push": {
     "faq": {
       "title": "Des question ? Des réponses !",
@@ -24,7 +39,7 @@
     },
     "contact": {
       "label": "Nous contacter",
-      "href": "/contact"
+      "href": "mailto:opengento@gmail.com"
     },
     "trust": [
       {

@@ -16,6 +16,7 @@ interface NavProps {
 const Header = () => {
   const { t } = useTranslation(["navigation"]);
   const menu = t("header", { returnObjects: true }) as NavProps[];
+  const cta = t("cta", { returnObjects: true }) as NavProps;
 
   const renderNav = (prefix: string) => (
     <>
@@ -45,7 +46,13 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-primary btn-outline">Adhésion</button>
+          <Link
+            href={cta.href}
+            target={cta.target}
+            className="btn btn-primary btn-outline"
+          >
+            {cta.label}
+          </Link>
           <div className="w-6 mx-4 lg:hidden">
             <Drawer
               button={(

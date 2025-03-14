@@ -6,6 +6,7 @@ import Footer from "@/layouts/Footer/Footer";
 import Container from "@/layouts/Container";
 import Trust from "@/components/Push/Trust";
 import Faq from "@/components/Push/Faq";
+import Membership from "@/components/Push/Membership";
 
 export const metadata: Metadata = {
   title: "Weekend Opengento",
@@ -32,6 +33,9 @@ export default function RootLayout({
           </Container>
           <Container size="large" className="my-8 md:my-16">
             <Trust />
+          </Container>
+          <Container className="my-8 md:my-16">
+            <Membership />
           </Container>
           <Footer />
         </TranslationsProvider>

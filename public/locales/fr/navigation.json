@@ -1,22 +1,27 @@
 {
   "header": [
     {
-      "label": "Programme",
-      "href": "/programme"
+      "label": "Qui sommes-nous ?",
+      "href": "/association-opengento"
     },
     {
-      "label": "Sponsors",
-      "href": "/sponsors"
+      "label": "Les événements",
+      "href": "/events"
     },
     {
-      "label": "Préparer ma venue",
-      "href": "/place"
+      "label": "Les projets",
+      "href": "/projects"
     },
     {
-      "label": "FAQ",
-      "href": "/faq"
+      "label": "Les membres",
+      "href": "/members"
     }
   ],
+  "cta": {
+    "label": "Nous rejoindre",
+    "href": "https://www.helloasso.com/associations/opengento/adhesions/adhesion-individuelle-opengento",
+    "target": "_blank"
+  },
   "footer": {
     "copyright": "© 2025 - Opengento.\nTous droits réservés.",
     "menu": [
@@ -24,20 +29,16 @@
         "title": "Weekend Opengento",
         "nav": [
           {
-            "label": "Les organisateurs",
-            "href": "/staff"
-          },
-          {
             "label": "Les événements passés",
             "href": "/events"
           },
           {
             "label": "Organiser un événement",
-            "href": "/organize-event"
+            "href": "/events/organisez-votre-evenement"
           },
           {
-            "label": "Contact",
-            "href": "/contact"
+            "label": "FAQ",
+            "href": "/faq"
           }
         ]
       },
@@ -45,21 +46,16 @@
         "title": "Légale",
         "nav": [
           {
-            "label": "Conditions d'utilisation",
+            "label": "Mentions légales",
             "href": "/mentions-legales"
-          },
-          {
-            "label": "Politique de confidentialité",
-            "href": "/mentions-legales#privacy-policy"
           },
           {
             "label": "Code de conduite",
             "href": "/code-de-conduite"
           },
           {
-            "label": "L'association",
-            "href": "https://www.opengento.fr/",
-            "target": "_blank"
+            "label": "Contact",
+            "href": "mailto:opengento@gmail.com"
           }
         ]
       }

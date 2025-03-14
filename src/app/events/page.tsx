@@ -22,6 +22,16 @@ export default function Page() {
       <Article>
         <Program id="current" event={event} />
       </Article>
+      Venue description
+
+      Rappel Date
+
+      Accès au lieu
+      - Itinéraire
+      - Transports
+      - Parking
+
+      Hébergement
     </Container>
   );
 }

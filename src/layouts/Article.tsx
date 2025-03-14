@@ -2,19 +2,24 @@ import { ReactNode } from "react";
 import classNames from "classnames";
 
 interface ContainerProps {
-  align?: "left" | "center"
+  align?: "left" | "center";
+  color?: "neutral" | "base-100" | "base-200";
   children: ReactNode;
 }
 
 const Container = ({
   align = "left",
+  color = "neutral",
   children,
 }: ContainerProps) => {
   return (
     <article className={classNames(
-      "bg-neutral rounded-lg py-6 px-4 md:p-12 flex flex-col flex-wrap gap-4",
+      "rounded-lg py-6 px-4 md:p-12 flex flex-col flex-wrap gap-4",
       {
-        "justify-center items-center": align === "center"
+        "justify-center items-center": align === "center",
+        "bg-neutral": color === "neutral",
+        "bg-base-100": color === "base-100",
+        "bg-base-200": color === "base-200",
       }
     )}>
       {children}

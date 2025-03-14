@@ -25,6 +25,7 @@ const Faq = () => {
         </Link>
         <Link
           href={t("common:push.contact.href")}
+          target="_blank"
           className="btn btn-primary btn-outline"
         >
           {t("common:push.contact.label")}
