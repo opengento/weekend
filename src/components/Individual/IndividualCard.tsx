@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import getCompany from "@/functions/company";
+import IndividualIdentity from "@/components/Individual/IndividualIdentity";
 
 interface Card {
   individual: IndividualProps;
@@ -28,23 +29,19 @@ const IndividualCard = ({ individual }: Card) => {
             href={company.url}
             target="_blank"
             title={company.name}
-            className="flex flex-row"
+            className="flex flex-row items-center gap-1"
           >
-            <div className="avatar">
-              <div className="w-12">
-                  <Image
-                    src={company.iconSrc}
-                    alt={company.name}
-                    width={48}
-                    height={48}
-                    className="object-contain"
-                  />
-              </div>
-            </div>
+            <Image
+              src={company.iconSrc}
+              alt={company.name}
+              width={24}
+              height={24}
+              className="w-6 h-auto object-contain"
+            />
             <span className="">{company.name}</span>
           </Link>
         )}
-        <h2 className="card-title">{individual.name}</h2>
+        <h3 className="card-title">{individual.name}</h3>
         {individual.roles.map((role, index) => (
           <div
             className="badge badge-ghost"
@@ -60,7 +57,7 @@ const IndividualCard = ({ individual }: Card) => {
               href={individual.social.linkedin}
               target="_blank"
             >
-              <FaLinkedin/>
+              <FaLinkedin className="h-6 w-auto text-primary"/>
             </Link>
           )}
           {individual.social.github && (
@@ -68,7 +65,7 @@ const IndividualCard = ({ individual }: Card) => {
               href={individual.social.github}
               target="_blank"
             >
-              <FaGithub/>
+              <FaGithub className="h-6 w-auto text-primary"/>
             </Link>
           )}
         </div>

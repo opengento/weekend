@@ -14,7 +14,10 @@ const Drawer = ({button, size = "md", children}: Drawer) => {
     <div className="drawer drawer-end">
       <input id={id} type="checkbox" className="drawer-toggle"/>
       <div className="drawer-content">
-        <label htmlFor={id} className="drawer-button">
+        <label
+          htmlFor={id}
+          className="group relative drawer-button inline-block cursor-pointer"
+        >
           {button}
         </label>
       </div>
@@ -24,7 +27,7 @@ const Drawer = ({button, size = "md", children}: Drawer) => {
           aria-label="close sidebar"
           className="drawer-overlay"></label>
         <div className={classNames(
-          "bg-base-200 min-h-full p-8 relative w-xs",
+          "bg-base-200 min-h-full px-8 py-14 relative w-xs",
           {
             "sm:w-sm": ["sm", "md", "lg", "xl", "2xl"].includes(size),
             "md:w-md": ["md", "lg", "xl", "2xl"].includes(size),

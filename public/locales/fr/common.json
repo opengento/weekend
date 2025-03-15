@@ -15,6 +15,14 @@
   "bronze": "Bronze",
   "sponsor": "Sponsor",
   "sponsors": "Sponsors",
+  "association": {
+    "board": {
+      "members": [1, 1, 1]
+    },
+    "membership": {
+      "companies": [2, 3]
+    }
+  },
   "membership": {
     "title": "Nous rejoindre c'est :",
     "advantages": [

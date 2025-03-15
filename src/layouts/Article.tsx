@@ -7,7 +7,7 @@ interface ContainerProps {
   children: ReactNode;
 }
 
-const Container = ({
+const Article = ({
   align = "left",
   color = "neutral",
   children,
@@ -27,4 +27,4 @@ const Container = ({
   );
 };
 
-export default Container;
+export default Article;

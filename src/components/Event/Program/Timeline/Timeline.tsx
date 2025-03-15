@@ -4,14 +4,15 @@ import classNames from "classnames";
 import { useTranslation } from "next-i18next";
 import { EventProgramProps } from "@/components/Event/event.types";
 import Time from "@/components/Time/Time";
+import { useId } from "react";
 
 interface Timeline {
-  id: string;
   program: EventProgramProps;
 }
 
-const Timeline = ({ id, program } : Timeline) => {
+const Timeline = ({ program } : Timeline) => {
   const { t } = useTranslation(["common"]);
+  const id = useId();
 
   return (
     <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">

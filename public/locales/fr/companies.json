@@ -1,3 +1,28 @@
 {
-  "list": []
+  "list": [
+    {
+      "id": 1,
+      "name": "Opengento",
+      "description": "Nous sommes une association qui publie lors de ses hackathons (nos fameux weekends Opengento \uD83D\uDE0E\uD83C\uDF79) des POC & modules afin de soutenir l'innovation au sein de la communauté de développeur e-commerce.",
+      "url": "https://opengento.fr/",
+      "logoSrc": "/images/logo/opengento.svg",
+      "iconSrc": "/images/logo/opengento.svg"
+    },
+    {
+      "id": 2,
+      "name": "Foo",
+      "description": "Company Foo.",
+      "url": "https://foo.com/",
+      "logoSrc": "/images/logo/opengento.svg",
+      "iconSrc": "/images/logo/opengento.svg"
+    },
+    {
+      "id": 3,
+      "name": "Bar",
+      "description": "Company Bar.",
+      "url": "https://bar.com/",
+      "logoSrc": "/images/logo/opengento.svg",
+      "iconSrc": "/images/logo/opengento.svg"
+    }
+  ]
 }

@@ -1,3 +1,13 @@
 {
-  "activeEventId": "sample"
+  "activeEventId": "sample",
+  "title": "Les événements",
+  "content": "",
+  "upcoming": {
+    "title": "Les événements à venir",
+    "content": ""
+  },
+  "past": {
+    "title": "Les événements passés",
+    "content": ""
+  }
 }

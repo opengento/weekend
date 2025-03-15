@@ -6,7 +6,7 @@ import Logo from "@/components/Logo/Logo";
 
 export default function Page() {
   return (
-    <Container className="flex flex-col gap-8 my-8">
+    <Container size="large" className="flex flex-col gap-8 my-8">
       <Article>
         <Typography
           variant="h1"

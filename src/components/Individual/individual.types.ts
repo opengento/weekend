@@ -1,4 +1,4 @@
-import type {UrlObject} from "url";
+import type { UrlObject } from "url";
 
 type Individual = {
   id: number;

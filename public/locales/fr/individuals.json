@@ -1,9 +1,18 @@
 {
   "list": [
-    "a",
-    "b",
-    "d",
-    "e",
-    "f"
+    {
+      "id": 1,
+      "name": "Thomas Klein",
+      "biography": "Lorem Ipsum.",
+      "companyId": 1,
+      "roles": [
+        "Secrétaire"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/thomas-klein/",
+        "github": "https://github.com/thomas-kl1"
+      },
+      "avatarSrc": "/images/avatar/thomas-klein.jpeg"
+    }
   ]
 }

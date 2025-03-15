@@ -1,6 +1,6 @@
 import { IndividualProps } from "@/components/Individual/individual.types";
 import classNames from "classnames";
-import IndividualAvatar from "@/components/Individual/IndividualAvatar";
+import Individual from "@/components/Individual/Individual";
 
 interface IndividualGrid {
   individuals: IndividualProps[];
@@ -18,7 +18,7 @@ const IndividualGrid = ({ individuals, itemsPerRow = 4 }: IndividualGrid) => {
       }
     )}>
       {individuals.map((individual, index) => (
-        <IndividualAvatar individual={individual} key={`individuals-grid-item-${index}`} />
+        <Individual individual={individual} key={`individuals-grid-item-${index}`} />
       ))}
     </div>
   );
