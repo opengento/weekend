@@ -2,6 +2,7 @@ import { EventDateProps } from "@/components/Event/event.types";
 import Time from "@/components/Time/Time";
 import { useTranslation } from "next-i18next";
 import { FaClock } from "react-icons/fa";
+import Typography from "@/components/Typography/Typography";
 
 interface Date {
   date: EventDateProps;
@@ -12,6 +13,9 @@ const Date = ({ date }: Date) => {
 
   return (
     <div className="flex flex-col gap-2">
+      <Typography color="dark" className="underline">
+        {t("common:Schedules")}
+      </Typography>
       <div className="flex flex-row items-center gap-2">
         <FaClock className="size-4 text-primary" width={16} />
         <span>{t("common:From2")}</span>

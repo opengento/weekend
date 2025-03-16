@@ -94,6 +94,7 @@ type Event = {
 
 export type EventActionProps = EventAction;
 export type EventProgramProps = EventProgram;
+export type EventAccessProps = EventAccess;
 export type EventPlaceProps = EventPlace;
 export type EventSponsorTypeProps = EventSponsorType;
 export type EventSponsorProps = EventSponsor;

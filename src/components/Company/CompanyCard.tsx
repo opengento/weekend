@@ -20,8 +20,9 @@ const CompanyCard = ({ company, size = "md" }: CompanyCard) => {
           <Image
             src={company.logoSrc}
             alt={company.name}
-            width={250}
-            height={250}
+            width={160}
+            height={160}
+            className="h-40 w-auto object-contain"
           />
         </figure>
       </div>

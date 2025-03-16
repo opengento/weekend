@@ -1,8 +1,8 @@
 import Date from "@/components/Event/Date/Date";
-import Divider from "@/components/Divider/Divider";
-import Place from "@/components/Event/Place/Place";
+import Address from "@/components/Event/Place/Address";
+import Parking from "@/components/Event/Place/Parking";
 import { EventProps } from "@/components/Event/event.types";
-import { FaHotel, FaLocationArrow, FaParking } from "react-icons/fa";
+import PublicTransport from "@/components/Event/Place/PublicTransport";
 
 interface EventInfo {
   event: EventProps;
@@ -10,23 +10,15 @@ interface EventInfo {
 
 const EventInfo = ({ event }: EventInfo) => {
   return (
-    <div className="flex flex-col flex-wrap md:flex-row gap-4 my-4">
-      <Date date={event.date}/>
-      <Divider position="vertical"/>
-      <Place place={event.place}/>
-      <Divider position="vertical"/>
-      <div>
-        Accès au lieu<br/>
-        <FaLocationArrow className="text-primary" />
-        - Transports<br/>
-        <FaParking className="text-primary" />
-        - Parking
-      </div>
-      <Divider position="vertical"/>
-      <div>
-        <FaHotel className="text-primary" />
-        Hébergement
-      </div>
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 my-4">
+      <Date date={event.date} />
+      <Address place={event.place}/>
+      {event.place.access && (
+        <>
+          <Parking access={event.place.access}/>
+          <PublicTransport access={event.place.access}/>
+        </>
+      )}
     </div>
   );
 };

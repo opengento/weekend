@@ -85,25 +85,26 @@
       "access": {
         "publicTransport": {
           "title": "Transports en commun",
+          "description": "Profitez des transports en commun :",
           "itinerary": [
             {
               "icons": [],
               "name": "Gare SNCF",
-              "href": ""
+              "url": ""
             }
           ]
         },
         "parking": {
           "title": "Venir en voiture",
-          "description": "Si vous venez en voiture, plusieurs parkings sont disponibles à proximité, tels que :",
-          "location": [
+          "description": "Plusieurs parkings sont disponibles :",
+          "locations": [
             {
               "name": "Parking Parkour",
-              "href": ""
+              "url": ""
             },
             {
               "name": "Parking 42",
-              "href": ""
+              "url": ""
             }
           ]
         }
@@ -111,11 +112,43 @@
     },
     "sponsors": [
       {
+        "type": "platinum",
+        "companyId": 1
+      },
+      {
         "type": "gold",
         "companyId": 1
       },
       {
         "type": "gold",
+        "companyId": 1
+      },
+      {
+        "type": "silver",
+        "companyId": 1
+      },
+      {
+        "type": "silver",
+        "companyId": 1
+      },
+      {
+        "type": "silver",
+        "companyId": 1
+      },
+      {
+        "type": "bronze",
+        "companyId": 1
+      },
+      {
+        "type": "bronze",
+        "companyId": 1
+      },
+      {
+        "type": "bronze",
+        "companyId": 1
+      },
+      {
+        "type": "bronze",
         "companyId": 1
       }
     ],
