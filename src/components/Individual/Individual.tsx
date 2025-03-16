@@ -3,12 +3,14 @@ import IndividualCard from "@/components/Individual/IndividualCard";
 import Drawer from "@/components/Drawer/Drawer";
 import IndividualAvatar from "@/components/Individual/IndividualAvatar";
 import IndividualIdentity from "@/components/Individual/IndividualIdentity";
+import {useTranslation} from "next-i18next";
 
 interface Individual {
   individual: IndividualProps;
 }
 
 const Individual = ({ individual }: Individual) => {
+  const { t } = useTranslation(["common"]);
   return (
     <Drawer
       button={(
@@ -18,7 +20,7 @@ const Individual = ({ individual }: Individual) => {
             <IndividualIdentity individual={individual}/>
           </div>
           <div className="hidden absolute -bottom-2 group-hover:flex btn btn-primary items-center">
-            Voir plus
+            {t("common:SeeMore")}
           </div>
         </>
       )}

@@ -1,19 +1,14 @@
-"use client";
-
-import Hero from "@/components/Hero/Hero";
+import EventHomePage from "@/layouts/Event/EventHomePage";
+import Hero from "@/components/Association/AssociationHero";
 
 export default function Home() {
   return (
     <>
+      <EventHomePage />
       <Hero />
-
-      Programme (résumé, si current event) Sinon présentation association
-
-      Sponsors (si current event)
-
-      Préparer ma venue (si current event)
-
-      Staff (si current event) Sinon Board
+      Membres donateurs
+      Quelques Chiffres (nb projets, nb events)
+      Board
     </>
   );
 }

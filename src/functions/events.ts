@@ -17,6 +17,9 @@ const getEvent = (id?: string | undefined) => {
   if (id === undefined) {
     id = t("events:activeEventId");
   }
+  if (!id) {
+    return null;
+  }
 
   return ((id) => {
     const { t } = useTranslation([`events/${id}`]);

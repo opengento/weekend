@@ -5,12 +5,13 @@ import Article from "@/layouts/Article";
 import Typography from "@/components/Typography/Typography";
 import Program from "@/components/Event/Program/Program";
 import SponsorList from "@/components/Event/Sponsor/SponsorList";
-import Banner from "@/components/Banner/Banner";
+import Hero from "@/components/Hero/Hero";
 import StaffGrid from "@/components/Event/Staff/StaffGrid";
 import { getEvent } from "@/functions/events";
 import { useTranslation } from "next-i18next";
 import EventInfo from "@/components/Event/EventInfo";
 import Image from "next/image";
+import {EventProps} from "@/components/Event/event.types";
 
 interface Event {
   eventId?: string | undefined;
@@ -18,11 +19,11 @@ interface Event {
 
 const Event = ({ eventId }: Event) => {
   const { t } = useTranslation(["events"]);
-  const event = getEvent(eventId);
+  const event = getEvent(eventId) as EventProps;
 
   return (
     <Container size="large" className="flex flex-col gap-8 my-8">
-      <Banner imagePath={event.bannerSrc} size="xl">
+      <Hero imagePath={event.bannerSrc} size="xl" className="rounded-lg p-8">
         <div className="flex items-center gap-4">
           <Image
             src={event.logoSrc}
@@ -35,7 +36,7 @@ const Event = ({ eventId }: Event) => {
             {event.title}
           </Typography>
         </div>
-      </Banner>
+      </Hero>
       <Article>
         <Typography color="dark" className="whitespace-pre-wrap">
           {event.content}

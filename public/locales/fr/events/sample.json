@@ -1,5 +1,6 @@
 {
   "event": {
+    "identifier": "sample",
     "title": "Exemple de weekend Opengento",
     "logoSrc": "/images/logo/opengento.svg",
     "bannerSrc": "/images/events/sample/bg.jpeg",
@@ -12,7 +13,7 @@
         "level": "secondary"
       },
       "registration": {
-        "label": "Billetterie",
+        "label": "Je prends mon billet !",
         "url": "",
         "level": "primary"
       }
@@ -133,6 +134,14 @@
       },
       {
         "type": "silver",
+        "companyId": 1
+      },
+      {
+        "type": "bronze",
+        "companyId": 1
+      },
+      {
+        "type": "bronze",
         "companyId": 1
       },
       {

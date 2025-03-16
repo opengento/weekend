@@ -1,24 +1,62 @@
-const Hero = () => {
+import Image from "next/image";
+import { ReactNode } from "react";
+import classNames from "classnames";
+
+interface Hero {
+  children: ReactNode;
+  imagePath: string;
+  size?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "full"
+  overlay?: boolean;
+  blurAmount?: "none" | "sm" | "md" | "lg";
+  className?: string;
+}
+
+const Hero = ({
+  children,
+  imagePath,
+  size = "md",
+  overlay = true,
+  blurAmount = "none",
+  className = "",
+}: Hero) => {
+  const blurValues = {
+    none: "",
+    sm: "backdrop-blur-sm",
+    md: "backdrop-blur-md",
+    lg: "backdrop-blur-lg",
+  };
+
   return (
-    <div
-      className="hero min-h-screen"
-      style={{
-        backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
-      }}>
-      <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-neutral-content text-center">
-        <div className="max-w-5xl">
-          <h1 className="mb-5 text-5xl font-bold">Week-End Opengento</h1>
-          <p className="mb-5">
-            Il s'agit de l'évènement incontournable pour les développeurs, sur
-            les technologies qui gravitent autour de l'e-commerce.<br/>
-            Avec un focus spécial sur la solution Magento !
-          </p>
-          <button className="btn btn-primary">Organiser le prochain Week-End !</button>
-        </div>
+    <div className={classNames(
+      "hero relative overflow-hidden flex flex-col justify-center items-center w-full",
+      {
+        "min-h-24": size === "xs",
+        "min-h-32": size === "sm",
+        "min-h-48": size === "md",
+        "min-h-64": size === "lg",
+        "min-h-80": size === "xl",
+        "min-h-96": size === "2xl",
+        "min-h-screen": size === "full",
+      },
+      className
+    )}>
+      <div className="absolute inset-0">
+        <Image
+          src={imagePath}
+          alt=""
+          fill
+          className="object-cover object-center"
+        />
       </div>
+      <div className={classNames(
+        `absolute inset-0 ${blurValues[blurAmount]}`,
+        {
+          "hero-overlay": overlay,
+        }
+      )}/>
+      <div className="hero-content relative">{children}</div>
     </div>
   );
-}
+};
 
 export default Hero;

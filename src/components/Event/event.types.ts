@@ -75,6 +75,7 @@ type EventAction = {
 }
 
 type Event = {
+  identifier: string;
   title: string;
   bannerSrc: string;
   logoSrc: string;
