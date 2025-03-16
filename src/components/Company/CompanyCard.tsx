@@ -15,9 +15,16 @@ const CompanyCard = ({ company, size = "md" }: CompanyCard) => {
 
   return (
     <div className={`card card-${size} bg-base-100 shadow-sm`}>
-      <figure>
-        <Image src={company.logoSrc} alt={company.name} width={250} height={250} />
-      </figure>
+      <div className="pt-8 px-8">
+        <figure>
+          <Image
+            src={company.logoSrc}
+            alt={company.name}
+            width={250}
+            height={250}
+          />
+        </figure>
+      </div>
       <div className="card-body">
         <h2 className="card-title">{company.name}</h2>
         <p>{company.description}</p>

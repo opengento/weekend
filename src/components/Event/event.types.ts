@@ -38,13 +38,16 @@ type EventPlaceParking = {
   locations: EventPlaceLocation[];
 }
 
+type EventAccess = {
+  publicTransport: EventPlacePublicTransport;
+  parking: EventPlaceParking;
+}
+
 type EventPlace = {
   name: string;
+  url: string | UrlObject;
   address: string;
-  access: {
-    publicTransport: EventPlacePublicTransport;
-    parking: EventPlaceParking;
-  };
+  access: EventAccess | null;
 }
 
 type EventSponsorType = "bronze" | "silver" | "gold" | "platinum";
@@ -89,9 +92,11 @@ type Event = {
   gallery: Media[];
 };
 
-export type EventProgramProps = EventProgram;
 export type EventActionProps = EventAction;
+export type EventProgramProps = EventProgram;
+export type EventPlaceProps = EventPlace;
 export type EventSponsorTypeProps = EventSponsorType;
 export type EventSponsorProps = EventSponsor;
 export type EventStaffProps = EventStaff;
+export type EventDateProps = EventDate;
 export type EventProps = Event;

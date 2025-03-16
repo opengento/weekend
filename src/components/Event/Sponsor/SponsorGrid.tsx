@@ -5,16 +5,16 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import classNames from "classnames";
-import { Fragment } from "react";
+import { Fragment, useId } from "react";
 import { decorateSponsors } from "@/functions/events";
 
-interface SponsorList {
-  id: string;
+interface SponsorGrid {
   sponsors: EventSponsorProps[];
 }
 
-const SponsorList = ({ id, sponsors }: SponsorList) => {
+const SponsorGrid = ({ sponsors }: SponsorGrid) => {
   const sponsorsByType = decorateSponsors(sponsors);
+  const id = useId();
 
   return (
     <div className="grid grid-cols-12 gap-4">
@@ -50,4 +50,4 @@ const SponsorList = ({ id, sponsors }: SponsorList) => {
   );
 };
 
-export default SponsorList;
+export default SponsorGrid;

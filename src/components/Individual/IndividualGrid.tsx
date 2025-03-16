@@ -10,7 +10,7 @@ interface IndividualGrid {
 const IndividualGrid = ({ individuals, itemsPerRow = 4 }: IndividualGrid) => {
   return (
     <div className={classNames(
-      "grid grid-cols-1",
+      "grid grid-cols-1 gap-12",
       {
         "md:grid-cols-2": itemsPerRow === 2,
         "md:grid-cols-3": itemsPerRow === 3,

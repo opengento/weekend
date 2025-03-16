@@ -2,7 +2,7 @@
   "event": {
     "title": "Exemple de weekend Opengento",
     "logoSrc": "/images/logo/opengento.svg",
-    "bannerSrc": "",
+    "bannerSrc": "/images/events/sample/bg.jpeg",
     "description": "La possibilité de se réunir dans une ambiance conviviale et détendue pour parler dev, infra, méthodes de travail mais pas que ! C’est surtout le plaisir de se retrouver et de se rencontrer, (en chair et en os), et pas que sur Slack ou X, mais surtout d’apprendre et de partager !",
     "content": "Le Week-end est ouvert aux adhérents Opengento, l’adhésion coûte 5€ à vie.\nLe prix de l’événement à titre individuel comprend tout sauf le déplacement, le tarif est de 200 € / personne.\n\nPour ce second épisode de 2024, nous vous donnons rendez-vous en Alsace, dans le village de Sélestat !\nL’événement aura lieu le 8, 9 et 10 novembre 2024.\n\nPour ceux qui n’ont jamais participé à cet événement, voici un petit résumé :\n\nWE du vendredi dans la journée / Arrivées à partir de 15h jusqu’au soir\nHackathon avec des sujets divers & variés à voter le vendredi soir et libre à chacun de le suivre ou de faire ce qu’il a envie du WE\nTraiteur, boisson & gîte de qualité !",
     "actions": {
@@ -18,8 +18,8 @@
       }
     },
     "date": {
-      "from": "29/02/2048",
-      "to": "31/02/2048"
+      "from": "2024-02-18T14:00:00",
+      "to": "2024-02-20T19:00:00"
     },
     "programs": [
       {
@@ -80,7 +80,8 @@
     ],
     "place": {
       "name": "Villa",
-      "address": "404 rue not found",
+      "address": "404 rue not found,\n12345 Somewhere\nFrance",
+      "url": "https://maps.app.goo.gl/7sj5YM6t2c96r8dbA",
       "access": {
         "publicTransport": {
           "title": "Transports en commun",
@@ -111,15 +112,14 @@
     "sponsors": [
       {
         "type": "gold",
-        "name": "Opengento",
-        "description": "Association loi 1901.",
-        "url": "https://www.opengento.fr/",
-        "logoSrc": "/images/logo/opengento.svg"
+        "companyId": 1
+      },
+      {
+        "type": "gold",
+        "companyId": 1
       }
     ],
-    "staff": [
-      {}
-    ],
+    "staff": [1, 1, 1, 1, 1],
     "gallery": []
   }
 }

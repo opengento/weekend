@@ -2,6 +2,20 @@
   "activeEventId": "sample",
   "title": "Les événements",
   "content": "",
+  "information": {
+    "title": "Informations"
+  },
+  "sponsors": {
+    "title": "Nos sponsors",
+    "subtitle": "Acteurs incontournables de l’écosystème, ils rendent cet événement possible."
+  },
+  "staff": {
+    "title": "Les organisateurs",
+    "subtitle": "Qui se cache derrière cet évènement ? Découvrez ses acteurs incroyables !"
+  },
+  "program": {
+    "title": "Le programme"
+  },
   "upcoming": {
     "title": "Les événements à venir",
     "content": ""
