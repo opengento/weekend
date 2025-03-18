@@ -26,7 +26,7 @@ const Individual = ({ individual }: Individual) => {
       )}
       size="2xl"
     >
-      <IndividualCard individual={individual}/>
+      <IndividualCard individual={individual} />
     </Drawer>
   );
 };

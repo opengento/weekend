@@ -125,6 +125,18 @@
         "companyId": 1
       },
       {
+        "type": "gold",
+        "companyId": 1
+      },
+      {
+        "type": "gold",
+        "companyId": 1
+      },
+      {
+        "type": "silver",
+        "companyId": 1
+      },
+      {
         "type": "silver",
         "companyId": 1
       },

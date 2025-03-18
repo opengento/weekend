@@ -3,9 +3,16 @@
   "title": "Les événements",
   "content": "",
   "information": {
+    "hero": {
+      "title": "Où et quand se déroule l’événement ?"
+    },
     "title": "Informations"
   },
   "sponsors": {
+    "hero": {
+      "title": "Merci aux sponsors !",
+      "subtitle": "Sans eux cet événement ne serait pas possible..."
+    },
     "title": "Nos sponsors",
     "subtitle": "Acteurs incontournables de l’écosystème, ils rendent cet événement possible."
   },

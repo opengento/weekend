@@ -46,5 +46,5 @@ export type TypographyProps = {
   align?: Align;
   className?: string;
   children: ReactNode;
-  underlineColor?: string;
+  underlineColor?: TypographyUnderlineColor;
 };
