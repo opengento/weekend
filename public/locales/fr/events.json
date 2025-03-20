@@ -1,7 +1,7 @@
 {
   "activeEventId": "sample",
   "title": "Les événements",
-  "content": "",
+  "content": "Ne ratez pas notre événement en vedette, le mardi 2025 prochain !",
   "information": {
     "hero": {
       "title": "Où et quand se déroule l’événement ?"
@@ -25,10 +25,12 @@
   },
   "upcoming": {
     "title": "Les événements à venir",
-    "content": ""
+    "content": "Ne manquez pas nos prochains événement et ne passez plus à côté d’opportunités !",
+    "eventIds": []
   },
   "past": {
     "title": "Les événements passés",
-    "content": ""
+    "content": "Nostalgique ou juste curieux ? Repassez en revue tous nos événements passés !",
+    "eventIds": []
   }
 }
