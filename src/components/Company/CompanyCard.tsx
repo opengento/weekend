@@ -17,7 +17,7 @@ const CompanyCard = ({ company, size = "md" }: CompanyCard) => {
     label: t("common:visitCompany"),
     href: company.url,
     target: "_blank",
-    level: "secondary"
+    level: "primary"
   } as ButtonLinkProps;
 
   return (
