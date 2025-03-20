@@ -6,8 +6,8 @@ import { IndividualProps } from "@/components/Individual/individual.types";
 import IndividualGrid from "@/components/Individual/IndividualGrid";
 
 const Board = () => {
-  const { t } = useTranslation(["common"]);
-  const board = t("common:association.board.members", { returnObjects: true }) as number[];
+  const { t } = useTranslation(["association"]);
+  const board = t("association:data.board.members", { returnObjects: true }) as number[];
 
   const individuals = board.reduce(
     (individuals, id) => {

@@ -22,37 +22,6 @@
   "sponsors": "Sponsors",
   "SeeMore": "Voir plus",
   "KnowMore": "En savoir d’avantage",
-  "association": {
-    "board": {
-      "members": [1, 1, 1]
-    },
-    "membership": {
-      "companies": [2, 3]
-    }
-  },
-  "hero": {
-    "title": "Week-End & Opengento",
-    "content": "Opengento est une association Française loi 1901 dont l'objet est l'organisation d'événements pour la communauté de développeurs.\n\nLe Week-End Opengento est l'évènement incontournable pour les développeurs, sur les technologies qui gravitent autour de l'e-commerce.\nAvec un attrait spécial pour les solutions Magento et Sylius !",
-    "href1": "/association",
-    "label1": "En savoir plus",
-    "href2": "/events/organisez-votre-evenement",
-    "label2": "Organiser le prochain Week-End"
-  },
-  "membership": {
-    "title": "Nous rejoindre c'est :",
-    "advantages": [
-      "Échanger avec des experts de la communauté",
-      "La possibilité de participer aux événements",
-      "Agrandir son réseau de partenaires",
-      "Un accès aux projets Open-Source"
-    ],
-    "conditions": [
-      "Opengento c’est pour la vie !",
-      "L’adhésion à durée illimitée pour 5 €"
-    ],
-    "label": "Je deviens membre !",
-    "href": "/membres"
-  },
   "push": {
     "faq": {
       "title": "Des question ? Des réponses !",

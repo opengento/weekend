@@ -4,12 +4,12 @@ import { EventProps } from "@/components/Event/event.types";
 import { FaTicket } from "react-icons/fa6";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
-import Action from "@/components/Event/Action/Action";
 import React from "react";
 import Typography from "@/components/Typography/Typography";
 import Hero from "@/components/Hero/Hero";
-import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
 
 interface EventHero {
   event: EventProps;
@@ -17,6 +17,11 @@ interface EventHero {
 
 const EventHero = ({ event }: EventHero) => {
   const { t } = useTranslation(["common"]);
+  const eventLink = {
+    label: t("common:KnowMore"),
+    href: `events/${event.identifier}`,
+    level: "primary"
+  } as ButtonLinkProps;
 
   return (
     <Hero
@@ -32,18 +37,12 @@ const EventHero = ({ event }: EventHero) => {
             {event.description}
           </Typography>
           <div className="flex flex-row flex-wrap items-center gap-8">
-            <Link
-              href={`events/${event.identifier}`}
-              className="btn btn-primary"
-            >
-              {t("common:KnowMore")}
-              <FaArrowRight />
-            </Link>
+            <ButtonLink cta={eventLink} icon={<FaArrowRight />}/>
             {event.actions.registration && (
-              <Action
+              <ButtonLink
                 cta={event.actions.registration}
                 icon={<FaTicket/>}
-                className="btn btn-primary lg:btn-wide"
+                className="btn lg:btn-wide"
               />
             )}
           </div>

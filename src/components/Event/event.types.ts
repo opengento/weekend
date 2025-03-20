@@ -1,5 +1,6 @@
 import type { UrlObject } from "url";
 import { IndividualProps } from "@/components/Individual/individual.types";
+import {ButtonLinkProps} from "@/components/ButtonLink/link.types";
 
 type EventDate = {
   from: Date;
@@ -68,12 +69,6 @@ type Media = {
   content?: string | undefined;
 }
 
-type EventAction = {
-  label: string;
-  url: string | UrlObject;
-  level: "primary" | "secondary" | "accent" | "info" | "success" | "warning" | "error";
-}
-
 type Event = {
   identifier: string;
   title: string;
@@ -82,8 +77,8 @@ type Event = {
   description: string;
   content: string;
   actions: {
-    registration: EventAction | undefined;
-    callForPapers: EventAction | undefined;
+    registration: ButtonLinkProps | undefined;
+    callForPapers: ButtonLinkProps | undefined;
   }
   date: EventDate;
   programs: EventProgram[];
@@ -93,7 +88,6 @@ type Event = {
   gallery: Media[];
 };
 
-export type EventActionProps = EventAction;
 export type EventProgramProps = EventProgram;
 export type EventAccessProps = EventAccess;
 export type EventPlaceProps = EventPlace;

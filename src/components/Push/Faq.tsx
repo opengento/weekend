@@ -16,7 +16,7 @@ const Faq = () => {
       <Typography color="dark" className="whitespace-pre-wrap">
         {t("common:push.faq.content")}
       </Typography>
-      <div className="flex flex-row gap-4 justify-center items-center">
+      <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
         <Link
           href={t("common:push.faq.href")}
           className="btn btn-primary btn-outline"

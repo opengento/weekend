@@ -27,7 +27,7 @@ const EventHomePage = () => {
           <EventInfo event={event} />
         </Container>
       </div>
-      <div className="bg-gradient-to-br from-violet-900 to-neutral-900 flex flex-col justify-center items-center py-12 gap-2">
+      <div className="bg-gradient-to-br from-violet-900 to-neutral-900 flex flex-col justify-center items-center py-14 gap-2">
         <Typography variant="h3" weight="semibold" color="primary" underlineColor="primary">
           {t("events:sponsors.hero.title")}
         </Typography>

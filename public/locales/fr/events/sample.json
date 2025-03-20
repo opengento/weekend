@@ -9,12 +9,12 @@
     "actions": {
       "callForSpeaker": {
         "label": "Appel à speaker",
-        "url": "",
+        "href": "",
         "level": "secondary"
       },
       "registration": {
         "label": "Je prends mon billet !",
-        "url": "",
+        "href": "",
         "level": "primary"
       }
     },

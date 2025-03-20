@@ -7,10 +7,10 @@ import { CompanyProps } from "@/components/Company/company.types";
 import CompanyLogo from "@/components/Company/CompanyLogo";
 
 const MemberGrid = () => {
-  const { t } = useTranslation(["common"]);
+  const { t } = useTranslation(["association"]);
   const id = useId();
   const members = t(
-    "common:association.membership.companies",
+    "association:data.membership.companies",
     { returnObjects: true }
   ) as number[];
 
