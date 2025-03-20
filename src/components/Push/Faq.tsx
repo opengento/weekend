@@ -3,10 +3,13 @@
 import { useTranslation } from "next-i18next";
 import Article from "@/layouts/Article";
 import Typography from "@/components/Typography/Typography";
-import Link from "next/link";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
 
 const Faq = () => {
   const { t } = useTranslation("common");
+  const faq = t("common:push.faq.link", { returnObjects: true }) as ButtonLinkProps;
+  const contact = t("common:push.contact", { returnObjects: true }) as ButtonLinkProps;
 
   return (
     <Article align="center">
@@ -17,19 +20,8 @@ const Faq = () => {
         {t("common:push.faq.content")}
       </Typography>
       <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-        <Link
-          href={t("common:push.faq.href")}
-          className="btn btn-primary btn-outline"
-        >
-          {t("common:push.faq.label")}
-        </Link>
-        <Link
-          href={t("common:push.contact.href")}
-          target="_blank"
-          className="btn btn-primary btn-outline"
-        >
-          {t("common:push.contact.label")}
-        </Link>
+        <ButtonLink cta={faq} className="btn-outline" />
+        <ButtonLink cta={contact} className="btn-outline" />
       </div>
     </Article>
   );

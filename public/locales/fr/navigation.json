@@ -20,7 +20,8 @@
   "cta": {
     "label": "Nous rejoindre",
     "href": "https://www.helloasso.com/associations/opengento/adhesions/adhesion-individuelle-opengento",
-    "target": "_blank"
+    "target": "_blank",
+    "level": "primary"
   },
   "footer": {
     "copyright": "© 2025 - Opengento.\nTous droits réservés.",

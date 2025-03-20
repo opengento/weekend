@@ -2,8 +2,9 @@
 
 import { CompanyProps } from "@/components/Company/company.types";
 import Image from "next/image";
-import Link from "next/link";
 import { useTranslation } from "next-i18next";
+import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 interface CompanyCard {
   company: CompanyProps;
@@ -12,6 +13,12 @@ interface CompanyCard {
 
 const CompanyCard = ({ company, size = "md" }: CompanyCard) => {
   const { t } = useTranslation(["common"]);
+  const companyLink = {
+    label: t("common:visitCompany"),
+    href: company.url,
+    target: "_blank",
+    level: "secondary"
+  } as ButtonLinkProps;
 
   return (
     <div className={`card card-${size} bg-base-100 shadow-sm`}>
@@ -30,9 +37,7 @@ const CompanyCard = ({ company, size = "md" }: CompanyCard) => {
         <h2 className="card-title">{company.name}</h2>
         <p>{company.description}</p>
         <div className="card-actions justify-end">
-          <Link href={company.url} title={company.name} className="btn btn-secondary">
-            {t("common:visitCompany")}
-          </Link>
+          <ButtonLink cta={companyLink} />
         </div>
       </div>
     </div>

@@ -2,11 +2,14 @@
 
 import Hero from "@/components/Hero/Hero";
 import { useTranslation } from "next-i18next";
-import Link from "next/link";
-import { FaArrowRight, FaPenToSquare } from "react-icons/fa6";
+import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import { useId } from "react";
 
 const AssociationHero = () => {
   const { t } = useTranslation(["association"]);
+  const actions = t("association:hero.actions", { returnObjects: true }) as ButtonLinkProps[];
+  const id = useId();
 
   return (
     <Hero imagePath="/images/media/bg.webp" size="full" blurAmount="lg">
@@ -18,15 +21,9 @@ const AssociationHero = () => {
           {t("association:hero.content")}
         </p>
         <div className="flex flex-col md:flex-row gap-8">
-          <Link href={t("association:hero.href1")} className="btn btn-primary">
-            {t("association:hero.label1")}
-            <FaArrowRight />
-          </Link>
-
-          <Link href={t("association:hero.href2")} className="btn btn-primary">
-            {t("association:hero.label2")}
-            <FaPenToSquare />
-          </Link>
+          {actions.map((action, index) => (
+            <ButtonLink cta={action} key={`${id}-${index}`} />
+          ))}
         </div>
       </div>
     </Hero>

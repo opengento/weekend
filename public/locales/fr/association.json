@@ -54,10 +54,18 @@
   "hero": {
     "title": "Week-End & Opengento",
     "content": "Opengento est une association Française loi 1901 dont l’objet est l’organisation d’événements pour la communauté de développeurs.\n\nLe Week-End Opengento est l’évènement incontournable pour les développeurs, sur les technologies qui gravitent autour de l’e-commerce.\nAvec un attrait spécial pour les solutions Magento et Sylius !",
-    "href1": "/association",
-    "label1": "En savoir plus",
-    "href2": "/events/organisez-votre-evenement",
-    "label2": "Organiser le prochain Week-End"
+    "actions": [
+      {
+        "href": "/association",
+        "label": "En savoir plus",
+        "level": "primary"
+      },
+      {
+        "href": "/events/organisez-votre-evenement",
+        "label": "Organiser le prochain Week-End",
+        "level": "primary"
+      }
+    ]
   },
   "membership": {
     "title": "Nous rejoindre c’est :",
@@ -71,7 +79,11 @@
       "Opengento c’est pour la vie !",
       "L’adhésion à durée illimitée pour 5 €"
     ],
-    "label": "Je deviens membre !",
-    "href": "/membres"
+    "enrol": {
+      "label": "Je deviens membre !",
+      "href": "https://www.helloasso.com/associations/opengento/adhesions/adhesion-individuelle-opengento",
+      "target": "_blank",
+      "level": "primary"
+    }
   }
 }

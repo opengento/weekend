@@ -26,12 +26,16 @@
     "faq": {
       "title": "Des question ? Des réponses !",
       "content": "Nous avons hâte de vous accueillir à cet événement exceptionnel ! \nN’hésitez pas à nous contacter si vous avez des questions pratiques.",
-      "label": "Visiter la FAQ",
-      "href": "/faq"
+      "link": {
+        "label": "Visiter la FAQ",
+        "href": "/faq",
+        "level": "primary"
+      }
     },
     "contact": {
       "label": "Nous contacter",
-      "href": "mailto:opengento@gmail.com"
+      "href": "mailto:opengento@gmail.com",
+      "level": "primary"
     },
     "trust": [
       {

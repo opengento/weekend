@@ -2,10 +2,12 @@
 
 import MainLogo from "@/components/Logo/MainLogo";
 import { useTranslation } from "next-i18next";
-import type {UrlObject} from "url";
+import type { UrlObject } from "url";
 import { HTMLAttributeAnchorTarget } from "react";
 import Link from "next/link";
 import Drawer from "@/components/Drawer/Drawer";
+import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 interface NavProps {
   label: string;
@@ -16,7 +18,7 @@ interface NavProps {
 const Header = () => {
   const { t } = useTranslation(["navigation"]);
   const menu = t("header", { returnObjects: true }) as NavProps[];
-  const cta = t("cta", { returnObjects: true }) as NavProps;
+  const cta = t("cta", { returnObjects: true }) as ButtonLinkProps;
 
   const renderNav = (prefix: string) => (
     <>
@@ -46,13 +48,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link
-            href={cta.href}
-            target={cta.target}
-            className="btn btn-primary btn-outline"
-          >
-            {cta.label}
-          </Link>
+          <ButtonLink cta={cta} className="btn-outline" />
           <div className="w-6 mx-4 lg:hidden">
             <Drawer
               button={(
