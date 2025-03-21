@@ -5,7 +5,13 @@ import Article from "@/layouts/Article";
 import Typography from "@/components/Typography/Typography";
 import { useTranslation } from "next-i18next";
 import EventCard from "@/components/Event/EventCard";
-import {getEvent} from "@/functions/events";
+import {
+  getCurrentEvents,
+  getEvent,
+  getPastEvents,
+  getUpcomingEvents
+} from "@/functions/events";
+import EventList from "@/components/Event/EventList";
 
 export default function Page() {
   const { t } = useTranslation(["events"]);
@@ -20,9 +26,8 @@ export default function Page() {
         <Typography color="dark" className="whitespace-pre-wrap">
           {t("events:content")}
         </Typography>
-        {event && (
-          <EventCard event={getEvent()} />
-        )}
+        {event && (<EventCard event={event} />)}
+        <EventList events={getCurrentEvents()} />
       </Article>
       <Article>
         <Typography variant="h2" color="dark">
@@ -31,6 +36,7 @@ export default function Page() {
         <Typography color="dark" className="whitespace-pre-wrap">
           {t("events:upcoming.content")}
         </Typography>
+        <EventList events={getUpcomingEvents()} />
       </Article>
       <Article>
         <Typography variant="h2" color="dark">
@@ -39,6 +45,7 @@ export default function Page() {
         <Typography color="dark" className="whitespace-pre-wrap">
           {t("events:past.content")}
         </Typography>
+        <EventList events={getPastEvents()} />
       </Article>
     </Container>
   );

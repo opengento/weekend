@@ -15,7 +15,7 @@ const Container = ({
   return (
     <div
       className={classNames(
-        "mx-auto px-8 md:px-12 lg:px-16",
+        "mx-auto px-4 sm:px-8 md:px-12 lg:px-16",
         {
           "max-w-7xl": size === "default",
           "max-w-5xl": size === "small",

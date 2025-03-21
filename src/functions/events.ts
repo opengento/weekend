@@ -12,6 +12,57 @@ import {
 import { IndividualProps } from "@/components/Individual/individual.types";
 import getIndividual from "@/functions/individual";
 
+const eventList: EventProps[] = [];
+
+const getAllEvents = () => {
+  if (eventList.length === 0) {
+    const { t } = useTranslation(["events"]);
+    const eventIds = t("events:eventIds", { returnObjects: true }) as string[];
+
+    eventIds.map((eventId) => {
+      const event = getEvent(eventId);
+      if (event) {
+        eventList.push(event);
+      }
+    });
+  }
+
+  return eventList;
+}
+
+const getUpcomingEvents = () => {
+  const date = new Date();
+
+  return getAllEvents().filter((event) => {
+    const from = new Date(event.date.from);
+
+    return from.getTime() > date.getTime();
+  });
+};
+
+const getCurrentEvents = () => {
+  const date = new Date();
+  const tomorrow = new Date(date);
+  tomorrow.setDate(tomorrow.getDate() + 1);
+
+  return getAllEvents().filter((event) => {
+    const from = new Date(event.date.from);
+    const to = new Date(event.date.to);
+
+    return from.getTime() < date.getTime() && to.getTime() > tomorrow.getTime();
+  });
+};
+
+const getPastEvents = () => {
+  const date = new Date();
+
+  return getAllEvents().filter((event) => {
+    const to = new Date(event.date.to);
+
+    return to.getTime() < date.getTime();
+  });
+};
+
 const getEvent = (id?: string | undefined) => {
   const { t } = useTranslation(["events"]);
   if (id === undefined) {
@@ -60,4 +111,11 @@ const decorateSponsors = (sponsors: EventSponsorProps[]) => {
   );
 }
 
-export { getEvent, decorateStaff, decorateSponsors };
+export {
+  getEvent,
+  getUpcomingEvents,
+  getCurrentEvents,
+  getPastEvents,
+  decorateStaff,
+  decorateSponsors
+};

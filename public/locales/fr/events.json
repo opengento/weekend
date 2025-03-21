@@ -1,7 +1,8 @@
 {
   "activeEventId": "sample",
+  "eventIds": ["sample", "sample", "sample", "sample", "sample", "sample", "sample"],
   "title": "Les événements",
-  "content": "Ne ratez pas notre événement en vedette, le mardi 2025 prochain !",
+  "content": "Ne ratez surtout pas notre événement en vedette !",
   "information": {
     "hero": {
       "title": "Où et quand se déroule l’événement ?"
@@ -25,12 +26,10 @@
   },
   "upcoming": {
     "title": "Les événements à venir",
-    "content": "Ne manquez pas nos prochains événement et ne passez plus à côté d’opportunités !",
-    "eventIds": []
+    "content": "Ne manquez pas nos prochains événement et ne passez plus à côté d’opportunités !"
   },
   "past": {
     "title": "Les événements passés",
-    "content": "Nostalgique ou juste curieux ? Repassez en revue tous nos événements passés !",
-    "eventIds": []
+    "content": "Nostalgique ou juste curieux ? Repassez en revue tous nos événements passés !"
   }
 }

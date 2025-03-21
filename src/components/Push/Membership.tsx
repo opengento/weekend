@@ -13,12 +13,12 @@ const Membership = () => {
 
   return (
     <Article color="base-200">
-      <div className="w-full flex flex-col gap-8 lg:flex-row-reverse lg:justify-center">
+      <div className="w-full flex flex-col gap-8 lg:flex-row-reverse lg:justify-center items-center">
         <div className="text-center lg:text-left">
           <h1 className="text-4xl font-bold">
             {t("association:membership.title")}
           </h1>
-          <ul className="pl-4 py-8 list-disc">
+          <ul className="pl-4 py-8 lg:list-disc">
             {advantages.map((text, index) => (
               <li key={`membership-advantages-${index}`}>
                 {text}

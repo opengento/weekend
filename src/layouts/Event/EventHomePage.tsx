@@ -28,10 +28,10 @@ const EventHomePage = () => {
         </Container>
       </div>
       <div className="bg-gradient-to-br from-violet-900 to-neutral-900 flex flex-col justify-center items-center py-14 gap-2">
-        <Typography variant="h3" weight="semibold" color="primary" underlineColor="primary">
+        <Typography variant="h3" weight="semibold" color="primary" underlineColor="primary" className="mx-4">
           {t("events:sponsors.hero.title")}
         </Typography>
-        <Typography variant="subtitle1" weight="thin" color="primary">
+        <Typography variant="subtitle1" weight="thin" color="primary" className="mx-4">
           {t("events:sponsors.hero.subtitle")}
         </Typography>
         <Container size="small" className="mt-8">
