@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Opengento",
-      "description": "Nous sommes une association qui publie lors de ses hackathons (nos fameux weekends Opengento \uD83D\uDE0E\uD83C\uDF79) des POC & modules afin de soutenir l'innovation au sein de la communauté de développeur e-commerce.",
+      "description": "Nous sommes une association qui publie lors de ses hackathons (nos fameux weekends Opengento \uD83D\uDE0E\uD83C\uDF79) des POC & modules afin de soutenir l’innovation au sein de la communauté de développeur e-commerce.",
       "url": "https://opengento.fr/",
       "logoSrc": "/images/logo/opengento.svg",
       "iconSrc": "/images/logo/opengento.svg"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Blackbird",
-      "description": "La mission de Blackbird est d'aider les e-commerçants dans toutes les phases de leur projet : conseil stratégique, design créatif, conception et pilotage de plateformes e-commerce sur-mesure, accompagnement proche et réactif et formation.",
+      "description": "La mission de Blackbird est d’aider les e-commerçants dans toutes les phases de leur projet : conseil stratégique, design créatif, conception et pilotage de plateformes e-commerce sur-mesure, accompagnement proche et réactif et formation.",
       "url": "https://black.bird.eu/",
       "logoSrc": "/images/logo/blackbird.svg",
       "iconSrc": "/images/logo/icon/blackbird.svg"
@@ -67,15 +67,23 @@
     {
       "id": 9,
       "name": "Lumao",
-      "description": "Nous sommes une équipe de développeurs et d'intégrateurs spécialisés sur le CMS Magento, nous sommes d'ailleurs un partenaire certifié. Si vous êtes à la recherche d'une équipe d'experts et non pas d'un commercial, vous êtes au bon endroit.",
+      "description": "Nous sommes une équipe de développeurs et d’intégrateurs spécialisés sur le CMS Magento, nous sommes d’ailleurs un partenaire certifié. Si vous êtes à la recherche d’une équipe d’experts et non pas d’un commercial, vous êtes au bon endroit.",
       "url": "https://lumao.eu/",
       "logoSrc": "/images/logo/lumao.svg",
       "iconSrc": "/images/logo/icon/lumao.svg"
     },
     {
+      "id": 10,
+      "name": "Crealoz",
+      "description": "Des sites web sur mesure,\npensés pour votre réussite\nDe la conception à la mise en ligne, nous donnons vie à vos idées",
+      "url": "https://crealoz.fr/",
+      "logoSrc": "/images/logo/crealoz.png",
+      "iconSrc": "/images/logo/icon/crealoz.png"
+    },
+    {
       "id": 998,
-      "name": "Dn'D",
-      "description": "Du conseil au delivery d'expériences digitales et E-Commerce sur mesure pour le B2C et le B2B. Dn’D accompagne depuis plus de 20 ans des entreprises issues de secteurs variés (retail, luxe, industrie...) dans la réussite de leurs projets IT, digitaux et E-Commerce.",
+      "name": "Dn’D",
+      "description": "Du conseil au delivery d’expériences digitales et E-Commerce sur mesure pour le B2C et le B2B. Dn’D accompagne depuis plus de 20 ans des entreprises issues de secteurs variés (retail, luxe, industrie...) dans la réussite de leurs projets IT, digitaux et E-Commerce.",
       "url": "https://www.dnd.fr/",
       "logoSrc": "/images/logo/dnd.svg",
       "iconSrc": "/images/logo/icon/dnd.svg"

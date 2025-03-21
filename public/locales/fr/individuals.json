@@ -3,16 +3,47 @@
     {
       "id": 1,
       "name": "Thomas Klein",
-      "biography": "Lorem Ipsum.",
+      "biography": "",
       "companyId": 1,
       "roles": [
-        "Secrétaire"
+        "Tech Lead",
+        "Secrétaire d’Opengento"
       ],
       "social": {
         "linkedin": "https://www.linkedin.com/in/thomas-klein/",
         "github": "https://github.com/thomas-kl1"
       },
       "avatarSrc": "/images/avatar/thomas-klein.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Frédéric Martinez",
+      "biography": "",
+      "companyId": 3,
+      "roles": [
+        "Co-Founder & CEO",
+        "Président d’Opengento"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-martinez-922aa319",
+        "github": "https://github.com/FredericMartinez"
+      },
+      "avatarSrc": "/images/avatar/frederic-martinez.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Christophe Ferreboeuf",
+      "biography": "",
+      "companyId": 10,
+      "roles": [
+        "Magento Expert",
+        "Trésorier d’Opengento"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/cferreboeuf/",
+        "github": "https://github.com/ChristopheFerreboeuf"
+      },
+      "avatarSrc": "/images/avatar/christophe-ferreboeuf.jpeg"
     }
   ]
 }

@@ -32,11 +32,13 @@ const IndividualIdentity = ({ individual, children }: Identity) => {
         </Link>
       )}
       <h3 className="font-semibold">{individual.name}</h3>
-      {individual.roles.map((role, index) => (
-        <div className="text-sm italic" key={`individual-role-${index}`}>
-          {role}
-        </div>
-      ))}
+      <div>
+        {individual.roles.map((role, index) => (
+          <div className="text-sm italic" key={`individual-role-${index}`}>
+            {role}
+          </div>
+        ))}
+      </div>
       {children}
     </div>
   );
