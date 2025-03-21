@@ -10,19 +10,83 @@
     },
     {
       "id": 2,
-      "name": "Foo",
-      "description": "Company Foo.",
-      "url": "https://foo.com/",
-      "logoSrc": "/images/logo/opengento.svg",
-      "iconSrc": "/images/logo/opengento.svg"
+      "name": "Blackbird",
+      "description": "La mission de Blackbird est d'aider les e-commerçants dans toutes les phases de leur projet : conseil stratégique, design créatif, conception et pilotage de plateformes e-commerce sur-mesure, accompagnement proche et réactif et formation.",
+      "url": "https://black.bird.eu/",
+      "logoSrc": "/images/logo/blackbird.svg",
+      "iconSrc": "/images/logo/icon/blackbird.svg"
     },
     {
       "id": 3,
-      "name": "Bar",
-      "description": "Company Bar.",
-      "url": "https://bar.com/",
-      "logoSrc": "/images/logo/opengento.svg",
-      "iconSrc": "/images/logo/opengento.svg"
+      "name": "PH2M",
+      "description": "PH2M développe des solutions e-commerce sur mesure depuis 16 ans. Une équipe de 12 développeurs, contribuant activement à Magento, Front-Commerce & Hyvä, avec plus de 240 projets réalisés.",
+      "url": "https://www.ph2m.com/",
+      "logoSrc": "/images/logo/ph2m.svg",
+      "iconSrc": "/images/logo/icon/ph2m.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Hyvä",
+      "description": "Le frontend Magento le plus populaire avec 5,000 sites lives dans le monde, dont Somfy, Purina, Bultex ou Boucheron. Découvrez comment optimiser votre web perf tout en réduisant votre temps et coût de développement avec Hyvä",
+      "url": "https://www.hyva.io/",
+      "logoSrc": "/images/logo/hyva.svg",
+      "iconSrc": "/images/logo/icon/hyva.svg"
+    },
+    {
+      "id": 5,
+      "name": "MONSIEUR BIZ",
+      "description": "Ôtez la complexité, M. Biz vous apporte des solutions utiles par des experts sereins.\n\nDéveloppement sur mesure, e-commerce, webmarketing, conseil et formation \uD83C\uDF89",
+      "url": "https://monsieurbiz.com/",
+      "logoSrc": "/images/logo/monsieurbiz.svg",
+      "iconSrc": "/images/logo/icon/monsieurbiz.png"
+    },
+    {
+      "id": 6,
+      "name": "Nola Consulting",
+      "description": "Notre agence spécialisée dans le e-commerce, notamment avec Magento, place la satisfaction du client au cœur de ses préoccupations. Nous offrons des solutions personnalisées pour répondre aux besoins de chaque entreprise.",
+      "url": "https://www.nolaconsulting.fr/",
+      "logoSrc": "/images/logo/nola.svg",
+      "iconSrc": "/images/logo/nola.svg"
+    },
+    {
+      "id": 7,
+      "name": "XTAND",
+      "description": "Spécialisée en création de sites e-commerce, XTAND réalise tous types de projet : sites spécifiques, intranet et sites vitrines grâce à un longue et fructueuse expérience avec ses clients.",
+      "url": "https://www.xtand.fr/",
+      "logoSrc": "/images/logo/xtand.svg",
+      "iconSrc": "/images/logo/xtand.svg"
+    },
+    {
+      "id": 8,
+      "name": "Adexos",
+      "description": "Agence web experte de la solution Magento. Nous sommes spécialisés dans la création numériqueet le commerce digital.",
+      "url": "https://www.adexos.fr/",
+      "logoSrc": "/images/logo/adexos.png",
+      "iconSrc": "/images/logo/adexos.png"
+    },
+    {
+      "id": 9,
+      "name": "Lumao",
+      "description": "Nous sommes une équipe de développeurs et d'intégrateurs spécialisés sur le CMS Magento, nous sommes d'ailleurs un partenaire certifié. Si vous êtes à la recherche d'une équipe d'experts et non pas d'un commercial, vous êtes au bon endroit.",
+      "url": "https://lumao.eu/",
+      "logoSrc": "/images/logo/lumao.svg",
+      "iconSrc": "/images/logo/icon/lumao.svg"
+    },
+    {
+      "id": 998,
+      "name": "Dn'D",
+      "description": "Du conseil au delivery d'expériences digitales et E-Commerce sur mesure pour le B2C et le B2B. Dn’D accompagne depuis plus de 20 ans des entreprises issues de secteurs variés (retail, luxe, industrie...) dans la réussite de leurs projets IT, digitaux et E-Commerce.",
+      "url": "https://www.dnd.fr/",
+      "logoSrc": "/images/logo/dnd.svg",
+      "iconSrc": "/images/logo/icon/dnd.svg"
+    },
+    {
+      "id": 999,
+      "name": "Ati4 Group",
+      "description": "Ensemble, définissons, créons et développons votre projet e-commerce B2C ou B2B. Ati4 Group, c’est plus de 50 experts PIM et Adobe Commerce pour digitaliser et accélérer votre succès en ligne. Passion, partage et expertise sont au cœur de notre engagement.",
+      "url": "https://ati4group.com/",
+      "logoSrc": "/images/logo/ati4group.svg",
+      "iconSrc": "/images/logo/icon/ati4group.svg"
     }
   ]
 }
