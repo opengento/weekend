@@ -1,17 +1,17 @@
 "use client";
 
+import { useTranslation } from "next-i18next";
+import Image from "next/image";
+import { getEvent } from "@/functions/events";
 import Container from "@/layouts/Container";
 import Article from "@/layouts/Article";
 import Typography from "@/components/Typography/Typography";
+import Hero from "@/components/Hero/Hero";
 import Program from "@/components/Event/Program/Program";
 import SponsorList from "@/components/Event/Sponsor/SponsorList";
-import Hero from "@/components/Hero/Hero";
 import StaffGrid from "@/components/Event/Staff/StaffGrid";
-import { getEvent } from "@/functions/events";
-import { useTranslation } from "next-i18next";
 import EventInfo from "@/components/Event/EventInfo";
-import Image from "next/image";
-import {EventProps} from "@/components/Event/event.types";
+import { EventProps } from "@/components/Event/event.types";
 
 interface Event {
   eventId?: string | undefined;
@@ -37,6 +37,7 @@ const Event = ({ eventId }: Event) => {
           </Typography>
         </div>
       </Hero>
+      ToDo: If active: show registration link
       <Article>
         <Typography color="dark" className="whitespace-pre-wrap">
           {event.content}

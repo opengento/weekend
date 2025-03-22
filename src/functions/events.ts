@@ -12,22 +12,18 @@ import {
 import { IndividualProps } from "@/components/Individual/individual.types";
 import getIndividual from "@/functions/individual";
 
-const eventList: EventProps[] = [];
-
 const getAllEvents = () => {
-  if (eventList.length === 0) {
-    const { t } = useTranslation(["events"]);
-    const eventIds = t("events:eventIds", { returnObjects: true }) as string[];
+  const { t } = useTranslation(["events"]);
+  const eventIds = t("events:eventIds", { returnObjects: true }) as string[];
 
-    eventIds.map((eventId) => {
-      const event = getEvent(eventId);
-      if (event) {
-        eventList.push(event);
-      }
-    });
-  }
+  return eventIds.reduce((eventList, eventId) => {
+    const event = getEvent(eventId);
+    if (event) {
+      eventList.push(event);
+    }
 
-  return eventList;
+    return eventList;
+  }, [] as EventProps[]);
 }
 
 const getUpcomingEvents = () => {
