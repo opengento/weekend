@@ -1,16 +1,15 @@
-import { IndividualProps } from "@/components/Individual/individual.types";
 import Image from "next/image";
 import Link from "next/link";
-import getCompany from "@/functions/company";
 import { ReactNode } from "react";
+import { Individual } from "@/interfaces/individual";
 
 interface Identity {
-  individual: IndividualProps;
+  individual: Individual;
   children?: ReactNode;
 }
 
 const IndividualIdentity = ({ individual, children }: Identity) => {
-  const company = individual.companyId ? getCompany(individual.companyId) : null;
+  const company = individual.company;
 
   return (
     <div className="flex flex-col gap-2">

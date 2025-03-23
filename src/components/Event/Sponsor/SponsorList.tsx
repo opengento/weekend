@@ -1,29 +1,26 @@
 "use client";
 
-import {
-  EventSponsorProps,
-  EventSponsorTypeProps
-} from "@/components/Event/event.types";
 import CompanyCard from "@/components/Company/CompanyCard";
 import classNames from "classnames";
 import { Fragment, useId } from "react";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
-import { decorateSponsors } from "@/functions/events";
+import { EventSponsor, EventSponsorType } from "@/interfaces/event";
 import Typography from "@/components/Typography/Typography";
+import { sortSponsorsByType } from "@/lib/event/sponsor";
 
 interface SponsorList {
-  sponsors: EventSponsorProps[];
+  sponsors: EventSponsor[];
 }
 
 const SponsorList = ({ sponsors }: SponsorList) => {
   const { t } = useTranslation(["common"]);
-  const sponsorsByType = decorateSponsors(sponsors);
+  const sponsorsByType = sortSponsorsByType(sponsors);
   const id = useId();
 
   return (
     <div className="flex flex-col gap-y-8">
-      {(Object.keys(sponsorsByType) as EventSponsorTypeProps[]).map((sponsorType, index) => (
+      {(Object.keys(sponsorsByType) as EventSponsorType[]).map((sponsorType, index) => (
         <Fragment key={`sponsors-${id}-${sponsorType}-${index}`}>
           {sponsorsByType[sponsorType].length > 0 && (
             <div className="flex flex-col gap-y-8">

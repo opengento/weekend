@@ -1,15 +1,24 @@
 "use client";
 
 import { useTranslation } from "next-i18next";
-import Article from "@/layouts/Article";
+import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
+import Article from "@/layouts/Article";
 
 const Membership = () => {
   const { t } = useTranslation(["association"]);
-  const advantages = t("association:membership:advantages", { returnObjects: true }) as string[];
-  const conditions = t("association:membership:conditions", { returnObjects: true }) as string[];
-  const enrol = t("association:membership:enrol", { returnObjects: true }) as ButtonLinkProps;
+  const advantages = t(
+    "association:membership:advantages",
+    { returnObjects: true }
+  ) as string[];
+  const conditions = t(
+    "association:membership:conditions",
+    { returnObjects: true }
+  ) as string[];
+  const enrol = t(
+    "association:membership:enrol",
+    { returnObjects: true }
+  ) as ButtonLinkType;
 
   return (
     <Article color="base-200">

@@ -1,14 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import { EventProps } from "@/components/Event/event.types";
-import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
-import {useTranslation} from "next-i18next";
+import { useTranslation } from "next-i18next";
 import classNames from "classnames";
+import { Event } from "@/interfaces/event";
+import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 interface EventCard {
-  event: EventProps;
+  event: Event;
   className?: string;
 }
 
@@ -18,7 +18,7 @@ const EventCard = ({ event, className }: EventCard) => {
     label: t("common:findOutMoreEvent"),
     href: `events/${event.identifier}`,
     level: "primary"
-  } as ButtonLinkProps;
+  } as ButtonLinkType;
 
   return (
     <div className={classNames(

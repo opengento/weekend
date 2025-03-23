@@ -1,18 +1,17 @@
 "use client";
 
-import { EventProps } from "@/components/Event/event.types";
-import { FaTicket } from "react-icons/fa6";
-import { useTranslation } from "next-i18next";
-import Image from "next/image";
 import React from "react";
+import { FaArrowRight, FaTicket } from "react-icons/fa6";
+import { useTranslation } from "next-i18next";
+import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
+import { Event } from "@/interfaces/event";
+import Image from "next/image";
 import Typography from "@/components/Typography/Typography";
 import Hero from "@/components/Hero/Hero";
-import { FaArrowRight } from "react-icons/fa";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
 
 interface EventHero {
-  event: EventProps;
+  event: Event;
 }
 
 const EventHero = ({ event }: EventHero) => {
@@ -21,7 +20,7 @@ const EventHero = ({ event }: EventHero) => {
     label: t("common:KnowMore"),
     href: `events/${event.identifier}`,
     level: "primary"
-  } as ButtonLinkProps;
+  } as ButtonLinkType;
 
   return (
     <Hero

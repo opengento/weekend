@@ -1,9 +1,9 @@
 import { useId } from "react";
-import { CompanyProps } from "@/components/Company/company.types";
 import CompanyLogo from "@/components/Company/CompanyLogo";
+import { Company } from "@/interfaces/company";
 
 interface CompanyGrid {
-  companies: CompanyProps[]
+  companies: Company[]
 }
 
 const CompanyGrid = ({ companies }: CompanyGrid) => {

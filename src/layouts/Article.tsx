@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import classNames from "classnames";
 
-interface ContainerProps {
+interface Article {
   align?: "left" | "center";
   color?: "neutral" | "base-100" | "base-200";
   children: ReactNode;
@@ -11,7 +11,7 @@ const Article = ({
   align = "left",
   color = "neutral",
   children,
-}: ContainerProps) => {
+}: Article) => {
   return (
     <article className={classNames(
       "rounded-lg py-6 px-4 md:p-12 flex flex-col flex-wrap gap-4",

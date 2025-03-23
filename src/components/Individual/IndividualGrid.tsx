@@ -1,9 +1,9 @@
-import { IndividualProps } from "@/components/Individual/individual.types";
 import classNames from "classnames";
 import Individual from "@/components/Individual/Individual";
+import { Individual as IndividualType } from "@/interfaces/individual";
 
 interface IndividualGrid {
-  individuals: IndividualProps[];
+  individuals: IndividualType[];
   itemsPerRow?: 1 | 2 | 3 | 4;
 }
 

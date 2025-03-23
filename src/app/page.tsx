@@ -1,19 +1,27 @@
-"use client";
-
-import EventHomePage from "@/layouts/Event/EventHomePage";
-import Hero from "@/components/Association/AssociationHero";
+import {getEvent, getPastEvents, getUpcomingEvents} from "@/lib/event";
+import { getBoard, getMembers } from "@/lib/association";
 import Container from "@/layouts/Container";
-import MemberGrid from "@/components/Association/Member/MemberGrid";
+import EventHomePage from "@/layouts/Event/EventHomePage";
 import Typography from "@/components/Typography/Typography";
+import Hero from "@/components/Association/AssociationHero";
 import Board from "@/components/Association/Board/Board";
 import Stats from "@/components/Association/Stats/Stats";
 import EventSlider from "@/components/Event/EventSlider";
-import { getPastEvents } from "@/functions/events";
+import CompanyGrid from "@/components/Company/CompanyGrid";
 
 export default function Home() {
+  const upcomingEvents = getUpcomingEvents();
+  const title = upcomingEvents.length > 0
+    ? "Les prochains événements"
+    : "Les événements passés"
+  const events = upcomingEvents.length > 0 ? upcomingEvents : getPastEvents();
+  const activeEvent = getEvent();
+
   return (
     <>
-      <EventHomePage/>
+      {activeEvent && (
+        <EventHomePage event={activeEvent} />
+      )}
       <Hero/>
       <div className="py-14 bg-neutral">
         <Container size="large">
@@ -23,9 +31,9 @@ export default function Home() {
             weight="semibold"
             className="mb-12"
           >
-            Les prochains événements
+            {title}
           </Typography>
-          <EventSlider events={getPastEvents()}/>
+          <EventSlider events={events}/>
         </Container>
       </div>
       <div className="py-14 bg-gradient-to-bl from-red-900 to-indigo-900">
@@ -39,7 +47,7 @@ export default function Home() {
           >
             Nos membres donateurs
           </Typography>
-          <MemberGrid/>
+          <CompanyGrid companies={getMembers()} />
         </Container>
       </div>
       <div className="py-14 bg-neutral">
@@ -69,7 +77,7 @@ export default function Home() {
           </Typography>
         </Container>
         <Container size="small" className="bg-neutral rounded-lg">
-          <Board/>
+          <Board individuals={getBoard()} />
         </Container>
       </div>
     </>

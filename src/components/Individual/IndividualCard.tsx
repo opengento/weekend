@@ -1,16 +1,14 @@
-import { IndividualProps } from "@/components/Individual/individual.types";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import getCompany from "@/functions/company";
-import IndividualIdentity from "@/components/Individual/IndividualIdentity";
+import { Individual } from "@/interfaces/individual";
 
 interface Card {
-  individual: IndividualProps;
+  individual: Individual;
 }
 
 const IndividualCard = ({ individual }: Card) => {
-  const company = individual.companyId ? getCompany(individual.companyId) : null;
+  const company = individual.company;
 
   return (
     <div className="card card-side bg-base-100 shadow-sm">

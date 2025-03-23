@@ -1,13 +1,13 @@
 "use client";
 
+import { useId } from "react";
 import classNames from "classnames";
 import { useTranslation } from "next-i18next";
-import { EventProgramProps } from "@/components/Event/event.types";
+import { EventProgram } from "@/interfaces/event";
 import Time from "@/components/Time/Time";
-import { useId } from "react";
 
 interface Timeline {
-  program: EventProgramProps;
+  program: EventProgram;
 }
 
 const Timeline = ({ program } : Timeline) => {

@@ -1,6 +1,6 @@
 "use client";
 
-import { I18nextProvider } from 'react-i18next'
+import { I18nextProvider } from "react-i18next"
 import i18next from "@/app/i18n";
 import { ReactNode } from "react";
 

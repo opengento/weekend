@@ -1,13 +1,13 @@
 "use client";
 
-import { CompanyProps } from "@/components/Company/company.types";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
-import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
+import { Company } from "@/interfaces/company";
+import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 interface CompanyCard {
-  company: CompanyProps;
+  company: Company;
   size?: "xs" | "sm" | "md" | "lg" | "xl";
 }
 
@@ -18,7 +18,7 @@ const CompanyCard = ({ company, size = "md" }: CompanyCard) => {
     href: company.url,
     target: "_blank",
     level: "primary"
-  } as ButtonLinkProps;
+  } as ButtonLinkType;
 
   return (
     <div className={`card card-${size} bg-base-100 shadow-sm`}>

@@ -1,24 +1,21 @@
-import {
-  EventSponsorProps,
-  EventSponsorTypeProps
-} from "@/components/Event/event.types";
 import Image from "next/image";
 import Link from "next/link";
 import classNames from "classnames";
 import { Fragment, useId } from "react";
-import { decorateSponsors } from "@/functions/events";
+import { EventSponsor, EventSponsorType } from "@/interfaces/event";
+import { sortSponsorsByType } from "@/lib/event/sponsor";
 
 interface SponsorGrid {
-  sponsors: EventSponsorProps[];
+  sponsors: EventSponsor[];
 }
 
 const SponsorGrid = ({ sponsors }: SponsorGrid) => {
-  const sponsorsByType = decorateSponsors(sponsors);
+  const sponsorsByType = sortSponsorsByType(sponsors);
   const id = useId();
 
   return (
     <div className="grid grid-cols-12 auto-rows-[2.5rem] gap-4">
-      {(Object.keys(sponsorsByType) as EventSponsorTypeProps[]).map((sponsorType, index) => (
+      {(Object.keys(sponsorsByType) as EventSponsorType[]).map((sponsorType, index) => (
         <Fragment key={`sponsors-${id}-${index}`}>
           {sponsorsByType[sponsorType].map((company, key) => (
             <Link

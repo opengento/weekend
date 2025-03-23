@@ -3,7 +3,7 @@
 import Container from "@/layouts/Container";
 import MainLogo from "@/components/Logo/MainLogo";
 import { useTranslation } from "next-i18next";
-import type { UrlObject } from 'url';
+import type { UrlObject } from "url";
 import { HTMLAttributeAnchorTarget } from "react";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";

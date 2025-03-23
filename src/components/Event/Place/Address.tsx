@@ -1,11 +1,13 @@
-import { EventPlaceProps } from "@/components/Event/event.types";
-import { FaLocationDot } from "react-icons/fa6";
+"use client";
+
 import Link from "next/link";
+import { useTranslation } from "next-i18next";
+import { FaLocationDot } from "react-icons/fa6";
+import { EventPlace } from "@/interfaces/event";
 import Typography from "@/components/Typography/Typography";
-import {useTranslation} from "next-i18next";
 
 interface Address {
-  place: EventPlaceProps
+  place: EventPlace
 }
 
 const Address = ({ place }: Address) => {

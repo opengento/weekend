@@ -1,13 +1,13 @@
 "use client";
 
-import MainLogo from "@/components/Logo/MainLogo";
-import { useTranslation } from "next-i18next";
-import type { UrlObject } from "url";
 import { HTMLAttributeAnchorTarget } from "react";
+import { useTranslation } from "next-i18next";
 import Link from "next/link";
-import Drawer from "@/components/Drawer/Drawer";
-import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
+import type { UrlObject } from "url";
+import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import Drawer from "@/components/Drawer/Drawer";
+import MainLogo from "@/components/Logo/MainLogo";
 
 interface NavProps {
   label: string;
@@ -18,7 +18,7 @@ interface NavProps {
 const Header = () => {
   const { t } = useTranslation(["navigation"]);
   const menu = t("header", { returnObjects: true }) as NavProps[];
-  const cta = t("cta", { returnObjects: true }) as ButtonLinkProps;
+  const cta = t("cta", { returnObjects: true }) as ButtonLinkType;
 
   const renderNav = (prefix: string) => (
     <>

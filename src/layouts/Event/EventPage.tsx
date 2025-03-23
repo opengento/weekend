@@ -2,7 +2,7 @@
 
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
-import { getEvent } from "@/functions/events";
+import { Event } from "@/interfaces/event";
 import Container from "@/layouts/Container";
 import Article from "@/layouts/Article";
 import Typography from "@/components/Typography/Typography";
@@ -11,15 +11,13 @@ import Program from "@/components/Event/Program/Program";
 import SponsorList from "@/components/Event/Sponsor/SponsorList";
 import StaffGrid from "@/components/Event/Staff/StaffGrid";
 import EventInfo from "@/components/Event/EventInfo";
-import { EventProps } from "@/components/Event/event.types";
 
-interface Event {
-  eventId?: string | undefined;
+interface EventPage {
+  event: Event;
 }
 
-const Event = ({ eventId }: Event) => {
+const EventPage = ({ event }: EventPage) => {
   const { t } = useTranslation(["events"]);
-  const event = getEvent(eventId) as EventProps;
 
   return (
     <Container size="large" className="flex flex-col gap-8 my-8">
@@ -77,4 +75,4 @@ const Event = ({ eventId }: Event) => {
   );
 }
 
-export default Event;
+export default EventPage;

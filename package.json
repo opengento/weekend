@@ -34,5 +34,10 @@
     "eslint-config-next": "^15",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
   }
 }

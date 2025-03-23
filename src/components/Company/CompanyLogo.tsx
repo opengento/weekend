@@ -1,10 +1,10 @@
-import { CompanyProps } from "@/components/Company/company.types";
 import Image from "next/image";
 import Link from "next/link";
 import classNames from "classnames";
+import { Company } from "@/interfaces/company";
 
 interface CompanyLogo {
-  company: CompanyProps;
+  company: Company;
   className?: string;
 }
 

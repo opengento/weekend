@@ -1,10 +1,9 @@
-"use client";
-
 import Typography from "@/components/Typography/Typography";
 import Article from "@/layouts/Article";
 import Container from "@/layouts/Container";
 import Board from "@/components/Association/Board/Board";
 import Link from "next/link";
+import {getBoard} from "@/lib/association";
 
 export default function Page() {
   return (
@@ -55,7 +54,7 @@ export default function Page() {
         </Article>
       </Container>
       <Container>
-        <Board/>
+        <Board individuals={getBoard()} />
       </Container>
     </>
   );

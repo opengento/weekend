@@ -1,15 +1,21 @@
 "use client";
 
 import { useTranslation } from "next-i18next";
-import Article from "@/layouts/Article";
-import Typography from "@/components/Typography/Typography";
+import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
+import Typography from "@/components/Typography/Typography";
+import Article from "@/layouts/Article";
 
 const Faq = () => {
   const { t } = useTranslation("common");
-  const faq = t("common:push.faq.link", { returnObjects: true }) as ButtonLinkProps;
-  const contact = t("common:push.contact", { returnObjects: true }) as ButtonLinkProps;
+  const faq = t(
+    "common:push.faq.link",
+    { returnObjects: true }
+  ) as ButtonLinkType;
+  const contact = t(
+    "common:push.contact",
+    { returnObjects: true }
+  ) as ButtonLinkType;
 
   return (
     <Article align="center">

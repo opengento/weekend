@@ -1,9 +1,9 @@
-import { EventProps } from "@/components/Event/event.types";
-import EventCard from "@/components/Event/EventCard";
 import { useId } from "react";
+import { Event } from "@/interfaces/event";
+import EventCard from "@/components/Event/EventCard";
 
 interface EventList {
-  events: EventProps[]
+  events: Event[]
 }
 
 const EventList = ({ events }: EventList) => {

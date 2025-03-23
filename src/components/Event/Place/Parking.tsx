@@ -1,15 +1,16 @@
-import { FaParking } from "react-icons/fa";
-import { EventAccessProps } from "@/components/Event/event.types";
-import Typography from "@/components/Typography/Typography";
-import Link from "next/link";
 import { useId } from "react";
+import { FaParking } from "react-icons/fa";
+import Link from "next/link";
+import { EventAccess } from "@/interfaces/event";
+import Typography from "@/components/Typography/Typography";
 
 interface Parking {
-  access: EventAccessProps;
+  access: EventAccess;
 }
 
 const Parking = ({ access }: Parking) => {
   const id = useId();
+
   return (
     <div className="flex flex-col gap-2">
       <Typography color="dark" className="underline">

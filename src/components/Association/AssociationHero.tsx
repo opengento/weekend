@@ -1,14 +1,17 @@
 "use client";
 
-import Hero from "@/components/Hero/Hero";
-import { useTranslation } from "next-i18next";
-import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
-import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { useId } from "react";
+import { useTranslation } from "next-i18next";
+import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import Hero from "@/components/Hero/Hero";
 
 const AssociationHero = () => {
   const { t } = useTranslation(["association"]);
-  const actions = t("association:hero.actions", { returnObjects: true }) as ButtonLinkProps[];
+  const actions = t(
+    "association:hero.actions",
+    { returnObjects: true }
+  ) as ButtonLinkType[];
   const id = useId();
 
   return (

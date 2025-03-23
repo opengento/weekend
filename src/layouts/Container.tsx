@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import classNames from "classnames";
 
-interface ContainerProps {
+interface Container {
   children: ReactNode;
   className?: string;
   size?: "default" | "small" | "large";
@@ -11,7 +11,7 @@ const Container = ({
   children,
   className,
   size = "default",
-}: ContainerProps) => {
+}: Container) => {
   return (
     <div
       className={classNames(

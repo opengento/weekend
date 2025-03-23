@@ -1,8 +1,8 @@
-import { IndividualProps } from "@/components/Individual/individual.types";
 import Image from "next/image";
+import { Individual } from "@/interfaces/individual";
 
 interface Avatar {
-  individual: IndividualProps;
+  individual: Individual;
 }
 
 const IndividualAvatar = ({ individual }: Avatar) => {

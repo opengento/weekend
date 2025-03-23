@@ -1,12 +1,14 @@
-import { IndividualProps } from "@/components/Individual/individual.types";
+"use client";
+
+import { useTranslation } from "next-i18next";
 import IndividualCard from "@/components/Individual/IndividualCard";
 import Drawer from "@/components/Drawer/Drawer";
 import IndividualAvatar from "@/components/Individual/IndividualAvatar";
 import IndividualIdentity from "@/components/Individual/IndividualIdentity";
-import {useTranslation} from "next-i18next";
+import { Individual as IndividualType } from "@/interfaces/individual";
 
 interface Individual {
-  individual: IndividualProps;
+  individual: IndividualType;
 }
 
 const Individual = ({ individual }: Individual) => {

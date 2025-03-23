@@ -1,11 +1,11 @@
+import { Event } from "@/interfaces/event";
 import Date from "@/components/Event/Date/Date";
 import Address from "@/components/Event/Place/Address";
 import Parking from "@/components/Event/Place/Parking";
-import { EventProps } from "@/components/Event/event.types";
 import PublicTransport from "@/components/Event/Place/PublicTransport";
 
 interface EventInfo {
-  event: EventProps;
+  event: Event;
 }
 
 const EventInfo = ({ event }: EventInfo) => {

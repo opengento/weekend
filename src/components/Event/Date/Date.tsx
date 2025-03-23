@@ -1,11 +1,13 @@
-import { EventDateProps } from "@/components/Event/event.types";
+"use client";
+
 import Time from "@/components/Time/Time";
 import { useTranslation } from "next-i18next";
 import { FaClock } from "react-icons/fa";
 import Typography from "@/components/Typography/Typography";
+import { EventDate } from "@/interfaces/event";
 
 interface Date {
-  date: EventDateProps;
+  date: EventDate;
 }
 
 const Date = ({ date }: Date) => {

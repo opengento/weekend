@@ -1,75 +1,80 @@
 import type { UrlObject } from "url";
-import { IndividualProps } from "@/components/Individual/individual.types";
-import {ButtonLinkProps} from "@/components/ButtonLink/link.types";
+import { ButtonLink } from "@/interfaces/link";
+import { Individual } from "@/interfaces/individual";
+import { Company } from "@/interfaces/company";
 
-type EventDate = {
+export type EventDate = {
   from: Date;
   to: Date;
-}
+};
 
-type EventSchedules = {
+export type EventSchedules = {
   name: string;
   description: string;
   date: EventDate;
-}
+};
 
-type EventProgram = {
+export type EventProgram = {
   title: string;
   schedules: EventSchedules[];
-}
+};
 
-type EventPlaceLocation = {
+export type EventPlaceLocation = {
   icons?: {
     name: string;
     src: string;
   };
   name: string;
   url: string | UrlObject;
-}
+};
 
-type EventPlacePublicTransport = {
+export type EventPlacePublicTransport = {
   title: string;
   description: string;
   itinerary: EventPlaceLocation[];
-}
+};
 
-type EventPlaceParking = {
+export type EventPlaceParking = {
   title: string;
   description: string;
   locations: EventPlaceLocation[];
-}
+};
 
-type EventAccess = {
+export type EventAccess = {
   publicTransport: EventPlacePublicTransport;
   parking: EventPlaceParking;
-}
+};
 
-type EventPlace = {
+export type EventPlace = {
   name: string;
   url: string | UrlObject;
   address: string;
   access: EventAccess | null;
-}
+};
 
-type EventSponsorType = "bronze" | "silver" | "gold" | "platinum";
+export type EventSponsorType = "bronze" | "silver" | "gold" | "platinum";
 
-type EventSponsor = {
+export type EventSponsor = {
   type: EventSponsorType;
   companyId: number;
-}
+  company?: Company;
+};
 
-type EventStaff = IndividualProps["id"];
+export type EventStaff = {
+  individualId: Individual["id"];
+  individual: Individual;
+};
 
-type Media = {
+export type Media = {
   name: string;
   alt: string;
   src: string;
   height: number;
   width: number;
   content?: string | undefined;
-}
+};
 
-type Event = {
+export type Event = {
   identifier: string;
   title: string;
   bannerSrc: string;
@@ -77,8 +82,8 @@ type Event = {
   description: string;
   content: string;
   actions: {
-    registration: ButtonLinkProps | undefined;
-    callForPapers: ButtonLinkProps | undefined;
+    registration: ButtonLink | undefined;
+    callForPapers: ButtonLink | undefined;
   }
   date: EventDate;
   programs: EventProgram[];
@@ -87,12 +92,3 @@ type Event = {
   staff: EventStaff[];
   gallery: Media[];
 };
-
-export type EventProgramProps = EventProgram;
-export type EventAccessProps = EventAccess;
-export type EventPlaceProps = EventPlace;
-export type EventSponsorTypeProps = EventSponsorType;
-export type EventSponsorProps = EventSponsor;
-export type EventStaffProps = EventStaff;
-export type EventDateProps = EventDate;
-export type EventProps = Event;

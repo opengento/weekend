@@ -1,14 +1,15 @@
+import { EventStaff } from "@/interfaces/event";
 import IndividualGrid from "@/components/Individual/IndividualGrid";
-import { EventStaffProps } from "@/components/Event/event.types";
-import { decorateStaff } from "@/functions/events";
 
 interface StaffGrid {
-  staff: EventStaffProps[];
+  staff: EventStaff[];
 }
 
 const StaffGrid = ({ staff }: StaffGrid) => {
+  const individuals = staff.map((staff) => (staff.individual));
+
   return (
-    <IndividualGrid individuals={decorateStaff(staff)} itemsPerRow={3} />
+    <IndividualGrid individuals={individuals} itemsPerRow={3} />
   );
 };
 

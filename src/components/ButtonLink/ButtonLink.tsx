@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { ReactNode } from "react";
 import classNames from "classnames";
-import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
+import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 
 interface ButtonLink {
-  cta: ButtonLinkProps;
+  cta: ButtonLinkType;
   icon?: ReactNode | undefined;
   className?: string | undefined;
 }

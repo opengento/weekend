@@ -3,7 +3,7 @@ import Link from "next/link";
 import classNames from "classnames";
 import type { UrlObject } from "url";
 
-interface LogoProps {
+interface Logo {
   size?: "small" | "normal"| "medium" | "large";
   logoSrc?: string | undefined;
   logoText?: string;
@@ -19,7 +19,7 @@ const Logo = ({
   showText = true,
   href,
   className = ""
-}: LogoProps) => {
+}: Logo) => {
   return (
     <Link
       href={href}

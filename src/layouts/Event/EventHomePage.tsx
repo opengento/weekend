@@ -1,20 +1,19 @@
 "use client";
 
-import EventHero from "@/components/Event/EventHero";
-import { getEvent } from "@/functions/events";
-import SponsorGrid from "@/components/Event/Sponsor/SponsorGrid";
+import { useTranslation } from "next-i18next";
+import { Event } from "@/interfaces/event";
 import Container from "@/layouts/Container";
+import EventHero from "@/components/Event/EventHero";
+import SponsorGrid from "@/components/Event/Sponsor/SponsorGrid";
 import Typography from "@/components/Typography/Typography";
 import EventInfo from "@/components/Event/EventInfo";
-import { useTranslation } from "next-i18next";
 
-const EventHomePage = () => {
+interface EventHomePage {
+  event: Event;
+}
+
+const EventHomePage = ({ event }: EventHomePage) => {
   const { t } = useTranslation(["events"]);
-  const event = getEvent();
-
-  if (event === null) {
-    return <></>;
-  }
 
   return (
     <>
