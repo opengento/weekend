@@ -25,17 +25,19 @@ const EventPage = ({ event }: EventPage) => {
   return (
     <Container size="large" className="flex flex-col gap-8 my-8">
       <Hero imagePath={event.bannerSrc} size="xl" className="rounded-lg p-8">
-        <div className="flex items-center gap-4">
-          <Image
-            src={event.logoSrc}
-            alt=""
-            width={56}
-            height={56}
-            className="w-14 object-contain"
-          />
-          <Typography variant="h1" weight="semibold" color="dark">
-            {event.title}
-          </Typography>
+        <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <Image
+              src={event.logoSrc}
+              alt=""
+              width={56}
+              height={56}
+              className="w-14 object-contain"
+            />
+            <Typography variant="h1" weight="semibold" color="dark">
+              {event.title}
+            </Typography>
+          </div>
           {event.actions.registration && isActive(event) && (
             <ButtonLink
               cta={event.actions.registration}
