@@ -64,7 +64,6 @@ const EventSlider = ({ events, className }: EventSlider) => {
           <Typography
             variant="h4"
             color="primary"
-            weight="thin"
             align="center"
           >
             {event.title}

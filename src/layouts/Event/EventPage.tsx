@@ -2,7 +2,9 @@
 
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
+import { FaTicket } from "react-icons/fa6";
 import { Event } from "@/interfaces/event";
+import { isActive } from "@/lib/event/date";
 import Container from "@/layouts/Container";
 import Article from "@/layouts/Article";
 import Typography from "@/components/Typography/Typography";
@@ -11,6 +13,7 @@ import Program from "@/components/Event/Program/Program";
 import SponsorList from "@/components/Event/Sponsor/SponsorList";
 import StaffGrid from "@/components/Event/Staff/StaffGrid";
 import EventInfo from "@/components/Event/EventInfo";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 interface EventPage {
   event: Event;
@@ -33,9 +36,14 @@ const EventPage = ({ event }: EventPage) => {
           <Typography variant="h1" weight="semibold" color="dark">
             {event.title}
           </Typography>
+          {event.actions.registration && isActive(event) && (
+            <ButtonLink
+              cta={event.actions.registration}
+              icon={<FaTicket />}
+            />
+          )}
         </div>
       </Hero>
-      ToDo: If active: show registration link
       <Article>
         <Typography color="dark" className="whitespace-pre-wrap">
           {event.content}

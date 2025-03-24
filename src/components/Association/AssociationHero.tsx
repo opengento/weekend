@@ -15,7 +15,7 @@ const AssociationHero = () => {
   const id = useId();
 
   return (
-    <Hero imagePath="/images/media/bg.webp" size="full" blurAmount="lg">
+    <Hero imagePath="/images/media/hero.jpg" size="full">
       <div className="max-w-xl">
         <h1 className="mb-5 text-5xl font-bold">
           {t("association:hero.title")}

@@ -3,6 +3,41 @@
     "title": "Nos membres donateurs",
     "content": "Nos membres donateurs sont des acteurs incontournable de l’écosytème e-commerce !\nLeur soutient permet de rendre réalisable les objectifs de l’association."
   },
+  "enrol": {
+    "individual": {
+      "title": "Personne physique",
+      "content": "L’adhésion à l’associatoin n’est pas limité dans le temps. Le montant dû de la contisation n’est à payé qu'une seule fois, au moment de l’adhésion.",
+      "list": [
+        "Accès au compte Slack de l’association pour échanger",
+        "Adhésion requise pour participer à un événement"
+      ],
+      "pricing": "5.00 €",
+      "cta": {
+        "label": "Je veux adhérer",
+        "href": "https://www.helloasso.com/associations/opengento/adhesions/adhesion-individuelle-opengento",
+        "target": "_blank",
+        "level": "primary"
+      }
+    },
+    "company": {
+      "title": "Personne morale",
+      "content": "L’adhésion d’une entreprise est valable sur une année glissante. Le montant dû de la cotisation est à payer au moment de l’adhésion ou de son renouvellement.",
+      "list": [
+        "Présentation dans l’annuaire",
+        "Accès prioritaire aux sponsorings d’événements",
+        "Accès prioritaire aux places des événements sponsorisés",
+        "Offres spéciales des partenaires de l’association",
+        "Réservé aux prestataires de développement e-commerce"
+      ],
+      "pricing": "100.00 € / an (pas de TVA)",
+      "cta":{
+        "label": "Je veux adhérer avec mon enteprise",
+        "href": "https://www.helloasso.com/associations/opengento/adhesions/adhesion-entreprise-opengento",
+        "target": "_blank",
+        "level": "primary"
+      }
+    }
+  },
   "stats": [
     {
       "icon": "",

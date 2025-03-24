@@ -3,7 +3,9 @@ import Article from "@/layouts/Article";
 import Container from "@/layouts/Container";
 import Board from "@/components/Association/Board/Board";
 import Link from "next/link";
-import {getBoard} from "@/lib/association";
+import { getBoard } from "@/lib/association";
+import EnrolSection from "@/components/Association/EnrolSection";
+import Divider from "@/components/Divider/Divider";
 
 export default function Page() {
   return (
@@ -40,6 +42,8 @@ export default function Page() {
           <Typography color="dark">
             Voir nos <Link href="/members" className="link">membres donateurs</Link>.
           </Typography>
+          <Divider color="primary" position="horizontal" />
+          <EnrolSection />
         </Article>
         <Article>
           <Typography variant="h2" underlineColor="secondary" color="dark">
