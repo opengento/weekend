@@ -1,0 +1,195 @@
+{
+  "identifier": "weekend-opengento-2024",
+  "title": "Weekend Opengento Toulouse 2024",
+  "logoSrc": "/images/logo/opengento.svg",
+  "bannerSrc": "/images/events/sample/bg.jpeg",
+  "description": "Le Week-end Opengento 2024 arrive à grand pas !\n\nNous serons en mars 2024 à nouveau à Croix de Pastel à Lavaur à côté de Toulouse.",
+  "content": "La possibilité de se réunir dans une ambiance conviviale et détendue pour parler dev, infra, méthodes de travail mais pas que ! C’est surtout le plaisir de se retrouver et de se rencontrer, (en chair et en os), et pas que sur Slack ou Twitter, mais surtout d’apprendre et de partager !\n\nLe Week-end n’est ouvert qu’aux adhérents Opengento, l’adhésion coûte 5€ /an.",
+  "actions": {
+    "registration": {
+      "label": "Je prends mon billet !",
+      "href": "https://www.helloasso.com/associations/opengento/evenements/we-opengento-toulouse-2024",
+      "level": "primary"
+    }
+  },
+  "date": {
+    "from": "2024-03-08T14:00:00",
+    "to": "2024-03-10T15:00:00"
+  },
+  "programs": [
+    {
+      "title": "Vendredi 8 mars 2024",
+      "schedules": [
+        {
+          "name": "Arrivée des participants",
+          "description": "Accueil des premiers arrivants directement à Croix de Pastel à 1000m de la gare SNCF de Lavaur",
+          "date": {
+            "from": "2024-03-08T14:00:00",
+            "to": "2024-03-08T19:00:00"
+          }
+        },
+        {
+          "name": "Brainstorming",
+          "description": "Proposition des sujets et formation des équipes.",
+          "date": {
+            "from": "2024-03-08T21:00:00",
+            "to": "2024-03-08T22:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Samedi 9 mars 2024",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2024-03-09T07:30:00",
+            "to": "2024-03-09T09:30:00"
+          }
+        },
+        {
+          "name": "Début des projets",
+          "description": "",
+          "date": {
+            "from": "2024-03-09T09:30:00",
+            "to": "2024-03-09T12:30:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "",
+          "date": {
+            "from": "2024-03-09T12:30:00",
+            "to": "2024-03-09T14:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2024-03-09T14:30:00",
+            "to": "2024-03-09T19:00:00"
+          }
+        },
+        {
+          "name": "Repas du soir",
+          "description": "",
+          "date": {
+            "from": "2024-03-09T19:00:00",
+            "to": "2024-03-09T21:00:00"
+          }
+        },
+        {
+          "name": "Talks",
+          "description": "Présentation de sujets par les participants, discours du président, discussions libres, temps libre",
+          "date": {
+            "from": "2024-03-09T21:00:00",
+            "to": "2024-03-09T23:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dimanche 10 mars 2024",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2024-03-10T07:30:00",
+            "to": "2024-03-10T09:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2024-03-10T09:30:00",
+            "to": "2024-03-10T11:00:00"
+          }
+        },
+        {
+          "name": "Présentation des projets du hackathon",
+          "description": "",
+          "date": {
+            "from": "2024-03-10T11:00:00",
+            "to": "2024-03-10T12:00:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "",
+          "date": {
+            "from": "2024-03-10T12:00:00",
+            "to": "2024-03-10T14:00:00"
+          }
+        },
+        {
+          "name": "Temps libre – départs",
+          "description": "",
+          "date": {
+            "from": "2024-03-10T14:00:00",
+            "to": "2024-03-10T15:00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "place": {
+    "name": "Gîte Croix de Pastel",
+    "address": "21, Rue du Père Colin, 81500 Lavaur, France",
+    "url": "https://www.gite-croix-de-pastel.fr/",
+    "access": {
+      "publicTransport": {
+        "title": "Transports en commun",
+        "description": "Profitez des transports en commun :",
+        "itinerary": [
+          {
+            "icons": [],
+            "name": "Gare SNCF",
+            "url": "https://www.google.fr/maps/dir/croix+de+pastel/Gare+de+Lavaur,+81500+Lavaur/@43.7007481,1.8140766,17z/data=!4m14!4m13!1m5!1m1!1s0x12ae874cf6a42f1b:0x8fa4a92fff29c284!2m2!1d1.8188237!2d43.6979161!1m5!1m1!1s0x12ae80b2c8d28d05:0x56bd9aba7a7d0c08!2m2!1d1.8131458!2d43.70348!3e2"
+          }
+        ]
+      },
+      "parking": {
+        "title": "Venir en voiture",
+        "description": "Des places de parkings sont disponible dans la rue.",
+        "locations": []
+      }
+    }
+  },
+  "sponsors": [
+    {
+      "type": "gold",
+      "companyId": 2
+    },
+    {
+      "type": "gold",
+      "companyId": 3
+    },
+    {
+      "type": "gold",
+      "companyId": 4
+    },
+    {
+      "type": "gold",
+      "companyId": 5
+    },
+    {
+      "type": "gold",
+      "companyId": 6
+    },
+    {
+      "type": "gold",
+      "companyId": 9
+    },
+    {
+      "type": "gold",
+      "companyId": 12
+    }
+  ],
+  "staff": [],
+  "gallery": []
+}

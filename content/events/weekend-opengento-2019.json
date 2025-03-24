@@ -1,0 +1,168 @@
+{
+  "identifier": "weekend-opengento-2019",
+  "title": "Weekend Opengento Béthune 2019",
+  "logoSrc": "/images/logo/opengento.svg",
+  "bannerSrc": "/images/events/sample/bg.jpeg",
+  "description": "Le Week-end Opengento 2019 arrive à grand pas !\n\nNous serons cette année au parc d’Olhain (base de loisirs, parcours aventure dans les arbres, camping) dans le Nord Pas-de-Calais.",
+  "content": "La possibilité de se réunir dans une ambiance conviviale et détendue pour parler dev, infra, méthodes de travail mais pas que ! C’est surtout le plaisir de se retrouver et de se rencontrer, (en chair et en os), et pas que sur Slack ou Twitter, mais surtout d’apprendre et de partager !\n\nLe Week-end n’est ouvert qu’aux adhérents Opengento, l’adhésion coûte 5€ /an.",
+  "actions": {
+    "registration": {
+      "label": "Je prends mon billet !",
+      "href": "",
+      "level": "primary"
+    }
+  },
+  "date": {
+    "from": "2019-11-15T14:00:00",
+    "to": "2019-11-17T15:00:00"
+  },
+  "programs": [
+    {
+      "title": "Vendredi 15 novembre 2019",
+      "schedules": [
+        {
+          "name": "Arrivée des participants",
+          "description": "Accueil des premiers arrivants dans les locaux d’Adexos à Béthune",
+          "date": {
+            "from": "2019-11-15T14:00:00",
+            "to": "2019-11-15T19:00:00"
+          }
+        },
+        {
+          "name": "Inauguration",
+          "description": "Inauguration des nouveaux locaux d’Adexos",
+          "date": {
+            "from": "2019-11-15T19:00:00",
+            "to": "2019-11-15T22:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Samedi 16 novembre 2019",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2019-11-16T07:30:00",
+            "to": "2019-11-16T09:30:00"
+          }
+        },
+        {
+          "name": "Sujets du hackathon",
+          "description": "Brainstorming, proposition des sujets et formation des équipes",
+          "date": {
+            "from": "2019-11-16T09:30:00",
+            "to": "2019-11-16T10:00:00"
+          }
+        },
+        {
+          "name": "Début des projets",
+          "description": "",
+          "date": {
+            "from": "2019-11-16T10:00:00",
+            "to": "2019-11-16T12:30:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "",
+          "date": {
+            "from": "2019-11-16T12:30:00",
+            "to": "2019-11-16T14:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2019-11-16T14:30:00",
+            "to": "2019-11-16T19:00:00"
+          }
+        },
+        {
+          "name": "Repas du soir",
+          "description": "",
+          "date": {
+            "from": "2019-11-16T19:00:00",
+            "to": "2019-11-16T21:00:00"
+          }
+        },
+        {
+          "name": "Talks",
+          "description": "Présentation de sujets par les participants, discours du président, discussions libres, temps libre",
+          "date": {
+            "from": "2019-11-16T21:00:00",
+            "to": "2019-11-16T23:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dimanche 17 novembre 2019",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2019-11-17T07:30:00",
+            "to": "2019-11-17T09:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2019-11-17T09:30:00",
+            "to": "2019-11-17T11:00:00"
+          }
+        },
+        {
+          "name": "Présentation des projets du hackathon",
+          "description": "",
+          "date": {
+            "from": "2019-11-17T11:00:00",
+            "to": "2019-11-17T12:00:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "",
+          "date": {
+            "from": "2019-11-17T12:00:00",
+            "to": "2019-11-17T14:00:00"
+          }
+        },
+        {
+          "name": "Temps libre – départs",
+          "description": "",
+          "date": {
+            "from": "2019-11-17T14:00:00",
+            "to": "2019-11-17T15:00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "place": {
+    "name": "Parc d’Olhain",
+    "address": "rue de Rebreuve 62620 MAISNIL LES RUITZ",
+    "url": "https://www.parcdolhain.fr/",
+    "access": {
+      "publicTransport": {
+        "title": "Transports en commun",
+        "description": "Pensez aux transports en commun !",
+        "itinerary": []
+      },
+      "parking": {
+        "title": "Venir en voiture",
+        "description": "Des places de parkings sont disponible dans le Parc.",
+        "locations": []
+      }
+    }
+  },
+  "sponsors": [],
+  "staff": [],
+  "gallery": []
+}

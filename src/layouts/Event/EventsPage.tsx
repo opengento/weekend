@@ -30,24 +30,28 @@ const EventPage = ({ activeEvent, currentEvents, upcomingEvents, pastEvents }: E
         {activeEvent && (<EventCard event={activeEvent} />)}
         <EventList events={currentEvents} />
       </Article>
-      <Article>
-        <Typography variant="h2" color="dark">
-          {t("events:upcoming.title")}
-        </Typography>
-        <Typography color="dark" className="whitespace-pre-wrap">
-          {t("events:upcoming.content")}
-        </Typography>
-        <EventList events={upcomingEvents} />
-      </Article>
-      <Article>
-        <Typography variant="h2" color="dark">
-          {t("events:past.title")}
-        </Typography>
-        <Typography color="dark" className="whitespace-pre-wrap">
-          {t("events:past.content")}
-        </Typography>
-        <EventList events={pastEvents} />
-      </Article>
+      {upcomingEvents.length > 0 && (
+        <Article>
+          <Typography variant="h2" color="dark">
+            {t("events:upcoming.title")}
+          </Typography>
+          <Typography color="dark" className="whitespace-pre-wrap">
+            {t("events:upcoming.content")}
+          </Typography>
+          <EventList events={upcomingEvents} />
+        </Article>
+      )}
+      {pastEvents.length > 0 && (
+        <Article>
+          <Typography variant="h2" color="dark">
+            {t("events:past.title")}
+          </Typography>
+          <Typography color="dark" className="whitespace-pre-wrap">
+            {t("events:past.content")}
+          </Typography>
+          <EventList events={pastEvents} />
+        </Article>
+      )}
     </Container>
   );
 }

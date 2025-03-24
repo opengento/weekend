@@ -1,0 +1,168 @@
+{
+  "identifier": "weekend-opengento-2018",
+  "title": "Weekend Opengento Allègre 2018",
+  "logoSrc": "/images/logo/opengento.svg",
+  "bannerSrc": "/images/events/sample/bg.jpeg",
+  "description": "Pour l’année 2018, nous nous éloignons de la ville rose pour nous rapprocher du pays de la lentille verte et de la liqueur de verveine ! Oui, nous serons cette année au cœur la Haute Loire, tout près des volcans d’Auvergne et au calme, loin du tumulte des grandes villes.",
+  "content": "Nous serons réunis cette année dans la commune d’Allègre à 30 km du Puy-en-Velay.\n\nComme l’année dernière, les places sont à 135 € par personne et prennent en charge l’intégralité du week-end (logement, nourriture, boissons, ménage).\n\nIl ne vous reste qu’à venir à Allègre, avec le moyen de transport de votre choix, avion, train, voiture, pousse-pousse et même mulet ! (vous risquez d’en croiser sur la route ! \uD83D\uDE42)\n\nLe Week-End aura lieu du Vendredi 1er juin 2018 au Dimanche 3 juin 2018.",
+  "actions": {
+    "registration": {
+      "label": "Je prends mon billet !",
+      "href": "https://www.weezevent.com/week-end-auvergne-2018",
+      "level": "primary"
+    }
+  },
+  "date": {
+    "from": "2018-06-01T14:00:00",
+    "to": "2018-06-03T15:00:00"
+  },
+  "programs": [
+    {
+      "title": "Vendredi 1 juin 2018",
+      "schedules": [
+        {
+          "name": "Arrivée des participants",
+          "description": "Accueil des premiers arrivants dans les locaux de Kiboko",
+          "date": {
+            "from": "2018-06-01T14:00:00",
+            "to": "2018-06-01T19:00:00"
+          }
+        },
+        {
+          "name": "Repas",
+          "description": "Dîner et soirée sympathique",
+          "date": {
+            "from": "2018-06-01T19:00:00",
+            "to": "2018-06-01T22:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Samedi 2 juin 2018",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2018-06-02T07:30:00",
+            "to": "2018-06-02T09:00:00"
+          }
+        },
+        {
+          "name": "Sujets du hackathon",
+          "description": "Brainstorming, proposition des sujets et formation des équipes",
+          "date": {
+            "from": "2018-06-02T09:00:00",
+            "to": "2018-06-02T10:00:00"
+          }
+        },
+        {
+          "name": "Début des projets",
+          "description": "",
+          "date": {
+            "from": "2018-06-02T10:00:00",
+            "to": "2018-06-02T12:30:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "Repas au restaurant Saveur d’Ailleurs",
+          "date": {
+            "from": "2018-06-02T12:30:00",
+            "to": "2018-06-02T14:00:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2018-06-02T14:30:00",
+            "to": "2018-06-02T19:00:00"
+          }
+        },
+        {
+          "name": "Repas du soir",
+          "description": "Repas au restaurant Saveur d’Ailleurs",
+          "date": {
+            "from": "2018-06-02T19:00:00",
+            "to": "2018-06-02T21:00:00"
+          }
+        },
+        {
+          "name": "Talks",
+          "description": "Présentation de sujets par les participants, discours du président, discussions libres, temps libre",
+          "date": {
+            "from": "2018-06-02T21:00:00",
+            "to": "2018-06-02T23:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dimanche 3 juin 2018",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2018-06-03T07:30:00",
+            "to": "2018-06-03T09:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2018-06-03T09:30:00",
+            "to": "2018-06-03T11:00:00"
+          }
+        },
+        {
+          "name": "Présentation des projets du hackathon",
+          "description": "",
+          "date": {
+            "from": "2018-06-03T11:00:00",
+            "to": "2018-06-03T12:00:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "Barbecue",
+          "date": {
+            "from": "2018-06-03T12:00:00",
+            "to": "2018-06-03T14:00:00"
+          }
+        },
+        {
+          "name": "Temps libre – départs",
+          "description": "",
+          "date": {
+            "from": "2018-06-03T14:00:00",
+            "to": "2018-06-03T15:00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "place": {
+    "name": "Gîte Les Tilleuls St-Martin",
+    "address": "30 Rue du Mont Bar, 43270 Allègre",
+    "url": "https://www.gites-de-france-haute-loire.fr/fr/location/gites-groupe-allegre-les-tilleuls-st-martin-h43p006632",
+    "access": {
+      "publicTransport": {
+        "title": "Transports en commun",
+        "description": "Pensez aux transports en commun !",
+        "itinerary": []
+      },
+      "parking": {
+        "title": "Venir en voiture",
+        "description": "Des places de parkings sont disponible dans la rue.",
+        "locations": []
+      }
+    }
+  },
+  "sponsors": [],
+  "staff": [],
+  "gallery": []
+}

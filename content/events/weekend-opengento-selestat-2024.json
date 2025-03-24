@@ -156,8 +156,7 @@
       "parking": {
         "title": "Venir en voiture",
         "description": "Des places de parkings sont disponible dans la rue.",
-        "locations": [
-        ]
+        "locations": []
       }
     }
   },

@@ -53,24 +53,28 @@ const EventPage = ({ event }: EventPage) => {
         </Typography>
         <Program event={event}/>
       </Article>
-      <Article align="center">
-        <Typography variant="h2" color="dark" underlineColor="secondary">
-          {t("events:sponsors.title")}
-        </Typography>
-        <Typography variant="subtitle1" color="dark" className="whitespace-pre-wrap mb-4">
-          {t("events:sponsors.subtitle")}
-        </Typography>
-        <SponsorList sponsors={event.sponsors}/>
-      </Article>
-      <Article color="base-100" align="center">
-        <Typography variant="h2" color="dark" underlineColor="secondary">
-          {t("events:staff.title")}
-        </Typography>
-        <Typography variant="subtitle1" color="dark" className="whitespace-pre-wrap mb-4">
-          {t("events:staff.subtitle")}
-        </Typography>
-        <StaffGrid staff={event.staff} />
-      </Article>
+      {event.sponsors.length > 0 && (
+        <Article align="center">
+          <Typography variant="h2" color="dark" underlineColor="secondary">
+            {t("events:sponsors.title")}
+          </Typography>
+          <Typography variant="subtitle1" color="dark" className="whitespace-pre-wrap mb-4">
+            {t("events:sponsors.subtitle")}
+          </Typography>
+          <SponsorList sponsors={event.sponsors}/>
+        </Article>
+      )}
+      {event.staff.length > 0 && (
+        <Article color="base-100" align="center">
+          <Typography variant="h2" color="dark" underlineColor="secondary">
+            {t("events:staff.title")}
+          </Typography>
+          <Typography variant="subtitle1" color="dark" className="whitespace-pre-wrap mb-4">
+            {t("events:staff.subtitle")}
+          </Typography>
+          <StaffGrid staff={event.staff} />
+        </Article>
+      )}
     </Container>
   );
 }

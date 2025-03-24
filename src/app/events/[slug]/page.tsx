@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllEvents, getEvent } from "@/lib/event";
+import { getAllEventIds, getEvent} from "@/lib/event";
 import EventPage from "@/layouts/Event/EventPage";
 
 type Params = {
@@ -36,9 +36,9 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-  return getAllEvents().map((event) => ({
+  return getAllEventIds().map((eventId) => ({
     params: {
-      slug: event.identifier,
+      slug: eventId,
     }
   }));
 }

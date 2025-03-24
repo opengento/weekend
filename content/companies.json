@@ -95,6 +95,38 @@
       "url": "https://ati4group.com/",
       "logoSrc": "/images/logo/ati4group.svg",
       "iconSrc": "/images/logo/icon/ati4group.svg"
+    },
+    {
+      "id": 13,
+      "name": "Occitech",
+      "description": "La réussite du produit tient autant de votre participation active que de nos compétences. Partagez votre vision avec notre équipe agile, interagissez avec vos utilisateurs, changez d’avis, trompez-vous même pour construire ensemble la solution idéale.",
+      "url": "https://www.occitech.fr/",
+      "logoSrc": "/images/logo/occitech.jpg",
+      "iconSrc": "/images/logo/icon/occitech.jpg"
+    },
+    {
+      "id": 14,
+      "name": "X2i",
+      "description": "X2i est la première équipe de conseil et d’ingénierie dédiée aux projets Magento en France.",
+      "url": "http://www.x2i.fr/",
+      "logoSrc": "/images/logo/x2i.png",
+      "iconSrc": "/images/logo/x2i.png"
+    },
+    {
+      "id": 15,
+      "name": "Diglin",
+      "description": "Diglin GmbH travaille principalement avec des outils Open Source et selon les projets, avec les méthodes Agiles, afin d'apporter à ses clients le plus de flexibilité dans la conception de leur business en ligne tout en lui permettant de rester le plus indépendant possible à tous les niveaux.",
+      "url": "https://www.diglin.com/",
+      "logoSrc": "/images/logo/diglin.png",
+      "iconSrc": "/images/logo/icon/diglin.webp"
+    },
+    {
+      "id": 16,
+      "name": "PayZen",
+      "description": "Que vous ayez un site e-commerce ou que vous souhaitiez simplement recevoir des paiements à distance, la plateforme de paiement PayZen est idéale pour votre activité. Notre service est compatible avec toutes les banques françaises dans le respect des derniers protocoles bancaires et du 3DS2.",
+      "url": "https://www.payzen.eu/",
+      "logoSrc": "/images/logo/payzen.svg",
+      "iconSrc": "/images/logo/icon/payzen.png"
     }
   ]
 }

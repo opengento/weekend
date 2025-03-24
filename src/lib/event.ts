@@ -1,5 +1,4 @@
-import { Event, EventSponsor, EventSponsorType } from "@/interfaces/event";
-import { Company } from "@/interfaces/company";
+import { Event } from "@/interfaces/event";
 import { listFiles, readJson } from "@/lib/filesystem";
 import { getIndividual } from "@/lib/individual";
 import { getCompany } from "@/lib/company";
@@ -57,7 +56,7 @@ const getAllEvents = () => {
     }
 
     return eventList;
-  }, [] as Event[]);
+  }, [] as Event[]).sort((a, b) => new Date(a.date.from) < new Date(b.date.from) ? 1: -1);
 }
 
 const getUpcomingEvents = () => {
@@ -103,6 +102,7 @@ const getEvent = (id?: string | undefined) => {
 
 export {
   getEvent,
+  getAllEventIds,
   getAllEvents,
   getUpcomingEvents,
   getCurrentEvents,
