@@ -1,4 +1,4 @@
-import { ButtonLinkProps } from "@/components/ButtonLink/link.types";
+import { ButtonLink } from "@/interfaces/link";
 
 type Stat = {
   iconSrc?: string | null | undefined;
@@ -6,7 +6,7 @@ type Stat = {
   value: string;
   description: string;
   color?: "primary" | "secondary" | "neutral" | "accent" | "success" | "warning" | "info" | "error" | null | undefined;
-  actions: ButtonLinkProps[]
+  actions: ButtonLink[]
 }
 
 export type StatProps = Stat;
