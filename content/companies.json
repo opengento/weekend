@@ -115,7 +115,7 @@
     {
       "id": 15,
       "name": "Diglin",
-      "description": "Diglin GmbH travaille principalement avec des outils Open Source et selon les projets, avec les méthodes Agiles, afin d'apporter à ses clients le plus de flexibilité dans la conception de leur business en ligne tout en lui permettant de rester le plus indépendant possible à tous les niveaux.",
+      "description": "Diglin GmbH travaille principalement avec des outils Open Source et selon les projets, avec les méthodes Agiles, afin d’apporter à ses clients le plus de flexibilité dans la conception de leur business en ligne tout en lui permettant de rester le plus indépendant possible à tous les niveaux.",
       "url": "https://www.diglin.com/",
       "logoSrc": "/images/logo/diglin.png",
       "iconSrc": "/images/logo/icon/diglin.webp"
@@ -127,6 +127,14 @@
       "url": "https://www.payzen.eu/",
       "logoSrc": "/images/logo/payzen.svg",
       "iconSrc": "/images/logo/icon/payzen.png"
+    },
+    {
+      "id": 17,
+      "name": "Mollie",
+      "description": "Mollie est une solution de paiement simple et efficace qui accompagne les entreprises dans le développement de leur activité en France et en Europe.",
+      "url": "https://www.mollie.com/",
+      "logoSrc": "/images/logo/mollie.svg",
+      "iconSrc": "/images/logo/mollie.svg"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "title": "Meet Magento France 2025",
   "logoSrc": "/images/logo/mmfr25.svg",
   "bannerSrc": "/images/events/meet-magento-france-2025/bg-hero.jpg",
-  "description": "Rejoignez la communauté Magento et Adobe Commerce pour une journée d'innovations, d'échanges et d'expertise, à ne pas manquer !\n\nDe nombreux marchands, éditeurs et agences ont déjà confirmé leur présence.",
+  "description": "Rejoignez la communauté Magento et Adobe Commerce pour une journée d’innovations, d’échanges et d’expertise, à ne pas manquer !\n\nDe nombreux marchands, éditeurs et agences ont déjà confirmé leur présence.",
   "content": "Une journée rythmée par des conférences inspirantes alliant stratégie business, E-Commerce, expertise technique et retours d’expérience de marchands. Entre chaque session, des moments de networking privilégiés permettront d’échanger entre participants et de renforcer les liens au sein de la communauté Magento et Adobe Commerce !",
   "actions": {
     "registration": {
@@ -18,7 +18,7 @@
   },
   "programs": [
     {
-      "title": "Vendredi 18 février 2025",
+      "title": "Mardi 25 mars 2025",
       "schedules": [
         {
           "name": "Petit-déjeuner et networking",
@@ -30,7 +30,7 @@
         },
         {
           "name": "Conférences et ateliers",
-          "description": "Les experts de l'écosystème aborderont les thématiques phares de 2025 et partageront leurs retours d'expérience. Des ateliers business et techniques (fr/en) viendront compléter la programmation tout au long de la journée !",
+          "description": "Les experts de l’écosystème aborderont les thématiques phares de 2025 et partageront leurs retours d’expérience. Des ateliers business et techniques (fr/en) viendront compléter la programmation tout au long de la journée !",
           "date": {
             "from": "2025-02-18T10:00:00",
             "to": "2025-02-18T12:30:00"
@@ -46,7 +46,7 @@
         },
         {
           "name": "Conférences et ateliers",
-          "description": "Les experts de l'écosystème aborderont les thématiques phares de 2025 et partageront leurs retours d'expérience. Des ateliers business et techniques (fr/en) viendront compléter la programmation tout au long de la journée !",
+          "description": "Les experts de l’écosystème aborderont les thématiques phares de 2025 et partageront leurs retours d’expérience. Des ateliers business et techniques (fr/en) viendront compléter la programmation tout au long de la journée !",
           "date": {
             "from": "2025-02-18T14:00:00",
             "to": "2025-02-18T16:30:00"

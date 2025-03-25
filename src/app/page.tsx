@@ -1,4 +1,4 @@
-import {getEvent, getPastEvents, getUpcomingEvents} from "@/lib/event";
+import { getAllEvents, getEvent } from "@/lib/event";
 import { getBoard, getMembers } from "@/lib/association";
 import Container from "@/layouts/Container";
 import EventHomePage from "@/layouts/Event/EventHomePage";
@@ -10,11 +10,6 @@ import EventSlider from "@/components/Event/EventSlider";
 import CompanyGrid from "@/components/Company/CompanyGrid";
 
 export default function Home() {
-  const upcomingEvents = getUpcomingEvents();
-  const title = upcomingEvents.length > 0
-    ? "Les prochains événements"
-    : "Les événements passés"
-  const events = upcomingEvents.length > 0 ? upcomingEvents : getPastEvents();
   const activeEvent = getEvent();
 
   return (
@@ -31,9 +26,9 @@ export default function Home() {
             weight="semibold"
             className="mb-12"
           >
-            {title}
+            Les événements
           </Typography>
-          <EventSlider events={events}/>
+          <EventSlider events={getAllEvents().slice(0, 8)} />
         </Container>
       </div>
       <div className="py-14 bg-gradient-to-bl from-red-900 to-indigo-900">

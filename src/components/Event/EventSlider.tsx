@@ -3,6 +3,8 @@
 import { useId } from "react";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
+import classNames from "classnames";
+import { isActive } from "@/lib/event/date";
 import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 import { Event } from "@/interfaces/event";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
@@ -11,10 +13,9 @@ import Time from "@/components/Time/Time";
 
 interface EventSlider {
   events: Event[];
-  className?: string;
 }
 
-const EventSlider = ({ events, className }: EventSlider) => {
+const EventSlider = ({ events }: EventSlider) => {
   const { t } = useTranslation(["common"]);
   const createEventLink = (event: Event): ButtonLinkType => {
     return {
@@ -35,7 +36,7 @@ const EventSlider = ({ events, className }: EventSlider) => {
     return (
       <span className="flex flex-row gap-2">
         <Time date={event.date.from} type="date"/>
-        {sameDay && (
+        {!sameDay && (
           <>
             -
             <Time date={event.date.to} type="date"/>
@@ -49,9 +50,15 @@ const EventSlider = ({ events, className }: EventSlider) => {
     <div className="carousel rounded-box flex gap-8">
       {events.map((event, index) => (
         <div
-          className="carousel-item w-sm flex flex-col justify-center items-center gap-4 p-4 rounded-lg border border-primary shadow bg-gradient-to-r from-red-500 to-orange-500"
+          className={classNames(
+            "carousel-item w-sm flex flex-col justify-center items-center gap-4 relative",
+            "p-4 rounded-lg border border-primary shadow bg-gradient-to-r from-red-500 to-orange-500",
+          )}
           key={`${id}-${index}`}
         >
+          <div className="badge badge-outline badge-neutral absolute top-4 right-4">
+            {isActive(event) ? "À venir" : "Passé"}
+          </div>
           <figure>
             <Image
               src={event.logoSrc}

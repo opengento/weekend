@@ -13,7 +13,7 @@ const getAllIndividuals = () => {
     const individuals = (readJson("individuals")?.list ?? []) as Individual[];
 
     cache.individuals = individuals.map((individual) => {
-      // Hydrate Individual's Company
+      // Hydrate Individual’s Company
       if (individual.companyId && !individual.company) {
         individual.company = getCompany(individual.companyId);
       }

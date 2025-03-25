@@ -21,6 +21,7 @@ const EventHero = ({ event }: EventHero) => {
     href: `events/${event.identifier}`,
     level: "primary"
   } as ButtonLinkType;
+  const showTimer = false; //ToDo make it dynamic so we can enabled it again
 
   return (
     <Hero
@@ -53,28 +54,31 @@ const EventHero = ({ event }: EventHero) => {
               alt="logo"
               width={175}
               height={175}
+              className="object-contain w-xl"
             />
           </div>
-          <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
-            <div className="flex flex-col">
+          {showTimer && (
+            <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div className="flex flex-col">
             <span className="countdown font-mono font-bold text-5xl">
               <span style={{"--value": 15} as React.CSSProperties}>15</span>
             </span>
-              {t("common:days")}
-            </div>
-            <div className="flex flex-col">
+                {t("common:days")}
+              </div>
+              <div className="flex flex-col">
             <span className="countdown font-mono font-bold text-5xl">
               <span style={{"--value": 10} as React.CSSProperties}>10</span>
             </span>
-              {t("common:hours")}
-            </div>
-            <div className="flex flex-col">
+                {t("common:hours")}
+              </div>
+              <div className="flex flex-col">
             <span className="countdown font-mono font-bold text-5xl">
               <span style={{"--value": 24} as React.CSSProperties}>24</span>
             </span>
-              {t("common:min")}
+                {t("common:min")}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </Hero>
