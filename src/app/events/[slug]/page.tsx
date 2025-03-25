@@ -35,10 +35,8 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
   };
 }
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return getAllEventIds().map((eventId) => ({
-    params: {
-      slug: eventId,
-    }
+    slug: eventId,
   }));
 }
