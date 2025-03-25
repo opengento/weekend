@@ -17,8 +17,8 @@ const Time = ({
   options,
   className
 }: Time) => {
+  const { t } = useTranslation(["common"]);
   if (locales === undefined) {
-    const { t } = useTranslation(["common"]);
     locales = t("common:locale");
   }
   if (options === undefined) {

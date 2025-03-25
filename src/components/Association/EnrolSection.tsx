@@ -3,7 +3,6 @@
 import { useTranslation } from "next-i18next";
 import { Enrol as EnrolType } from "@/interfaces/association";
 import Enrol from "@/components/Association/Enrol/Enrol";
-import Divider from "@/components/Divider/Divider";
 
 const EnrolSection = () => {
   const { t } = useTranslation(["association"]);
