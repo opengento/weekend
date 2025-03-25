@@ -2,6 +2,7 @@ import { Event } from "@/interfaces/event";
 import { listFiles, readJson } from "@/lib/filesystem";
 import { getIndividual } from "@/lib/individual";
 import { getCompany } from "@/lib/company";
+import { isActive, isPast, isUpcoming } from "@/lib/event/date";
 
 const cache: {
   eventIds: string[] | null;
@@ -60,36 +61,15 @@ const getAllEvents = () => {
 }
 
 const getUpcomingEvents = () => {
-  const date = new Date();
-
-  return getAllEvents().filter((event) => {
-    const from = new Date(event.date.from);
-
-    return from.getTime() > date.getTime();
-  });
+  return getAllEvents().filter((event) => isUpcoming(event));
 };
 
 const getCurrentEvents = () => {
-  const date = new Date();
-  const tomorrow = new Date(date);
-  tomorrow.setDate(tomorrow.getDate() + 1);
-
-  return getAllEvents().filter((event) => {
-    const from = new Date(event.date.from);
-    const to = new Date(event.date.to);
-
-    return from.getTime() < date.getTime() && to.getTime() > tomorrow.getTime();
-  });
+  return getAllEvents().filter((event) => isActive(event));
 };
 
 const getPastEvents = () => {
-  const date = new Date();
-
-  return getAllEvents().filter((event) => {
-    const to = new Date(event.date.to);
-
-    return to.getTime() < date.getTime();
-  });
+  return getAllEvents().filter((event) => isPast(event));
 };
 
 const getEvent = (id?: string | undefined) => {

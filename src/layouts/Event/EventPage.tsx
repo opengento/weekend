@@ -4,7 +4,7 @@ import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import { FaTicket } from "react-icons/fa6";
 import { Event } from "@/interfaces/event";
-import { isActive } from "@/lib/event/date";
+import { isUpcoming } from "@/lib/event/date";
 import Container from "@/layouts/Container";
 import Article from "@/layouts/Article";
 import Typography from "@/components/Typography/Typography";
@@ -38,7 +38,7 @@ const EventPage = ({ event }: EventPage) => {
               {event.title}
             </Typography>
           </div>
-          {event.actions.registration && isActive(event) && (
+          {event.actions.registration && isUpcoming(event) && (
             <ButtonLink
               cta={event.actions.registration}
               icon={<FaTicket />}

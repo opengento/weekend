@@ -4,7 +4,7 @@ import { useId } from "react";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
 import classNames from "classnames";
-import { isActive } from "@/lib/event/date";
+import { isPast, isUpcoming } from "@/lib/event/date";
 import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 import { Event } from "@/interfaces/event";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
@@ -46,6 +46,17 @@ const EventSlider = ({ events }: EventSlider) => {
     );
   };
 
+  const resolveStatus = (event: Event) => {
+    if (isUpcoming(event)) {
+      return t("common:Upcoming")
+    }
+    if (isPast(event)) {
+      return t("common:Past")
+    }
+
+    return t("common:OnGoing")
+  }
+
   return (
     <div className="carousel rounded-box flex gap-8">
       {events.map((event, index) => (
@@ -57,7 +68,7 @@ const EventSlider = ({ events }: EventSlider) => {
           key={`${id}-${index}`}
         >
           <div className="badge badge-outline badge-neutral absolute top-4 right-4">
-            {isActive(event) ? "À venir" : "Passé"}
+            {resolveStatus(event)}
           </div>
           <figure>
             <Image
