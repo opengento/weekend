@@ -51,7 +51,7 @@ const EventSlider = ({ events }: EventSlider) => {
       {events.map((event, index) => (
         <div
           className={classNames(
-            "carousel-item w-sm flex flex-col justify-center items-center gap-4 relative",
+            "carousel-item w-xs flex flex-col justify-center items-center gap-4 relative",
             "p-4 rounded-lg border border-primary shadow bg-gradient-to-r from-red-500 to-orange-500",
           )}
           key={`${id}-${index}`}
