@@ -1,0 +1,140 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "Opengento",
+      "description": "Nous sommes une association qui publie lors de ses hackathons (nos fameux weekends Opengento \uD83D\uDE0E\uD83C\uDF79) des POC & modules afin de soutenir l’innovation au sein de la communauté de développeur e-commerce.",
+      "url": "https://opengento.fr/",
+      "logoSrc": "/images/logo/opengento.svg",
+      "iconSrc": "/images/logo/opengento.svg"
+    },
+    {
+      "id": 2,
+      "name": "Blackbird",
+      "description": "La mission de Blackbird est d’aider les e-commerçants dans toutes les phases de leur projet : conseil stratégique, design créatif, conception et pilotage de plateformes e-commerce sur-mesure, accompagnement proche et réactif et formation.",
+      "url": "https://black.bird.eu/",
+      "logoSrc": "/images/logo/blackbird.svg",
+      "iconSrc": "/images/logo/icon/blackbird.svg"
+    },
+    {
+      "id": 3,
+      "name": "PH2M",
+      "description": "PH2M développe des solutions e-commerce sur mesure depuis 16 ans. Une équipe de 12 développeurs, contribuant activement à Magento, Front-Commerce & Hyvä, avec plus de 240 projets réalisés.",
+      "url": "https://www.ph2m.com/",
+      "logoSrc": "/images/logo/ph2m.svg",
+      "iconSrc": "/images/logo/icon/ph2m.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Hyvä",
+      "description": "Le frontend Magento le plus populaire avec 5,000 sites lives dans le monde, dont Somfy, Purina, Bultex ou Boucheron. Découvrez comment optimiser votre web perf tout en réduisant votre temps et coût de développement avec Hyvä",
+      "url": "https://www.hyva.io/",
+      "logoSrc": "/images/logo/hyva.svg",
+      "iconSrc": "/images/logo/icon/hyva.svg"
+    },
+    {
+      "id": 5,
+      "name": "MONSIEUR BIZ",
+      "description": "Ôtez la complexité, M. Biz vous apporte des solutions utiles par des experts sereins.\n\nDéveloppement sur mesure, e-commerce, webmarketing, conseil et formation \uD83C\uDF89",
+      "url": "https://monsieurbiz.com/",
+      "logoSrc": "/images/logo/monsieurbiz.svg",
+      "iconSrc": "/images/logo/icon/monsieurbiz.png"
+    },
+    {
+      "id": 6,
+      "name": "Nola Consulting",
+      "description": "Notre agence spécialisée dans le e-commerce, notamment avec Magento, place la satisfaction du client au cœur de ses préoccupations. Nous offrons des solutions personnalisées pour répondre aux besoins de chaque entreprise.",
+      "url": "https://www.nolaconsulting.fr/",
+      "logoSrc": "/images/logo/nola.svg",
+      "iconSrc": "/images/logo/nola.svg"
+    },
+    {
+      "id": 7,
+      "name": "XTAND",
+      "description": "Spécialisée en création de sites e-commerce, XTAND réalise tous types de projet : sites spécifiques, intranet et sites vitrines grâce à un longue et fructueuse expérience avec ses clients.",
+      "url": "https://www.xtand.fr/",
+      "logoSrc": "/images/logo/xtand.svg",
+      "iconSrc": "/images/logo/xtand.svg"
+    },
+    {
+      "id": 8,
+      "name": "Adexos",
+      "description": "Agence web experte de la solution Magento. Nous sommes spécialisés dans la création numériqueet le commerce digital.",
+      "url": "https://www.adexos.fr/",
+      "logoSrc": "/images/logo/adexos.png",
+      "iconSrc": "/images/logo/adexos.png"
+    },
+    {
+      "id": 9,
+      "name": "Lumao",
+      "description": "Nous sommes une équipe de développeurs et d’intégrateurs spécialisés sur le CMS Magento, nous sommes d’ailleurs un partenaire certifié. Si vous êtes à la recherche d’une équipe d’experts et non pas d’un commercial, vous êtes au bon endroit.",
+      "url": "https://lumao.eu/",
+      "logoSrc": "/images/logo/lumao.svg",
+      "iconSrc": "/images/logo/icon/lumao.svg"
+    },
+    {
+      "id": 10,
+      "name": "Crealoz",
+      "description": "Des sites web sur mesure,\npensés pour votre réussite\nDe la conception à la mise en ligne, nous donnons vie à vos idées",
+      "url": "https://crealoz.fr/",
+      "logoSrc": "/images/logo/crealoz.png",
+      "iconSrc": "/images/logo/icon/crealoz.png"
+    },
+    {
+      "id": 11,
+      "name": "Dn’D",
+      "description": "Du conseil au delivery d’expériences digitales et E-Commerce sur mesure pour le B2C et le B2B. Dn’D accompagne depuis plus de 20 ans des entreprises issues de secteurs variés (retail, luxe, industrie...) dans la réussite de leurs projets IT, digitaux et E-Commerce.",
+      "url": "https://www.dnd.fr/",
+      "logoSrc": "/images/logo/dnd.svg",
+      "iconSrc": "/images/logo/icon/dnd.svg"
+    },
+    {
+      "id": 12,
+      "name": "Ati4 Group",
+      "description": "Ensemble, définissons, créons et développons votre projet e-commerce B2C ou B2B. Ati4 Group, c’est plus de 50 experts PIM et Adobe Commerce pour digitaliser et accélérer votre succès en ligne. Passion, partage et expertise sont au cœur de notre engagement.",
+      "url": "https://ati4group.com/",
+      "logoSrc": "/images/logo/ati4group.svg",
+      "iconSrc": "/images/logo/icon/ati4group.svg"
+    },
+    {
+      "id": 13,
+      "name": "Occitech",
+      "description": "La réussite du produit tient autant de votre participation active que de nos compétences. Partagez votre vision avec notre équipe agile, interagissez avec vos utilisateurs, changez d’avis, trompez-vous même pour construire ensemble la solution idéale.",
+      "url": "https://www.occitech.fr/",
+      "logoSrc": "/images/logo/occitech.jpg",
+      "iconSrc": "/images/logo/icon/occitech.jpg"
+    },
+    {
+      "id": 14,
+      "name": "X2i",
+      "description": "X2i est la première équipe de conseil et d’ingénierie dédiée aux projets Magento en France.",
+      "url": "http://www.x2i.fr/",
+      "logoSrc": "/images/logo/x2i.png",
+      "iconSrc": "/images/logo/x2i.png"
+    },
+    {
+      "id": 15,
+      "name": "Diglin",
+      "description": "Diglin GmbH travaille principalement avec des outils Open Source et selon les projets, avec les méthodes Agiles, afin d’apporter à ses clients le plus de flexibilité dans la conception de leur business en ligne tout en lui permettant de rester le plus indépendant possible à tous les niveaux.",
+      "url": "https://www.diglin.com/",
+      "logoSrc": "/images/logo/diglin.png",
+      "iconSrc": "/images/logo/icon/diglin.webp"
+    },
+    {
+      "id": 16,
+      "name": "PayZen",
+      "description": "Que vous ayez un site e-commerce ou que vous souhaitiez simplement recevoir des paiements à distance, la plateforme de paiement PayZen est idéale pour votre activité. Notre service est compatible avec toutes les banques françaises dans le respect des derniers protocoles bancaires et du 3DS2.",
+      "url": "https://www.payzen.eu/",
+      "logoSrc": "/images/logo/payzen.svg",
+      "iconSrc": "/images/logo/icon/payzen.png"
+    },
+    {
+      "id": 17,
+      "name": "Mollie",
+      "description": "Mollie est une solution de paiement simple et efficace qui accompagne les entreprises dans le développement de leur activité en France et en Europe.",
+      "url": "https://www.mollie.com/",
+      "logoSrc": "/images/logo/mollie.svg",
+      "iconSrc": "/images/logo/mollie.svg"
+    }
+  ]
+}

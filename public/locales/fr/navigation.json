@@ -1,0 +1,80 @@
+{
+  "header": [
+    {
+      "label": "Qui sommes-nous ?",
+      "href": "/association"
+    },
+    {
+      "label": "Les événements",
+      "href": "/events"
+    },
+    {
+      "label": "Les projets",
+      "href": "/projects"
+    },
+    {
+      "label": "Les membres",
+      "href": "/members"
+    }
+  ],
+  "cta": {
+    "label": "Nous rejoindre",
+    "href": "https://www.helloasso.com/associations/opengento/adhesions/adhesion-individuelle-opengento",
+    "target": "_blank",
+    "level": "primary"
+  },
+  "footer": {
+    "copyright": "© 2025 - Opengento.\nTous droits réservés.",
+    "menu": [
+      {
+        "title": "Weekend Opengento",
+        "nav": [
+          {
+            "label": "Les événements passés",
+            "href": "/events"
+          },
+          {
+            "label": "Organiser un événement",
+            "href": "/events/organisez-votre-evenement"
+          },
+          {
+            "label": "FAQ",
+            "href": "/faq"
+          }
+        ]
+      },
+      {
+        "title": "Légale",
+        "nav": [
+          {
+            "label": "Mentions légales",
+            "href": "/mentions-legales"
+          },
+          {
+            "label": "Code de conduite",
+            "href": "/code-de-conduite"
+          },
+          {
+            "label": "Contact",
+            "href": "mailto:opengento@gmail.com"
+          }
+        ]
+      }
+    ],
+    "socialTitle": "Social",
+    "social": [
+      {
+        "code": "github",
+        "href": "https://github.com/opengento"
+      },
+      {
+        "code": "linkedin",
+        "href": "https://www.linkedin.com/company/opengento/"
+      },
+      {
+        "code": "youtube",
+        "href": "https://www.youtube.com/@opengento1877"
+      }
+    ]
+  }
+}

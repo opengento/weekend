@@ -1,0 +1,33 @@
+{
+  "title": "Les événements",
+  "content": "Ne manquez pas les événements incontournable de l’écosystème français (et plus !) grâce à Opengento !",
+  "information": {
+    "hero": {
+      "title": "Où et quand se déroule l’événement ?"
+    },
+    "title": "Informations"
+  },
+  "sponsors": {
+    "hero": {
+      "title": "Merci aux sponsors !",
+      "subtitle": "Sans eux cet événement ne serait pas possible..."
+    },
+    "title": "Nos sponsors",
+    "subtitle": "Acteurs incontournables de l’écosystème, ils rendent cet événement possible."
+  },
+  "staff": {
+    "title": "Les organisateurs",
+    "subtitle": "Qui se cache derrière cet évènement ? Découvrez ses acteurs incroyables !"
+  },
+  "program": {
+    "title": "Le programme"
+  },
+  "upcoming": {
+    "title": "Les événements à venir",
+    "content": "Ne manquez pas nos prochains événement et ne passez plus à côté d’opportunités !"
+  },
+  "past": {
+    "title": "Les événements passés",
+    "content": "Nostalgique ou juste curieux ? Repassez en revue tous nos événements passés !"
+  }
+}

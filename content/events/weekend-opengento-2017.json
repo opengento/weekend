@@ -1,0 +1,185 @@
+{
+  "identifier": "weekend-opengento-2017",
+  "title": "Weekend Opengento Toulouse 2017",
+  "logoSrc": "/images/logo/opengento.svg",
+  "bannerSrc": "/images/events/sample/bg.jpeg",
+  "description": "Comme chaque année maintenant, nous organisons un week-end dans une villa privatisée en proche banlieue Toulousaine.",
+  "content": "Les places coûtent 135 € par personne et prennent en charge l’intégralité du week-end (logement, nourriture, boissons, ménage). Il ne vous reste qu’à venir à Toulouse.\n\nRappel : pour participer, il faut être adhérent de l’association (5€) ce qui vous donnera accès à notre Slack ! 30 places sont en vente… à vos CB !",
+  "actions": {
+    "registration": {
+      "label": "Je prends mon billet !",
+      "href": "",
+      "level": "primary"
+    }
+  },
+  "date": {
+    "from": "2017-06-23T14:00:00",
+    "to": "2017-06-25T15:00:00"
+  },
+  "programs": [
+    {
+      "title": "Vendredi 23 juin 2017",
+      "schedules": [
+        {
+          "name": "Arrivée des participants",
+          "description": "Accueil des premiers arrivants",
+          "date": {
+            "from": "2017-06-23T14:00:00",
+            "to": "2017-06-23T19:00:00"
+          }
+        },
+        {
+          "name": "Repas",
+          "description": "Dîner et soirée sympathique",
+          "date": {
+            "from": "2017-06-23T19:00:00",
+            "to": "2017-06-23T22:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Samedi 24 juin 2017",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2017-06-24T07:30:00",
+            "to": "2017-06-24T09:00:00"
+          }
+        },
+        {
+          "name": "Sujets du hackathon",
+          "description": "Brainstorming, proposition des sujets et formation des équipes",
+          "date": {
+            "from": "2017-06-24T09:00:00",
+            "to": "2017-06-24T10:00:00"
+          }
+        },
+        {
+          "name": "Début des projets",
+          "description": "",
+          "date": {
+            "from": "2017-06-24T10:00:00",
+            "to": "2017-06-24T12:30:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "",
+          "date": {
+            "from": "2017-06-24T12:30:00",
+            "to": "2017-06-24T14:00:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2017-06-24T14:30:00",
+            "to": "2017-06-24T19:00:00"
+          }
+        },
+        {
+          "name": "Repas du soir",
+          "description": "",
+          "date": {
+            "from": "2017-06-24T19:00:00",
+            "to": "2017-06-24T21:00:00"
+          }
+        },
+        {
+          "name": "Talks",
+          "description": "Présentation de sujets par les participants, discours du président, discussions libres, temps libre",
+          "date": {
+            "from": "2017-06-24T21:00:00",
+            "to": "2017-06-24T23:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dimanche 25 juin 2017",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2017-06-25T07:30:00",
+            "to": "2017-06-25T09:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2017-06-25T09:30:00",
+            "to": "2017-06-25T11:00:00"
+          }
+        },
+        {
+          "name": "Présentation des projets du hackathon",
+          "description": "",
+          "date": {
+            "from": "2017-06-25T11:00:00",
+            "to": "2017-06-25T12:00:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "Barbecue",
+          "date": {
+            "from": "2017-06-25T12:00:00",
+            "to": "2017-06-25T14:00:00"
+          }
+        },
+        {
+          "name": "Temps libre – départs",
+          "description": "",
+          "date": {
+            "from": "2017-06-25T14:00:00",
+            "to": "2017-06-25T15:00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "place": {
+    "name": "Villa privatisée en proche banlieue Toulousaine",
+    "address": "",
+    "url": "",
+    "access": {
+      "publicTransport": {
+        "title": "Transports en commun",
+        "description": "Pensez aux transports en commun !",
+        "itinerary": []
+      },
+      "parking": {
+        "title": "Venir en voiture",
+        "description": "Des places de parkings sont disponible.",
+        "locations": []
+      }
+    }
+  },
+  "sponsors": [
+    {
+      "type": "gold",
+      "companyId": 2
+    },
+    {
+      "type": "gold",
+      "companyId": 3
+    },
+    {
+      "type": "gold",
+      "companyId": 5
+    },
+    {
+      "type": "gold",
+      "companyId": 13
+    }
+  ],
+  "staff": [],
+  "gallery": []
+}

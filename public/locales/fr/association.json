@@ -1,0 +1,116 @@
+{
+  "members": {
+    "title": "Nos membres donateurs",
+    "content": "Nos membres donateurs sont des acteurs incontournable de l’écosytème e-commerce !\nLeur soutient permet de rendre réalisable les objectifs de l’association."
+  },
+  "enrol": {
+    "individual": {
+      "title": "Personne physique",
+      "content": "L’adhésion à l’associatoin n’est pas limité dans le temps. Le montant dû de la contisation n’est à payé qu’une seule fois, au moment de l’adhésion.",
+      "list": [
+        "Accès au compte Slack de l’association pour échanger",
+        "Adhésion requise pour participer à un événement"
+      ],
+      "pricing": "5.00 €",
+      "cta": {
+        "label": "Je veux adhérer",
+        "href": "https://www.helloasso.com/associations/opengento/adhesions/adhesion-individuelle-opengento",
+        "target": "_blank",
+        "level": "primary"
+      }
+    },
+    "company": {
+      "title": "Personne morale",
+      "content": "L’adhésion d’une entreprise est valable sur une année glissante. Le montant dû de la cotisation est à payer au moment de l’adhésion ou de son renouvellement.",
+      "list": [
+        "Présentation dans l’annuaire",
+        "Accès prioritaire aux sponsorings d’événements",
+        "Accès prioritaire aux places des événements sponsorisés",
+        "Offres spéciales des partenaires de l’association",
+        "Réservé aux prestataires de développement e-commerce"
+      ],
+      "pricing": "100.00 € / an (pas de TVA)",
+      "cta":{
+        "label": "Je veux adhérer avec mon enteprise",
+        "href": "https://www.helloasso.com/associations/opengento/adhesions/adhesion-entreprise-opengento",
+        "target": "_blank",
+        "level": "primary"
+      }
+    }
+  },
+  "stats": [
+    {
+      "icon": "",
+      "title": "Adhésion",
+      "value": "+50",
+      "description": "Membres du slack",
+      "color": "secondary",
+      "actions": []
+    },
+    {
+      "icon": "",
+      "title": "Événements organisés",
+      "value": "+9",
+      "description": "Week-End Opengento\nMeet Magento France",
+      "color": "primary",
+      "actions": []
+    },
+    {
+      "icon": "",
+      "title": "Projets réalisés",
+      "value": "+60",
+      "description": "Modules et POC disponibles sur le Github",
+      "color": "secondary",
+      "actions": [
+        {
+          "label": "Voir les modules sur Github",
+          "href": "https://github.com/opengento",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "icon": "",
+      "title": "Téléchargements",
+      "value": "+141 054",
+      "description": "Nombre d’installation de nos modules",
+      "color": "primary",
+      "actions": []
+    }
+  ],
+  "hero": {
+    "title": "Week-End & Opengento",
+    "content": "Opengento est une association Française loi 1901 dont l’objet est l’organisation d’événements pour la communauté de développeurs.\n\nLe Week-End Opengento est l’évènement incontournable pour les développeurs, sur les technologies qui gravitent autour de l’e-commerce.\nAvec un attrait spécial pour les solutions Magento et Sylius !",
+    "actions": [
+      {
+        "href": "/association",
+        "label": "En savoir plus",
+        "level": "primary"
+      },
+      {
+        "href": "/events/organisez-votre-evenement",
+        "label": "Organiser le prochain Week-End",
+        "level": "primary"
+      }
+    ]
+  },
+  "membership": {
+    "title": "Nous rejoindre c’est :",
+    "advantages": [
+      "Échanger avec des experts de la communauté",
+      "La possibilité de participer aux événements",
+      "Agrandir son réseau de partenaires",
+      "Un accès aux projets Open-Source"
+    ],
+    "conditions": [
+      "Opengento c’est pour la vie !",
+      "L’adhésion à durée illimitée pour 5 €"
+    ],
+    "enrol": {
+      "label": "Je deviens membre !",
+      "href": "https://www.helloasso.com/associations/opengento/adhesions/adhesion-individuelle-opengento",
+      "target": "_blank",
+      "level": "primary"
+    }
+  }
+}

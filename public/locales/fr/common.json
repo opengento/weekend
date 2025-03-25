@@ -1,0 +1,56 @@
+{
+  "locale": "fr-FR",
+  "logoSrc": "/images/logo/opengento.svg",
+  "logoText": "Opengento",
+  "Address": "Adresse",
+  "Schedules": "Dates et horaires",
+  "from": "de",
+  "From": "De",
+  "from2": "du",
+  "From2": "Du",
+  "to": "à",
+  "to2": "au",
+  "days": "jours",
+  "hours": "heures",
+  "min": "minutes",
+  "visitCompany": "Visiter le site",
+  "platinum": "Platinum",
+  "gold": "Gold",
+  "silver": "Silver",
+  "bronze": "Bronze",
+  "sponsor": "Sponsor",
+  "sponsors": "Sponsors",
+  "SeeMore": "Voir plus",
+  "KnowMore": "En savoir d’avantage",
+  "findOutMoreEvent": "Découvrir l’événement !",
+  "push": {
+    "faq": {
+      "title": "Des question ? Des réponses !",
+      "content": "Nous avons hâte de vous accueillir à cet événement exceptionnel ! \nN’hésitez pas à nous contacter si vous avez des questions pratiques.",
+      "link": {
+        "label": "Visiter la FAQ",
+        "href": "/faq",
+        "level": "primary"
+      }
+    },
+    "contact": {
+      "label": "Nous contacter",
+      "href": "mailto:opengento@gmail.com",
+      "level": "primary"
+    },
+    "trust": [
+      {
+        "icon": "people-group",
+        "label": "Community Driven"
+      },
+      {
+        "icon": "graduation-cap",
+        "label": "Learning & Share"
+      },
+      {
+        "icon": "globe",
+        "label": "Events & Network"
+      }
+    ]
+  }
+}

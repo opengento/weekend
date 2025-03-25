@@ -1,0 +1,173 @@
+{
+  "identifier": "weekend-opengento-2015",
+  "title": "Weekend Opengento Toulouse 2015",
+  "logoSrc": "/images/logo/opengento.svg",
+  "bannerSrc": "/images/events/weekend-opengento-2016/weekend-2016.jpg",
+  "description": "Magento Paradise à la Française !",
+  "content": "Imaginez une villa dans la campagne Toulousaine, oui avec Internet, mais aussi piscine, barbecue, verdure, soleil…\n\nImaginez 20 développeurs passionnés regroupés pour échanger sur une techno, Magento, et créer ensemble… Imaginez en plus que les courses, les repas, même la vaiselle sont gérés, ils n’ont qu’à profiter de l’instant… Magento Paradise à la Française en somme !\n\nNiveau Magento avancé requis Prix : 135 € TTC par participant tout compris sauf aller/retour Toulouse + 5 € d’adhésion à l’association. Réception des participants en fin d’après-midi à l’aéroport ou gare, dépose à la villa, retour à l’aéroport ou gare le dimanche. Apporter : PC portable avec chargeur^^, affaires personnelles, serviette et maillot de bain !",
+  "actions": {
+    "registration": {
+      "label": "Je prends mon billet !",
+      "href": "",
+      "level": "primary"
+    }
+  },
+  "date": {
+    "from": "2015-06-19T14:00:00",
+    "to": "2015-06-21T15:00:00"
+  },
+  "programs": [
+    {
+      "title": "Vendredi 19 juin 2015",
+      "schedules": [
+        {
+          "name": "Arrivée des participants",
+          "description": "Accueil des premiers arrivants",
+          "date": {
+            "from": "2015-06-19T14:00:00",
+            "to": "2015-06-19T19:00:00"
+          }
+        },
+        {
+          "name": "Repas",
+          "description": "Dîner et soirée sympathique",
+          "date": {
+            "from": "2015-06-19T19:00:00",
+            "to": "2015-06-19T22:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Samedi 20 juin 2015",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2015-06-20T07:30:00",
+            "to": "2015-06-20T09:00:00"
+          }
+        },
+        {
+          "name": "Sujets du hackathon",
+          "description": "Brainstorming, proposition des sujets et formation des équipes",
+          "date": {
+            "from": "2015-06-20T09:00:00",
+            "to": "2015-06-20T10:00:00"
+          }
+        },
+        {
+          "name": "Début des projets",
+          "description": "",
+          "date": {
+            "from": "2015-06-20T10:00:00",
+            "to": "2015-06-20T12:30:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "",
+          "date": {
+            "from": "2015-06-20T12:30:00",
+            "to": "2015-06-20T14:00:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2015-06-20T14:30:00",
+            "to": "2015-06-20T19:00:00"
+          }
+        },
+        {
+          "name": "Repas du soir",
+          "description": "",
+          "date": {
+            "from": "2015-06-20T19:00:00",
+            "to": "2015-06-20T21:00:00"
+          }
+        },
+        {
+          "name": "Talks",
+          "description": "Présentation de sujets par les participants, discours du président, discussions libres, temps libre",
+          "date": {
+            "from": "2015-06-20T21:00:00",
+            "to": "2015-06-20T23:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dimanche 21 juin 2015",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2015-06-21T07:30:00",
+            "to": "2015-06-21T09:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2015-06-21T09:30:00",
+            "to": "2015-06-21T11:00:00"
+          }
+        },
+        {
+          "name": "Présentation des projets du hackathon",
+          "description": "",
+          "date": {
+            "from": "2015-06-21T11:00:00",
+            "to": "2015-06-21T12:00:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "Barbecue",
+          "date": {
+            "from": "2015-06-21T12:00:00",
+            "to": "2015-06-21T14:00:00"
+          }
+        },
+        {
+          "name": "Temps libre – départs",
+          "description": "",
+          "date": {
+            "from": "2015-06-21T14:00:00",
+            "to": "2015-06-21T15:00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "place": {
+    "name": "Villa privatisée en proche banlieue Toulousaine",
+    "address": "",
+    "url": "",
+    "access": {
+      "publicTransport": {
+        "title": "Transports en commun",
+        "description": "Pensez aux transports en commun !",
+        "itinerary": []
+      },
+      "parking": {
+        "title": "Venir en voiture",
+        "description": "Des places de parkings sont disponible.",
+        "locations": []
+      }
+    }
+  },
+  "sponsors": [
+    {
+      "type": "gold",
+      "companyId": 16
+    }
+  ],
+  "staff": [],
+  "gallery": []
+}

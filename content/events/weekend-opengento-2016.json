@@ -1,0 +1,189 @@
+{
+  "identifier": "weekend-opengento-2016",
+  "title": "Weekend Opengento Toulouse 2016",
+  "logoSrc": "/images/logo/opengento.svg",
+  "bannerSrc": "/images/events/weekend-opengento-2016/weekend-2016.jpg",
+  "description": "L’événement soleil de l’année !",
+  "content": "Dans une belle villa avec piscine et boulodrome, 20 développeurs Magento se retrouvent le temps d’un week-end pour échanger et co-construire des outils et extensions. Cette année, il est possible de venir à partir du mercredi pour du coworking jusqu’au vendredi, démarrage officiel de l’événement.\n\nIl faut être adhérent de l’association (5 €) pour pouvoir participer à l’événement. Le lien de la billetterie est transmis dans le Slack de l’association.\n\nCoworking mercredi 1 au vendredi 3 juin : 60 € en pension complète\n\nWeek-end vendredi 3 au dimanche 5 juin : 100 € en pension complète",
+  "actions": {
+    "registration": {
+      "label": "Je prends mon billet !",
+      "href": "",
+      "level": "primary"
+    }
+  },
+  "date": {
+    "from": "2016-06-03T14:00:00",
+    "to": "2016-06-05T15:00:00"
+  },
+  "programs": [
+    {
+      "title": "Vendredi 3 juin 2016",
+      "schedules": [
+        {
+          "name": "Arrivée des participants",
+          "description": "Accueil des premiers arrivants",
+          "date": {
+            "from": "2016-06-03T14:00:00",
+            "to": "2016-06-03T19:00:00"
+          }
+        },
+        {
+          "name": "Repas",
+          "description": "Dîner et soirée sympathique",
+          "date": {
+            "from": "2016-06-03T19:00:00",
+            "to": "2016-06-03T22:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Samedi 4 juin 2016",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2016-06-04T07:30:00",
+            "to": "2016-06-04T09:00:00"
+          }
+        },
+        {
+          "name": "Sujets du hackathon",
+          "description": "Brainstorming, proposition des sujets et formation des équipes",
+          "date": {
+            "from": "2016-06-04T09:00:00",
+            "to": "2016-06-04T10:00:00"
+          }
+        },
+        {
+          "name": "Début des projets",
+          "description": "",
+          "date": {
+            "from": "2016-06-04T10:00:00",
+            "to": "2016-06-04T12:30:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "",
+          "date": {
+            "from": "2016-06-04T12:30:00",
+            "to": "2016-06-04T14:00:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2016-06-04T14:30:00",
+            "to": "2016-06-04T19:00:00"
+          }
+        },
+        {
+          "name": "Repas du soir",
+          "description": "",
+          "date": {
+            "from": "2016-06-04T19:00:00",
+            "to": "2016-06-04T21:00:00"
+          }
+        },
+        {
+          "name": "Talks",
+          "description": "Présentation de sujets par les participants, discours du président, discussions libres, temps libre",
+          "date": {
+            "from": "2016-06-04T21:00:00",
+            "to": "2016-06-04T23:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dimanche 5 juin 2016",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2016-06-05T07:30:00",
+            "to": "2016-06-05T09:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2016-06-05T09:30:00",
+            "to": "2016-06-05T11:00:00"
+          }
+        },
+        {
+          "name": "Présentation des projets du hackathon",
+          "description": "",
+          "date": {
+            "from": "2016-06-05T11:00:00",
+            "to": "2016-06-05T12:00:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "Barbecue",
+          "date": {
+            "from": "2016-06-05T12:00:00",
+            "to": "2016-06-05T14:00:00"
+          }
+        },
+        {
+          "name": "Temps libre – départs",
+          "description": "",
+          "date": {
+            "from": "2016-06-05T14:00:00",
+            "to": "2016-06-05T15:00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "place": {
+    "name": "Villa privatisée en proche banlieue Toulousaine",
+    "address": "",
+    "url": "",
+    "access": {
+      "publicTransport": {
+        "title": "Transports en commun",
+        "description": "Pensez aux transports en commun !",
+        "itinerary": []
+      },
+      "parking": {
+        "title": "Venir en voiture",
+        "description": "Des places de parkings sont disponible.",
+        "locations": []
+      }
+    }
+  },
+  "sponsors": [
+    {
+      "type": "gold",
+      "companyId": 3
+    },
+    {
+      "type": "gold",
+      "companyId": 5
+    },
+    {
+      "type": "gold",
+      "companyId": 13
+    },
+    {
+      "type": "gold",
+      "companyId": 14
+    },
+    {
+      "type": "gold",
+      "companyId": 15
+    }
+  ],
+  "staff": [],
+  "gallery": []
+}
