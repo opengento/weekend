@@ -17,8 +17,10 @@ const Individual = ({ individual }: Individual) => {
     <Drawer
       button={(
         <>
-          <div className="flex flex-row items-center gap-4 mx-auto">
-            <IndividualAvatar individual={individual}/>
+          <div className="flex flex-row gap-4 mx-auto">
+            <div>
+              <IndividualAvatar individual={individual}/>
+            </div>
             <IndividualIdentity individual={individual}/>
           </div>
           <div className="hidden absolute -bottom-2 group-hover:flex btn btn-primary items-center">
