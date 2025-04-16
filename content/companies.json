@@ -135,6 +135,14 @@
       "url": "https://www.mollie.com/",
       "logoSrc": "/images/logo/mollie.svg",
       "iconSrc": "/images/logo/mollie.svg"
+    },
+    {
+      "id": 18,
+      "name": "Sutunam",
+      "description": "Agence Magento experte depuis 2010. Certifiée Hyvä silver. UX/UI, développements et maintenance en passant par l'hébergement et l'intégration IA. A Lyon et Hanoï.",
+      "url": "https://www.sutunam.com/",
+      "logoSrc": "/images/logo/sutunam.svg",
+      "iconSrc": "/images/logo/icon/sutunam.svg"
     }
   ]
 }
