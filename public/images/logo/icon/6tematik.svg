@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 359.713 359.713" width="85.0005px" height="85.0005px">
+  <g id="logo-wrapper" transform="matrix(1, 0, 0, 1, 0.5219999551773, 0.7909999489784241)">
+    <g id="numero-6" transform="translate(101.861 87.531)">
+      <path id="Tracé_1" d="M391.471,425.7v90.444H340.8V425.7Zm31.056,19.614c22.339,0,41.953,8.173,57.754,23.973s23.973,35.415,23.973,57.754-8.173,41.953-23.973,57.754-35.415,23.973-57.754,23.973S380.574,600.6,364.773,584.8,340.8,549.38,340.8,527.041h50.671a30.823,30.823,0,1,0,31.056-31.056Z" transform="translate(-340.8 -425.7)" fill="#000"/>
+    </g>
+    <path id="logo-angle" d="M359.711,359.711H271.6V348.369h76.77V271.6h11.342v88.113Zm-279.579,0H0V271.6H11.346v76.77H80.132v11.342ZM359.711,80.132H348.369V11.346H271.6V0h88.113V80.132Zm-348.365,0H0V0H80.132V11.346H11.346V80.132Z" transform="translate(-0.522 -0.791)" fill="#000"/>
+    <g id="ligne-fine">
+      <path id="Ligne_4114" d="M193.376,1.5H0v-3H193.376Z" transform="translate(78.019 4.701)" fill="#000" opacity="0.2"/>
+      <path id="Ligne_4115" d="M193.376,1.5H0v-3H193.376Z" transform="translate(78.019 353.594)" fill="#000" opacity="0.2"/>
+      <path id="Ligne_4116" d="M193.376,1.5H0v-3H193.376Z" transform="translate(353.408 78.205) rotate(90)" fill="#000" opacity="0.2"/>
+      <path id="Ligne_4117" d="M193.376,1.5H0v-3H193.376Z" transform="translate(4.515 78.205) rotate(90)" fill="#000" opacity="0.2"/>
+    </g>
+  </g>
+</svg>
