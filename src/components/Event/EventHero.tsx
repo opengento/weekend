@@ -33,7 +33,7 @@ const EventHero = ({ event }: EventHero) => {
           <Typography variant="h1" weight="bold" color="dark">
             {event.title}
           </Typography>
-          <Typography color="dark">
+          <Typography color="dark" className="whitespace-pre-wrap">
             {event.description}
           </Typography>
           <div className="flex flex-row flex-wrap items-center gap-8">
