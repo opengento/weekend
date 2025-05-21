@@ -1,0 +1,181 @@
+{
+  "identifier": "weekend-opengento-montpellier-2025",
+  "title": "Weekend Opengento Montpellier 2025",
+  "logoSrc": "/images/logo/opengento.svg",
+  "bannerSrc": "/images/events/weekend-opengento-2025-montpellier/weekend-2025.png",
+  "description": "Le Week-end Opengento 2025 arrive à grand pas !\n\nNous serons en octobre 2025 dans le sud de la France pour profiter des derniers rayons de soleils !",
+  "content": "La possibilité de se réunir dans une ambiance conviviale et détendue pour parler dev, infra, méthodes de travail mais pas que ! C’est surtout le plaisir de se retrouver et de se rencontrer, (en chair et en os), et pas que sur Slack ou Twitter, mais surtout d’apprendre et de partager !\n\nLe Week-end n’est ouvert qu’aux adhérents Opengento, l’adhésion coûte 5€ /an.",
+  "actions": {
+    "registration_disabled": {
+      "label": "Je prends mon billet !",
+      "href": "https://www.helloasso.com/associations/opengento/evenements/we-opengento-montpellier-2025",
+      "level": "primary"
+    }
+  },
+  "date": {
+    "from": "2025-10-03T14:00:00",
+    "to": "2025-10-05T15:00:00"
+  },
+  "programs": [
+    {
+      "title": "Vendredi 3 octobre 2025",
+      "schedules": [
+        {
+          "name": "Arrivée des participants",
+          "description": "Accueil des premiers arrivants directement à Croix de Pastel à 1000m de la gare SNCF de Lavaur",
+          "date": {
+            "from": "2025-10-03T14:00:00",
+            "to": "2025-10-03T19:00:00"
+          }
+        },
+        {
+          "name": "Brainstorming",
+          "description": "Proposition des sujets et formation des équipes.",
+          "date": {
+            "from": "2025-10-03T21:00:00",
+            "to": "2025-10-03T22:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Samedi 4 octobre 2025",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2025-10-04T07:30:00",
+            "to": "2025-10-04T09:30:00"
+          }
+        },
+        {
+          "name": "Début des projets",
+          "description": "",
+          "date": {
+            "from": "2025-10-04T09:30:00",
+            "to": "2025-10-04T12:30:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "",
+          "date": {
+            "from": "2025-10-04T12:30:00",
+            "to": "2025-10-04T14:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2025-10-04T14:30:00",
+            "to": "2025-10-04T19:00:00"
+          }
+        },
+        {
+          "name": "Repas du soir",
+          "description": "",
+          "date": {
+            "from": "2025-10-04T19:00:00",
+            "to": "2025-10-04T21:00:00"
+          }
+        },
+        {
+          "name": "Talks",
+          "description": "Présentation de sujets par les participants, discours du président, discussions libres, temps libre",
+          "date": {
+            "from": "2025-10-04T21:00:00",
+            "to": "2025-10-04T23:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dimanche 5 octobre 2025",
+      "schedules": [
+        {
+          "name": "Petit déjeuner",
+          "description": "Buffet libre",
+          "date": {
+            "from": "2025-10-05T07:30:00",
+            "to": "2025-10-05T09:30:00"
+          }
+        },
+        {
+          "name": "Poursuite du hackathon",
+          "description": "",
+          "date": {
+            "from": "2025-10-05T09:30:00",
+            "to": "2025-10-05T11:00:00"
+          }
+        },
+        {
+          "name": "Présentation des projets du hackathon",
+          "description": "",
+          "date": {
+            "from": "2025-10-05T11:00:00",
+            "to": "2025-10-05T12:00:00"
+          }
+        },
+        {
+          "name": "Repas du midi",
+          "description": "",
+          "date": {
+            "from": "2025-10-05T12:00:00",
+            "to": "2025-10-05T14:00:00"
+          }
+        },
+        {
+          "name": "Temps libre – départs",
+          "description": "",
+          "date": {
+            "from": "2025-10-05T14:00:00",
+            "to": "2025-10-05T15:00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "place": {
+    "name": "Le Château Sainte Colombe de B",
+    "address": "Route de Sommieres 34160 Saint-Geniès-des-Mourgues, France",
+    "url": "https://www.chateausaintecolombedeb.com/",
+    "access": {
+      "publicTransport": {
+        "title": "Transports en commun",
+        "description": "Profitez des transports en commun :",
+        "itinerary": [
+          {
+            "icons": [],
+            "name": "Gare SNCF - Valergues - Lansargues",
+            "url": "https://maps.app.goo.gl/RA9LG64UH5Ng5ye86"
+          },
+          {
+            "icons": [],
+            "name": "Gare SNCF - Montpellier Saint-Roch",
+            "url": "https://maps.app.goo.gl/6A7ZuTWz3vXTVTGK9"
+          },
+          {
+            "icons": [],
+            "name": "Gare SNCF - Montpellier Sud de France",
+            "url": "https://maps.app.goo.gl/LjbwsfLAMpWYjYxX6"
+          },
+          {
+            "icons": [],
+            "name": "Aéroport - Montpellier Méditerranée",
+            "url": "https://maps.app.goo.gl/FNEWpF8Ma64xL5SE7"
+          }
+        ]
+      },
+      "parking": {
+        "title": "Venir en voiture",
+        "description": "Des places de parkings sont disponible sur place.",
+        "locations": []
+      }
+    }
+  },
+  "sponsors": [],
+  "staff": [4, 3, 2, 1],
+  "gallery": []
+}

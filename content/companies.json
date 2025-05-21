@@ -151,6 +151,14 @@
       "url": "https://www.6tematik.fr/",
       "logoSrc": "/images/logo/6tematik.svg",
       "iconSrc": "/images/logo/icon/6tematik.svg"
+    },
+    {
+      "id": 20,
+      "name": "Dn'D",
+      "description": "Du conseil au delivery d'expériences digitales et E-Commerce sur mesure pour le B2C et le B2B. Dn’D accompagne depuis plus de 20 ans des entreprises issues de secteurs variés (retail, luxe, industrie...) dans la réussite de leurs projets IT, digitaux et E-Commerce.",
+      "url": "https://www.dnd.fr/",
+      "logoSrc": "/images/logo/dnd.svg",
+      "iconSrc": "/images/logo/icon/dnd.svg"
     }
   ]
 }

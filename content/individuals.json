@@ -44,6 +44,20 @@
         "github": "https://github.com/ChristopheFerreboeuf"
       },
       "avatarSrc": "/images/avatar/christophe-ferreboeuf.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Florian Fauvel",
+      "biography": "",
+      "companyId": 21,
+      "roles": [
+        "CEO & Architecte web"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/florian-fauvel-94137b6a/",
+        "github": "https://github.com/FlorianFauvelNolaConsulting"
+      },
+      "avatarSrc": "/images/avatar/florian-fauvel.jpeg"
     }
   ]
 }
