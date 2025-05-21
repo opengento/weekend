@@ -22,7 +22,7 @@
       "schedules": [
         {
           "name": "Arrivée des participants",
-          "description": "Accueil des premiers arrivants directement à Croix de Pastel à 1000m de la gare SNCF de Lavaur",
+          "description": "Accueil des premiers arrivants directement au Château Sainte Colombe de B",
           "date": {
             "from": "2025-10-03T14:00:00",
             "to": "2025-10-03T19:00:00"
@@ -176,6 +176,19 @@
     }
   },
   "sponsors": [],
-  "staff": [4, 3, 2, 1],
+  "staff": [
+    {
+      "individualId": 4
+    },
+    {
+      "individualId": 3
+    },
+    {
+      "individualId": 2
+    },
+    {
+      "individualId": 1
+    }
+  ],
   "gallery": []
 }

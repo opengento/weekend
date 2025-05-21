@@ -4,16 +4,18 @@ import classNames from "classnames";
 interface Article {
   align?: "left" | "center";
   color?: "neutral" | "base-100" | "base-200";
+  id?: string | undefined;
   children: ReactNode;
 }
 
 const Article = ({
   align = "left",
   color = "neutral",
+  id = undefined,
   children,
 }: Article) => {
   return (
-    <article className={classNames(
+    <article id={id} className={classNames(
       "rounded-lg py-6 px-4 md:p-12 flex flex-col flex-wrap gap-4",
       {
         "justify-center items-center": align === "center",

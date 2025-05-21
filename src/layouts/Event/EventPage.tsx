@@ -21,6 +21,30 @@ interface EventPage {
 
 const EventPage = ({ event }: EventPage) => {
   const { t } = useTranslation(["events"]);
+  const hasSponsor = event.sponsors.length > 0;
+  const hasStaff = event.staff.length > 0;
+  const menuLinks = [
+    {
+      "label": t("events:information.title"),
+      "href": "#information"
+    },
+    {
+      "label": t("events:program.title"),
+      "href": "#program"
+    }
+  ];
+  if (hasSponsor) {
+    menuLinks.push({
+      "label": t("events:sponsors.title"),
+      "href": "#sponsors"
+    })
+  }
+  if (hasStaff) {
+    menuLinks.push({
+      "label": t("events:staff.title"),
+      "href": "#staff"
+    })
+  }
 
   return (
     <Container size="large" className="flex flex-col gap-8 my-8">
@@ -47,24 +71,29 @@ const EventPage = ({ event }: EventPage) => {
         </div>
       </Hero>
       <Article>
+        <div className="flex flex-col lg:flex-row justify-center gap-4 mb-4">
+          {menuLinks.map((cta) => (
+            <ButtonLink cta={cta} key={`event-menu-link-${cta.href}`}/>
+          ))}
+        </div>
         <Typography color="dark" className="whitespace-pre-wrap">
           {event.content}
         </Typography>
       </Article>
-      <Article color="base-100" align="center">
+      <Article color="base-100" align="center" id="information">
         <Typography variant="h2" color="dark" underlineColor="secondary">
           {t("events:information.title")}
         </Typography>
         <EventInfo event={event} />
       </Article>
-      <Article color="base-200">
+      <Article color="base-200" id="program">
         <Typography variant="h2" color="dark" underlineColor="secondary">
           {t("events:program.title")}
         </Typography>
         <Program event={event}/>
       </Article>
-      {event.sponsors.length > 0 && (
-        <Article align="center">
+      {hasSponsor && (
+        <Article align="center" id="sponsor">
           <Typography variant="h2" color="dark" underlineColor="secondary">
             {t("events:sponsors.title")}
           </Typography>
@@ -74,8 +103,8 @@ const EventPage = ({ event }: EventPage) => {
           <SponsorList sponsors={event.sponsors}/>
         </Article>
       )}
-      {event.staff.length > 0 && (
-        <Article color="base-100" align="center">
+      {hasStaff && (
+        <Article color="base-100" align="center" id="staff">
           <Typography variant="h2" color="dark" underlineColor="secondary">
             {t("events:staff.title")}
           </Typography>
