@@ -58,7 +58,13 @@ const EventPage = ({ event }: EventPage) => {
               height={56}
               className="w-14 object-contain"
             />
-            <Typography variant="h1" weight="semibold" color="dark">
+            <Typography
+              variant="h1"
+              weight="semibold"
+              color="dark"
+              align="center"
+              className="md:text-left"
+            >
               {event.title}
             </Typography>
           </div>
