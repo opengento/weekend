@@ -58,7 +58,7 @@ const EventSlider = ({ events }: EventSlider) => {
   }
 
   return (
-    <div className="carousel rounded-box flex gap-8">
+    <div className="carousel rounded-box flex gap-8 scrollbar-thin pb-4">
       {events.map((event, index) => (
         <div
           className={classNames(

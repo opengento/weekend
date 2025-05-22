@@ -13,10 +13,10 @@ const PublicTransport = ({ access }: PublicTransport) => {
 
   return (
     <div className="flex flex-col gap-2">
-      <Typography color="dark" className="underline">
+      <Typography color="dark" weight="semibold" className="underline">
         {access.publicTransport.title}
       </Typography>
-      <Typography variant="small" color="dark">
+      <Typography color="dark">
         {access.publicTransport.description}
       </Typography>
       <div className="flex fex-col gap-2">

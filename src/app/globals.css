@@ -36,3 +36,7 @@
   --depth: 1;
   --noise: 0;
 }
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}

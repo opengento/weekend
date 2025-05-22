@@ -15,7 +15,7 @@ const Address = ({ place }: Address) => {
 
   return (
     <div className="flex flex-col gap-2">
-      <Typography color="dark" className="underline">
+      <Typography color="dark" weight="semibold" className="underline">
         {t("common:Address")}
       </Typography>
       <Link href={place.url} target="_blank" className="flex flex-row gap-2">

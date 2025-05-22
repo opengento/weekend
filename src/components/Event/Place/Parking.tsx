@@ -13,10 +13,10 @@ const Parking = ({ access }: Parking) => {
 
   return (
     <div className="flex flex-col gap-2">
-      <Typography color="dark" className="underline">
+      <Typography color="dark" weight="semibold" className="underline">
         {access.parking.title}
       </Typography>
-      <Typography variant="small" color="dark">
+      <Typography color="dark">
         {access.parking.description}
       </Typography>
       <ul>

@@ -15,7 +15,7 @@ const Date = ({ date }: Date) => {
 
   return (
     <div className="flex flex-col gap-2">
-      <Typography color="dark" className="underline">
+      <Typography color="dark" weight="semibold" className="underline">
         {t("common:Schedules")}
       </Typography>
       <div className="flex flex-row items-center gap-2">
