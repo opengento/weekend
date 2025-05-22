@@ -27,7 +27,7 @@ const EventPage = ({ activeEvent, currentEvents, upcomingEvents, pastEvents }: E
         <Typography color="dark" className="whitespace-pre-wrap">
           {t("events:content")}
         </Typography>
-        {activeEvent && (<EventCard event={activeEvent} />)}
+        {activeEvent && (<EventCard event={activeEvent} showLogo={false} />)}
         <EventList events={currentEvents} />
       </Article>
       {upcomingEvents.length > 0 && (

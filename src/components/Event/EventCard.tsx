@@ -6,13 +6,15 @@ import classNames from "classnames";
 import { Event } from "@/interfaces/event";
 import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import Hero from "@/components/Hero/Hero";
 
 interface EventCard {
   event: Event;
+  showLogo?: boolean;
   className?: string;
 }
 
-const EventCard = ({ event, className }: EventCard) => {
+const EventCard = ({ event, showLogo = true, className }: EventCard) => {
   const { t } = useTranslation(["common"]);
   const eventLink = {
     label: t("common:findOutMoreEvent"),
@@ -25,16 +27,24 @@ const EventCard = ({ event, className }: EventCard) => {
       "card card-md bg-base-100 shadow-sm",
       className
     )}>
-      <div className="pt-8 px-8">
-        <figure>
-          <Image
-            src={event.logoSrc}
-            alt={event.title}
-            width={160}
-            height={160}
-            className="h-40 w-auto object-contain"
-          />
-        </figure>
+      <div className="pt-6 px-6">
+        <Hero
+          imagePath={event.bannerSrc}
+          overlay={false}
+          className="rounded-md p-4"
+        >
+          {showLogo && (
+            <figure>
+              <Image
+                src={event.logoSrc}
+                alt={event.title}
+                width={160}
+                height={160}
+                className="h-30 w-auto object-contain"
+              />
+            </figure>
+          )}
+        </Hero>
       </div>
       <div className="card-body">
         <h3 className="card-title">{event.title}</h3>
