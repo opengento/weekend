@@ -3,12 +3,12 @@ import classNames from "classnames";
 
 interface Drawer {
   button: ReactNode;
-  size?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl"
+  size?: "sm" | "md" | "lg" | "full";
   children: ReactNode;
 }
 
 const Drawer = ({button, size = "md", children}: Drawer) => {
-  const id= "drawer-" + useId();
+  const id = "drawer-" + useId();
 
   return (
     <div className="drawer drawer-end">
@@ -27,13 +27,12 @@ const Drawer = ({button, size = "md", children}: Drawer) => {
           aria-label="close sidebar"
           className="drawer-overlay"></label>
         <div className={classNames(
-          "bg-base-200 min-h-full px-8 py-14 relative w-xs",
+          "bg-base-200 min-h-full px-8 py-14 relative",
           {
-            "sm:w-sm": ["sm", "md", "lg", "xl", "2xl"].includes(size),
-            "md:w-md": ["md", "lg", "xl", "2xl"].includes(size),
-            "lg:w-lg": ["lg", "xl", "2xl"].includes(size),
-            "xl:w-xl": ["xl", "2xl"].includes(size),
-            "2xl:w-2xl": size === "2xl",
+            "w-2/5": "sm" === size,
+            "w-1/2": "md" === size,
+            "w-3/4": "lg" === size,
+            "w-full": "full" === size,
           }
         )}>
           <label
@@ -41,7 +40,7 @@ const Drawer = ({button, size = "md", children}: Drawer) => {
             className={classNames(
               "drawer-button btn btn-circle btn-ghost absolute right-2 top-2 btn-md",
               {
-                "lg:btn-lg": ["lg", "xl", "2xl"].includes(size),
+                "lg:btn-lg": ["lg", "full"].includes(size),
               }
             )}
           >

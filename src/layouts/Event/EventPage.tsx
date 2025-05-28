@@ -103,7 +103,11 @@ const EventPage = ({ event }: EventPage) => {
           <Typography variant="h2" color="dark" underlineColor="secondary">
             {t("events:sponsors.title")}
           </Typography>
-          <Typography variant="subtitle1" color="dark" className="whitespace-pre-wrap mb-4">
+          <Typography
+            variant="subtitle1"
+            color="dark"
+            className="whitespace-pre-wrap mb-4"
+          >
             {t("events:sponsors.subtitle")}
           </Typography>
           <SponsorList sponsors={event.sponsors}/>
@@ -114,7 +118,11 @@ const EventPage = ({ event }: EventPage) => {
           <Typography variant="h2" color="dark" underlineColor="secondary">
             {t("events:staff.title")}
           </Typography>
-          <Typography variant="subtitle1" color="dark" className="whitespace-pre-wrap mb-4">
+          <Typography
+            variant="subtitle1"
+            color="dark"
+            className="whitespace-pre-wrap mb-4"
+          >
             {t("events:staff.subtitle")}
           </Typography>
           <StaffGrid staff={event.staff} />

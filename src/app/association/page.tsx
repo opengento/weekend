@@ -6,20 +6,29 @@ import Link from "next/link";
 import { getBoard } from "@/lib/association";
 import EnrolSection from "@/components/Association/EnrolSection";
 import Divider from "@/components/Divider/Divider";
+import Hero from "@/components/Hero/Hero";
 
 export default function Page() {
   return (
     <>
       <Container size="large" className="flex flex-col gap-8 my-8">
+        <Hero imagePath="/images/media/association.jpeg" className="rounded-lg min-h-64">
+          <div className="flex flex-col gap-2 justify-center items-center">
+            <Typography variant="h1" underlineColor="primary" color="dark">
+              Qui sommes-nous ?
+            </Typography>
+            <Typography
+              color="dark"
+              align="center"
+              className="whitespace-pre-wrap max-w-xl"
+            >
+              Nous sommes une association loi 1901, dont l’objet est
+              l’organisation d’événements Open-Source pour la communauté de
+              développeurs francophones.
+            </Typography>
+          </div>
+        </Hero>
         <Article>
-          <Typography variant="h1" underlineColor="secondary" color="dark">
-            Qui sommes nous ?
-          </Typography>
-          <Typography color="dark">
-            Il s’agit d’une association loi 1901, dont l’objet est
-            l’organisation d’événements Open-Source pour la communauté de
-            développeurs francophones.
-          </Typography>
           <Typography color="dark">
             Pour mieux comprendre, revenons en arrière et remontons en 2013,
             année de la première édition de la MageConf (.org, à ne pas
@@ -55,10 +64,8 @@ export default function Page() {
           <Typography color="dark">
             Le bureau est renouvelé tous les ans, lors du Weekend Opengento.
           </Typography>
+          <Board individuals={getBoard()} />
         </Article>
-      </Container>
-      <Container>
-        <Board individuals={getBoard()} />
       </Container>
     </>
   );

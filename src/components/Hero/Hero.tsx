@@ -21,9 +21,9 @@ const Hero = ({
 }: Hero) => {
   const blurValues = {
     none: "",
-    sm: "backdrop-blur-sm",
-    md: "backdrop-blur-md",
-    lg: "backdrop-blur-lg",
+    sm: "backdrop-blur-xs",
+    md: "backdrop-blur-sm",
+    lg: "backdrop-blur-md",
   };
 
   return (

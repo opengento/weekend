@@ -84,7 +84,7 @@ export type Event = {
   actions: {
     registration: ButtonLink | undefined;
     callForPapers: ButtonLink | undefined;
-  }
+  };
   date: EventDate;
   programs: EventProgram[];
   place: EventPlace;
