@@ -39,8 +39,8 @@ export default function Page() {
             En 2014, l’association Opengento voit le jour lors de la MageConf.
             L’idée est simple : réunir la communauté de développeurs française
             pendant un weekend pour coder et faire des rencontres! Depuis le
-            premier événement Opengento, qui a eu lieu en 2015 à Toulouse, 6
-            autres week-ends ont été organisés !
+            premier événement Opengento, qui a eu lieu en 2015 à Toulouse, plus
+            de 7 autres week-ends ont été organisés !
           </Typography>
           <Typography color="dark">
             Pour la faire courte, nous sommes une association qui publie lors de
