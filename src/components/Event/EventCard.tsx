@@ -30,7 +30,6 @@ const EventCard = ({ event, showLogo = true, className }: EventCard) => {
       <div className="pt-6 px-6">
         <Hero
           imagePath={event.bannerSrc}
-          overlay={false}
           className="rounded-md p-4"
         >
           {showLogo && (

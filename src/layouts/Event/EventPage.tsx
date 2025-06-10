@@ -56,7 +56,7 @@ const EventPage = ({ event }: EventPage) => {
               alt=""
               width={56}
               height={56}
-              className="w-14 object-contain"
+              className="max-h-24 w-auto object-contain"
             />
             <Typography
               variant="h1"
