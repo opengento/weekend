@@ -9,6 +9,7 @@
     "registration": {
       "label": "Je réserve ma place ! (Gratuit)",
       "href": "https://www.eventbrite.com/e/billets-opengento-x-mollie-1401602503819",
+      "target": "_blank",
       "level": "primary"
     }
   },
