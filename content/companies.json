@@ -159,6 +159,22 @@
       "url": "https://www.dnd.fr/",
       "logoSrc": "/images/logo/dnd.svg",
       "iconSrc": "/images/logo/icon/dnd.svg"
+    },
+    {
+      "id": 21,
+      "name": "OpenITech",
+      "description": "Open I Tech, agence web experte en solutions Open Source avec Odoo & Magento.\nNous vous accompagnons dans tous vos projets de digitalisation industrielle, ainsi que dans l’optimisation ou le lancement de votre projet e-commerce.",
+      "url": "https://openitech.fr/",
+      "logoSrc": "/images/logo/openitech.png",
+      "iconSrc": "/images/logo/icon/openitech.png"
+    },
+    {
+      "id": 22,
+      "name": "Agence Cerberus",
+      "description": "Chez Cerberus, chaque ligne de code a un objectif : scaler, sécuriser, performer. Qu'il s'agisse de créer une boutique e-commerce, de refondre une architecture ou d'optimiser vos performances, nous délivrons des solutions techniques d'élite, pensées pour durer.",
+      "url": "https://www.agence-cerberus.fr/",
+      "logoSrc": "/images/logo/cerberus.svg",
+      "iconSrc": "/images/logo/icon/cerberus.svg"
     }
   ]
 }
