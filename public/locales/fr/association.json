@@ -21,7 +21,7 @@
     },
     "company": {
       "title": "Personne morale",
-      "content": "L’adhésion d’une entreprise est valable sur une année glissante. Le montant dû de la cotisation est à payer au moment de l’adhésion ou de son renouvellement.",
+      "content": "L’adhésion d’une entreprise est valable sur une année glissante. Le montant dû de la cotisation est à payer au moment de l’adhésion ou de son renouvellement.\nAttention, les salariés, s’ils souhaitent adhérer à l’association Opengento, sont inviter à passer par le formulaire d’hadhésion indivuel. L’adhésion d’un entreprise ne compte que pour la personne morale.",
       "list": [
         "Présentation dans l’annuaire",
         "Accès prioritaire aux sponsorings d’événements",
