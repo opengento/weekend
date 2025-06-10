@@ -2,7 +2,7 @@
   "identifier": "apero-opengento-x-mollie-2025",
   "title": "Opengento X Mollie",
   "logoSrc": "/images/logo/opengento.svg",
-  "bannerSrc": "/images/events/apero-opengento-x-mollie-2025/Opengento-Mollie.png",
+  "bannerSrc": "/images/media/hero.jpg",
   "description": "Rejoignez-nous pour le tout premier meetup développeurs Opengento x Mollie !",
   "content": "La communauté Magento se retrouve à Strasbourg !\n\n\nRejoignez-nous pour notre tout premier meetup OpenGento x Mollie — pensé pour celles et ceux qui construisent, cassent et prennent soin de Magento.\n\n\n\nNous réunissons des développeurs de l’écosystème Magento, des contributeurs open source et des ingénieurs paiements pour échanger des idées, poser des questions et rencontrer ceux qui œuvrent en coulisses.\n\n\n\nRemarque : Les informations que vous fournirez lors de l’inscription seront utilisées uniquement par Mollie et OpenGento dans le cadre de cet événement.",
   "actions": {
@@ -96,7 +96,7 @@
   },
   "sponsors": [
     {
-      "type": "platinum",
+      "type": "gold",
       "companyId": 17
     },
     {
@@ -107,9 +107,6 @@
   "staff": [
     {
       "individualId": 1
-    },
-    {
-      "individualId": 3
     },
     {
       "individualId": 5
