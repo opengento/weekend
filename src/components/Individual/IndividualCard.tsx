@@ -12,7 +12,7 @@ const IndividualCard = ({ individual }: Card) => {
 
   return (
     <div className="card card-side bg-base-100 shadow-sm">
-      <figure>
+      <figure className="w-xs">
         <Image
           src={individual.avatarSrc}
           alt={individual.name}
