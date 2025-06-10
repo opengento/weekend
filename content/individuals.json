@@ -58,6 +58,32 @@
         "github": "https://github.com/FlorianFauvelNolaConsulting"
       },
       "avatarSrc": "/images/avatar/florian-fauvel.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Klaudia Pniewska",
+      "biography": "",
+      "companyId": 17,
+      "roles": [
+        "Program Coordinator"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/klaudia-pniewska/"
+      },
+      "avatarSrc": "/images/avatar/klaudia-pniewska.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Ceyhun Kaplan",
+      "biography": "",
+      "companyId": 2,
+      "roles": [
+        "Directeur Associé"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/kaplanceyhun/"
+      },
+      "avatarSrc": "/images/avatar/ceyhun-kaplan.jpeg"
     }
   ]
 }

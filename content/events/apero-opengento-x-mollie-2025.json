@@ -1,0 +1,122 @@
+{
+  "identifier": "apero-opengento-x-mollie-2025",
+  "title": "Opengento X Mollie",
+  "logoSrc": "/images/logo/opengento.svg",
+  "bannerSrc": "/images/events/apero-opengento-x-mollie-2025/Opengento-Mollie.png",
+  "description": "Rejoignez-nous pour le tout premier meetup développeurs Opengento x Mollie !",
+  "content": "La communauté Magento se retrouve à Strasbourg !\n\n\nRejoignez-nous pour notre tout premier meetup OpenGento x Mollie — pensé pour celles et ceux qui construisent, cassent et prennent soin de Magento.\n\n\n\nNous réunissons des développeurs de l’écosystème Magento, des contributeurs open source et des ingénieurs paiements pour échanger des idées, poser des questions et rencontrer ceux qui œuvrent en coulisses.\n\n\n\nRemarque : Les informations que vous fournirez lors de l’inscription seront utilisées uniquement par Mollie et OpenGento dans le cadre de cet événement.",
+  "actions": {
+    "registration": {
+      "label": "Je réserve ma place ! (Gratuit)",
+      "href": "https://www.eventbrite.com/e/billets-opengento-x-mollie-1401602503819",
+      "level": "primary"
+    }
+  },
+  "date": {
+    "from": "2025-08-28T18:00:00",
+    "to": "2025-08-28T21:00:00"
+  },
+  "programs": [
+    {
+      "title": "Jeudi 28 août 2025",
+      "schedules": [
+        {
+          "name": "Arrivée des participants",
+          "description": "Accueil des premiers arrivants directement dans les bureaux de Blackbird !",
+          "date": {
+            "from": "2025-08-28T18:00:00",
+            "to": "2025-08-28T18:15:00"
+          }
+        },
+        {
+          "name": "Talk",
+          "description": "Présentation du sujet par le speaker de la soirée.",
+          "date": {
+            "from": "2025-08-28T18:15:00",
+            "to": "2025-08-28T19:00:00"
+          }
+        },
+        {
+          "name": "Cocktail",
+          "description": "Soirée networking & cocktail.",
+          "date": {
+            "from": "2025-08-28T19:00:00",
+            "to": "2025-08-28T21:00:00"
+          }
+        }
+      ]
+    }
+  ],
+  "place": {
+    "name": "Blackbird Agency",
+    "address": "5 Avenue de la Marseillaise,\n67000 Strasbourg\nFrance",
+    "url": "https://maps.app.goo.gl/WKUkrP9jMzwDWgob9",
+    "access": {
+      "publicTransport": {
+        "title": "Transports en commun",
+        "description": "Profitez des transports en commun :",
+        "itinerary": [
+          {
+            "icons": [],
+            "name": "Tram Arrêt République (B-C-E-F)",
+            "url": ""
+          },
+          {
+            "icons": [],
+            "name": "Tram Arrêt Galia (B-C-E-F)",
+            "url": ""
+          },
+          {
+            "icons": [],
+            "name": "Bus Arrêt Liberté (15-72-C6)",
+            "url": ""
+          },
+          {
+            "icons": [],
+            "name": "Bus Arrêt Liberté (15-72-C6)",
+            "url": ""
+          }
+        ]
+      },
+      "parking": {
+        "title": "Venir en voiture",
+        "description": "Plusieurs parkings sont disponibles :",
+        "locations": [
+          {
+            "name": "Parcus Parking Opéra Broglie",
+            "url": "https://www.parcus.com/parkings/opera-broglie/"
+          },
+          {
+            "name": "Dans les rues adjacentes",
+            "url": "https://maps.app.goo.gl/22maoaVncyQVhGun6"
+          }
+        ]
+      }
+    }
+  },
+  "sponsors": [
+    {
+      "type": "platinum",
+      "companyId": 17
+    },
+    {
+      "type": "gold",
+      "companyId": 2
+    }
+  ],
+  "staff": [
+    {
+      "individualId": 1
+    },
+    {
+      "individualId": 3
+    },
+    {
+      "individualId": 5
+    },
+    {
+      "individualId": 6
+    }
+  ],
+  "gallery": []
+}
