@@ -2,12 +2,7 @@
 
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
-import {
-  FaTicket,
-  FaSpeakerDeck,
-  FaSpeakap,
-  FaMicrophone
-} from "react-icons/fa6";
+import { FaTicket, FaMicrophone } from "react-icons/fa6";
 import { Event } from "@/interfaces/event";
 import { isUpcoming } from "@/lib/event/date";
 import Container from "@/layouts/Container";
