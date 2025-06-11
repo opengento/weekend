@@ -11,14 +11,14 @@ const IndividualCard = ({ individual }: Card) => {
   const company = individual.company;
 
   return (
-    <div className="card card-side bg-base-100 shadow-sm">
-      <figure className="w-xs">
+    <div className="card md:card-side bg-base-100 shadow-sm">
+      <figure>
         <Image
           src={individual.avatarSrc}
           alt={individual.name}
           width={275}
           height={275}
-          className="object-contain"
+          className="w-xs object-contain"
         />
       </figure>
       <div className="card-body">
