@@ -84,6 +84,7 @@ export type Event = {
   actions: {
     registration: ButtonLink | undefined;
     callForSpeakers: ButtonLink | undefined;
+    sponsor: ButtonLink | undefined;
   };
   date: EventDate;
   programs: EventProgram[];

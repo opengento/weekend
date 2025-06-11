@@ -2,7 +2,7 @@
 
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
-import { FaTicket, FaMicrophone } from "react-icons/fa6";
+import {FaTicket, FaMicrophone, FaMoneyBill} from "react-icons/fa6";
 import { Event } from "@/interfaces/event";
 import { isUpcoming } from "@/lib/event/date";
 import Container from "@/layouts/Container";
@@ -69,17 +69,27 @@ const EventPage = ({ event }: EventPage) => {
             </Typography>
           </div>
           <div className="flex flex-col md:flex-row gap-4">
-            {event.actions.registration && isUpcoming(event) && (
-              <ButtonLink
-                cta={event.actions.registration}
-                icon={<FaTicket />}
-              />
-            )}
-            {event.actions.callForSpeakers && isUpcoming(event) && (
-              <ButtonLink
-                cta={event.actions.callForSpeakers}
-                icon={<FaMicrophone />}
-              />
+            {isUpcoming(event) && (
+              <>
+                {event.actions.registration && (
+                  <ButtonLink
+                    cta={event.actions.registration}
+                    icon={<FaTicket />}
+                  />
+                )}
+                {event.actions.sponsor && (
+                  <ButtonLink
+                    cta={event.actions.sponsor}
+                    icon={<FaMoneyBill />}
+                  />
+                )}
+                {event.actions.callForSpeakers && (
+                  <ButtonLink
+                    cta={event.actions.callForSpeakers}
+                    icon={<FaMicrophone />}
+                  />
+                )}
+              </>
             )}
           </div>
         </div>
@@ -107,7 +117,7 @@ const EventPage = ({ event }: EventPage) => {
         <Program event={event}/>
       </Article>
       {hasSponsor && (
-        <Article align="center" id="sponsor">
+        <Article align="center" id="sponsors">
           <Typography variant="h2" color="dark" underlineColor="secondary">
             {t("events:sponsors.title")}
           </Typography>

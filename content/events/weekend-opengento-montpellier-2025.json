@@ -6,10 +6,17 @@
   "description": "Nous vous préparons le prochain hackathon made by Opengento !\nCelui-ci se déroulera le 1er weekend d’octobre, dans le sud, pas très loin de Montpellier, pour profiter des derniers rayons de soleils de l’année...\n\nLa billetterie n’est pas encore ouverte, donc restez à l’écoute !",
   "content": "Les weekends hackathon sont des variantes de Developer Paradise, mais à la française ! Cest la possibilité de se réunir dans une ambiance conviviale et détendue pour parler dev, infra, méthodes de travail mais pas que ! C’est surtout le plaisir de se retrouver ou de se rencontrer (en chair et en os), mais surtout d’apprendre et de partager !\n\nEn participant à l’événement vous vous engagez à suivre et respecter le code de conduite d’Opengento.\n\nLa billetterie n’est pas encore ouverte, donc restez connecté et n’hésitez pas à nous contacter sur le slack pour plus d’information.\n\nLe Week-end n’est ouvert qu’aux adhérents Opengento, l’adhésion coûte 5.00€ et est à vie.",
   "actions": {
-    "registration_disabled": {
+    "registration": {
       "label": "Je prends mon billet !",
       "href": "https://www.helloasso.com/associations/opengento/evenements/we-opengento-montpellier-2025-1",
+      "target": "_blank",
       "level": "primary"
+    },
+    "sponsor": {
+      "label": "Je veux être sponsor !",
+      "href": "https://www.helloasso.com/associations/opengento/evenements/we-opengento-montpellier-2025-sponsors",
+      "target": "_blank",
+      "level": "secondary"
     }
   },
   "date": {
@@ -175,7 +182,20 @@
       }
     }
   },
-  "sponsors": [],
+  "sponsors": [
+    {
+      "type": "gold",
+      "companyId": 6
+    },
+    {
+      "type": "gold",
+      "companyId": 3
+    },
+    {
+      "type": "gold",
+      "companyId": 22
+    }
+  ],
   "staff": [
     {
       "individualId": 4
