@@ -37,7 +37,7 @@ const Header = () => {
   );
 
   return (
-    <header className="bg-neutral sticky top-0 w-full z-50">
+    <header className="bg-neutral sticky top-0 w-full shadow-sm z-50">
       <div className="navbar mx-auto md:px-12 lg:px-16 max-w-[1440px]">
         <div className="navbar-start">
           <MainLogo />
