@@ -25,12 +25,12 @@ const SponsorGrid = ({ sponsors }: SponsorGrid) => {
               className={classNames(
                 "rounded-lg relative duration-500 hover:scale-110 hover:z-10",
                 "flex justify-center items-center overflow-hidden",
-                "bg-slate-900/50",
+                "bg-slate-400/75",
                 {
-                  "col-span-12 row-span-6 md:col-span-4 px-4 py-16 hover:bg-gradient-to-r hover:from-fuchsia-900 hover:to-pink-900": sponsorType === "platinum",
-                  "col-span-12 row-span-3 md:col-span-4 px-6 py-8 hover:bg-gradient-to-r hover:from-fuchsia-900 hover:to-purple-900": sponsorType === "gold",
-                  "col-span-12 row-span-2 md:col-span-3 px-8 py-4 hover:bg-gradient-to-r hover:from-indigo-900 hover:to-purple-900": sponsorType === "silver",
-                  "col-span-6 md:col-span-2 px-4 py-2 hover:bg-gradient-to-r hover:from-violet-900 hover:to-indigo-900": sponsorType === "bronze",
+                  "col-span-12 row-span-6 md:col-span-4 px-4 py-16 hover:bg-gradient-to-r hover:from-fuchsia-300 hover:to-pink-500": sponsorType === "platinum",
+                  "col-span-12 row-span-3 md:col-span-4 px-6 py-8 hover:bg-gradient-to-r hover:from-fuchsia-300 hover:to-purple-500": sponsorType === "gold",
+                  "col-span-12 row-span-2 md:col-span-3 px-8 py-4 hover:bg-gradient-to-r hover:from-indigo-300 hover:to-purple-500": sponsorType === "silver",
+                  "col-span-6 md:col-span-2 px-4 py-2 hover:bg-gradient-to-r hover:from-violet-300 hover:to-indigo-500": sponsorType === "bronze",
                 }
               )}
               key={`sponsors-${index}-${key}`}
