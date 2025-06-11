@@ -11,6 +11,12 @@
       "href": "https://www.eventbrite.com/e/billets-opengento-x-mollie-1401602503819",
       "target": "_blank",
       "level": "primary"
+    },
+    "callForSpeakers": {
+      "label": "Call for speaker!",
+      "href": "https://docs.google.com/forms/d/1zNNio9LrS0Gj20c5Bu4JNwKpCjwlHtDpd6G738awKpE/viewform",
+      "target": "_blank",
+      "level": "neutral"
     }
   },
   "date": {

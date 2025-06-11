@@ -83,7 +83,7 @@ export type Event = {
   content: string;
   actions: {
     registration: ButtonLink | undefined;
-    callForPapers: ButtonLink | undefined;
+    callForSpeakers: ButtonLink | undefined;
   };
   date: EventDate;
   programs: EventProgram[];
