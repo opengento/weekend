@@ -198,6 +198,14 @@
     {
       "type": "gold",
       "companyId": 23
+    },
+    {
+      "type": "gold",
+      "companyId": 4
+    },
+    {
+      "type": "gold",
+      "companyId": 24
     }
   ],
   "staff": [
