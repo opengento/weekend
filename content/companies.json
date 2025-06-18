@@ -77,8 +77,8 @@
       "name": "Crealoz",
       "description": "Crealoz conçoit des solutions Magento 2 avec un fort accent sur la qualité du code, la maintenabilité et l’expérience utilisateur. L’agence propose aussi des sites vitrines sous WordPress, pensés pour la rapidité, le SEO et l’évolutivité. Elle édite enfin EasyAudit, un module léger de traçabilité pour le back-office Magento.",
       "url": "https://crealoz.fr/",
-      "logoSrc": "/images/logo/crealoz.png",
-      "iconSrc": "/images/logo/icon/crealoz.png"
+      "logoSrc": "/images/logo/crealoz.svg",
+      "iconSrc": "/images/logo/icon/crealoz.svg"
     },
     {
       "id": 11,
