@@ -193,11 +193,11 @@
     },
     {
       "type": "gold",
-      "companyId": 22
+      "companyId": 21
     },
     {
       "type": "gold",
-      "companyId": 23
+      "companyId": 22
     },
     {
       "type": "gold",
@@ -205,11 +205,15 @@
     },
     {
       "type": "gold",
-      "companyId": 24
+      "companyId": 23
     },
     {
       "type": "gold",
       "companyId": 10
+    },
+    {
+      "type": "gold",
+      "companyId": 2
     }
   ],
   "staff": [

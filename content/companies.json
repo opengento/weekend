@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Blackbird",
-      "description": "La mission de Blackbird est d’aider les e-commerçants dans toutes les phases de leur projet : conseil stratégique, design créatif, conception et pilotage de plateformes e-commerce sur-mesure, accompagnement proche et réactif et formation.",
+      "description": "Depuis 2015, Blackbird accompagne les e-commerçants dans toutes les phases de leur projet : architecture technique, développement sur mesure, design, conseil et formation. Notre équipe à taille humaine s’implique au quotidien, avec proximité et réactivité, pour concevoir des plateformes robustes, évolutives et adaptées aux spécificités métier et enjeux de chaque client.",
       "url": "https://black.bird.eu/",
       "logoSrc": "/images/logo/blackbird.svg",
       "iconSrc": "/images/logo/icon/blackbird.svg"
@@ -154,14 +154,6 @@
     },
     {
       "id": 20,
-      "name": "Dn’D",
-      "description": "Du conseil au delivery d’expériences digitales et E-Commerce sur mesure pour le B2C et le B2B. Dn’D accompagne depuis plus de 20 ans des entreprises issues de secteurs variés (retail, luxe, industrie...) dans la réussite de leurs projets IT, digitaux et E-Commerce.",
-      "url": "https://www.dnd.fr/",
-      "logoSrc": "/images/logo/dnd.svg",
-      "iconSrc": "/images/logo/icon/dnd.svg"
-    },
-    {
-      "id": 21,
       "name": "OpenITech",
       "description": "OpenITech est une agence web & ERP basée dans les Hauts-de-France.\n Spécialistes Magento et Odoo, on accompagne nos clients dans leur digitalisation avec des solutions sur-mesure, robustes et open source.",
       "url": "https://openitech.fr/",
@@ -169,7 +161,7 @@
       "iconSrc": "/images/logo/icon/openitech.png"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Agence Cerberus",
       "description": "Agence Cerberus est une agence spécialisée en développement d'applications web et de sites e-commerce (Magento, Sylius & Symfony). Fort de ces 30 années d'expérience cumulée, elle offre expertise, performance et accompagnement personnalisé pour des projets sur mesure pour les TPE et les PME.",
       "url": "https://www.agence-cerberus.fr/",
@@ -177,7 +169,7 @@
       "iconSrc": "/images/logo/icon/cerberus.svg"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "ElasticSuite",
       "description": "C’est la solution de recherche et de navigation pensée pour booster l’expérience client sur Magento. Open source, puissante et intuitive, elle transforme les parcours en opportunité de conversion. Présente depuis des années dans l’écosystème, c’est l’extension Magento la plus téléchargée — adoptée par les plus belles marques de France et du monde afin d'offrir une expérience produit efficace à leurs clients.",
       "url": "https://elasticsuite.io/",
@@ -185,7 +177,7 @@
       "iconSrc": "/images/logo/icon/elasticsuite.svg"
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Agence Boeki",
       "description": "Membre actif de l’écosystème Magento, l'Agence Boeki conçoit des solutions e-commerce sur mesure et performantes depuis plus de 10 ans. Nous réalisons des projets end to end, avec des architectures robustes et évolutives. Notre approche est centrée sur un accompagnement continu autour des besoins réels de nos clients commerçants.",
       "url": "https://www.boeki.fr/",
