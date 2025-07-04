@@ -42,6 +42,11 @@ const Time = ({
     "date": (): string => date.toLocaleDateString(locales, options),
     "dateTime": (): string => date.toLocaleString(locales, options),
   };
+  const metadata = {
+    "time": (): string => `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`,
+    "date": (): string => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`,
+    "dateTime": (): string => date.toISOString(),
+  }
 
   return (
     <time dateTime={date.toISOString()} className={className}>
