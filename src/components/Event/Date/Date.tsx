@@ -26,19 +26,23 @@ const Date = ({ date }: Date) => {
       </Typography>
       <div className="flex flex-row items-center gap-2">
         <FaClock className="size-4 text-primary" width={16} />
-        <span>{t("common:From2")}</span>
-        <Time date={date.from} type="date" options={dateFormatOptions} />
-        <br/>
-        <span>{t("common:at")}</span>
-        <Time date={date.from} type="time"/>
+        <p className="flex flex-row flex-wrap gap-2">
+          <span>{t("common:From2")}</span>
+          <Time date={date.from} type="date" options={dateFormatOptions}/>
+          <br/>
+          <span>{t("common:at")}</span>
+          <Time date={date.from} type="time"/>
+        </p>
       </div>
       <div className="flex flex-row items-center gap-2">
-        <FaClock className="size-4 text-primary rotate-180" width={16} />
-        <span>{t("common:to2")}</span>
-        <Time date={date.to} type="date" options={dateFormatOptions} />
-        <br/>
-        <span>{t("common:at")}</span>
-        <Time date={date.to} type="time"/>
+        <FaClock className="size-4 text-primary rotate-180" width={16}/>
+        <p className="flex flex-row flex-wrap gap-2">
+          <span>{t("common:to2")}</span>
+          <Time date={date.to} type="date" options={dateFormatOptions}/>
+          <br/>
+          <span>{t("common:at")}</span>
+          <Time date={date.to} type="time"/>
+        </p>
       </div>
     </div>
   );
