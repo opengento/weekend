@@ -49,7 +49,7 @@ const Time = ({
   }
 
   return (
-    <time dateTime={date.toISOString()} className={className}>
+    <time dateTime={metadata[type]()} className={className}>
       {renderer[type]()}
     </time>
   );
