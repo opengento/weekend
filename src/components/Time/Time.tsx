@@ -22,7 +22,17 @@ const Time = ({
     locales = t("common:locale");
   }
   if (options === undefined) {
-      options = type === "time" ? { hour: "2-digit", minute: "2-digit" } : {};
+    options = {
+      "time": { hour: "2-digit", minute: "2-digit" },
+      "date": { year: "numeric", month: "numeric", day: "numeric"},
+      "dateTime": {
+        year: "numeric",
+        month: "numeric",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      }
+    }[type] as Intl.DateTimeFormatOptions;
   }
   if (typeof date === "string") {
     date = new Date(date);

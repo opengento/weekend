@@ -12,6 +12,12 @@ interface Date {
 
 const Date = ({ date }: Date) => {
   const { t } = useTranslation(["common"]);
+  const dateFormatOptions: Intl.DateTimeFormatOptions = {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  };
 
   return (
     <div className="flex flex-col gap-2">
@@ -21,12 +27,18 @@ const Date = ({ date }: Date) => {
       <div className="flex flex-row items-center gap-2">
         <FaClock className="size-4 text-primary" width={16} />
         <span>{t("common:From2")}</span>
-        <Time date={date.from} type="dateTime" />
+        <Time date={date.from} type="date" options={dateFormatOptions} />
+        <br/>
+        <span>{t("common:at")}</span>
+        <Time date={date.from} type="time"/>
       </div>
       <div className="flex flex-row items-center gap-2">
         <FaClock className="size-4 text-primary rotate-180" width={16} />
         <span>{t("common:to2")}</span>
-        <Time date={date.to} type="dateTime" />
+        <Time date={date.to} type="date" options={dateFormatOptions} />
+        <br/>
+        <span>{t("common:at")}</span>
+        <Time date={date.to} type="time"/>
       </div>
     </div>
   );
