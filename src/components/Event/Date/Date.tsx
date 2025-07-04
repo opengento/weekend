@@ -24,23 +24,21 @@ const Date = ({ date }: Date) => {
       <Typography color="dark" weight="semibold" className="underline">
         {t("common:Schedules")}
       </Typography>
-      <div className="flex flex-row items-center gap-2">
+      <div className="flex flex-row items-center gap-x-2">
         <FaClock className="size-4 text-primary" width={16} />
-        <p className="flex flex-row flex-wrap gap-2">
-          <span>{t("common:From2")}</span>
-          <Time date={date.from} type="date" options={dateFormatOptions}/>
-          <br/>
-          <span>{t("common:at")}</span>
+        <p>
+          <span>{t("common:From2")}</span>&nbsp;
+          <Time date={date.from} type="date" options={dateFormatOptions}/>&nbsp;
+          <span>{t("common:fromT")}</span>&nbsp;
           <Time date={date.from} type="time"/>
         </p>
       </div>
-      <div className="flex flex-row items-center gap-2">
+      <div className="flex flex-row items-center gap-x-2">
         <FaClock className="size-4 text-primary rotate-180" width={16}/>
-        <p className="flex flex-row flex-wrap gap-2">
-          <span>{t("common:to2")}</span>
-          <Time date={date.to} type="date" options={dateFormatOptions}/>
-          <br/>
-          <span>{t("common:at")}</span>
+        <p>
+          <span>{t("common:To2")}</span>&nbsp;
+          <Time date={date.to} type="date" options={dateFormatOptions}/>&nbsp;
+          <span>{t("common:untilT")}</span>&nbsp;
           <Time date={date.to} type="time"/>
         </p>
       </div>
