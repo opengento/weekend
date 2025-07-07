@@ -222,6 +222,10 @@
     {
       "type": "gold",
       "companyId": 24
+    },
+    {
+      "type": "gold",
+      "companyId": 12
     }
   ],
   "staff": [
