@@ -38,7 +38,7 @@ const Timeline = ({ program } : Timeline) => {
               <Time date={schedule.date.to} type="time" className="font-mono italic mx-2" />
             </span>
             <div className="text-lg font-black">{schedule.name}</div>
-            {schedule.description}
+            <p className="whitespace-pre-wrap">{schedule.description}</p>
           </div>
           <hr/>
         </li>
