@@ -48,7 +48,7 @@ const IndividualCard = ({ individual }: Card) => {
             {role}
           </div>
         ))}
-        <p>{individual.biography}</p>
+        <p className="whitespace-pre-wrap">{individual.biography}</p>
         <div className="card-actions justify-end">
           {individual.social.linkedin && (
             <Link
