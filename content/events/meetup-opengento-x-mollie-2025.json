@@ -36,16 +36,24 @@
           }
         },
         {
-          "name": "Talk",
-          "description": "Présentation des sujets par les speakers de la soirée.",
+          "name": "Accessibilité & CSP: respecter les règles sans exploser le budget",
+          "description": "Par Klauss Mortreux.\n\n2025 marque un tournant réglementaire avec la nouvelle loi sur l’accessibilité et l’application stricte des règles PCI DSS sur les CSP. Comment se mettre en conformité sans exploser les budgets ? Cette session vous donne des pistes concrètes.",
           "date": {
-            "from": "2025-08-28T18:15:00",
+            "from": "2025-08-28T18:30:00",
+            "to": "2025-08-28T19:00:00"
+          }
+        },
+        {
+          "name": "Pourquoi j'ai arrêté Magento : neuf ans de transitions technologiques",
+          "description": "Par Grégory Planchat.\n\nEn 2016, il a choisi de s’éloigner de Magento pour explorer d’autres technologies et méthodes de développement. Près de dix ans plus tard, l’écosystème Magento a évolué, mais ce choix était-il le bon ? Dans cette présentation, découvrez comment travailler avec Symfony, Laravel ou même sans framework a enrichi sa manière d’aborder les problématiques complexes, et si Magento convient réellement à tous les cas d’usage.",
+          "date": {
+            "from": "2025-08-28T19:00:00",
             "to": "2025-08-28T19:30:00"
           }
         },
         {
-          "name": "Cocktail",
-          "description": "Soirée networking & cocktail.",
+          "name": "Cocktail & Réseautage",
+          "description": "",
           "date": {
             "from": "2025-08-28T19:30:00",
             "to": "2025-08-28T21:00:00"
