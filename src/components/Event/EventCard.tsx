@@ -22,6 +22,26 @@ const EventCard = ({ event, showLogo = true, className }: EventCard) => {
     level: "primary"
   } as ButtonLinkType;
 
+  const renderDate = (event: Event) => {
+    const from = new Date(event.date.from);
+    const to = new Date(event.date.to);
+    const sameDay = from.getFullYear() === to.getFullYear() &&
+      from.getMonth() === to.getMonth() &&
+      from.getDate() === to.getDate();
+
+    return (
+      <span className="flex flex-row gap-2">
+        <Time date={event.date.from} type="date"/>
+        {!sameDay && (
+          <>
+            -
+            <Time date={event.date.to} type="date"/>
+          </>
+        )}
+      </span>
+    );
+  };
+
   return (
     <div className={classNames(
       "card card-md bg-base-100 shadow-sm",
@@ -47,6 +67,9 @@ const EventCard = ({ event, showLogo = true, className }: EventCard) => {
       </div>
       <div className="card-body">
         <h3 className="card-title">{event.title}</h3>
+        <Typography color="primary" align="center">
+          {renderDate(event)}
+        </Typography>
         <p>{event.description}</p>
         <div className="card-actions justify-end mt-4">
           <ButtonLink cta={eventLink}/>
