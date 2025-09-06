@@ -7,7 +7,6 @@ import { Event } from "@/interfaces/event";
 import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import Hero from "@/components/Hero/Hero";
-import Typography from "@/components/Typography/Typography";
 import Time from "@/components/Time/Time";
 
 interface EventCard {
@@ -69,9 +68,7 @@ const EventCard = ({ event, showLogo = true, className }: EventCard) => {
       </div>
       <div className="card-body">
         <h3 className="card-title">{event.title}</h3>
-        <Typography color="primary" align="center">
-          {renderDate(event)}
-        </Typography>
+        <p>{renderDate(event)}</p>
         <p>{event.description}</p>
         <div className="card-actions justify-end mt-4">
           <ButtonLink cta={eventLink}/>
