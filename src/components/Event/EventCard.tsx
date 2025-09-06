@@ -7,6 +7,7 @@ import { Event } from "@/interfaces/event";
 import { ButtonLink as ButtonLinkType } from "@/interfaces/link";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import Hero from "@/components/Hero/Hero";
+import Typography from "@/components/Typography/Typography";
 import Time from "@/components/Time/Time";
 
 interface EventCard {
