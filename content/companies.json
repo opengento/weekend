@@ -191,6 +191,14 @@
       "url": "https://www.fast-mage.com/",
       "logoSrc": "/images/logo/fastmage.svg",
       "iconSrc": "/images/logo/icon/fastmage.png"
+    },
+    {
+      "id": 25,
+      "name": "410 Gone",
+      "description": " 410 Gone, experts Magento, accompagne les e-commerçants avec une double compétence : développement et marketing digital. SEO, SEA et automatisation s’allient à la technique pour créer des boutiques performantes, visibles et orientées conversion.",
+      "url": "https://www.410-gone.fr/",
+      "logoSrc": "/images/logo/410gone.svg",
+      "iconSrc": "/images/logo/icon/410gone.svg"
     }
   ]
 }
