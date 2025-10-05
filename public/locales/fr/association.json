@@ -51,7 +51,7 @@
       "icon": "",
       "title": "Événements organisés",
       "value": "+9",
-      "description": "Week-End Opengento\nMeet Magento France",
+      "description": "Week-End Hackathon Opengento\nMeet Magento France",
       "color": "primary",
       "actions": []
     },
@@ -79,8 +79,8 @@
     }
   ],
   "hero": {
-    "title": "Week-End & Opengento",
-    "content": "Opengento est une association Française loi 1901 dont l’objet est l’organisation d’événements pour la communauté de développeurs.\n\nLe Week-End Opengento est l’évènement incontournable pour les développeurs, sur les technologies qui gravitent autour de l’e-commerce.\nAvec un attrait spécial pour les solutions Magento et Sylius !",
+    "title": "Week-End Hackathon Opengento",
+    "content": "Opengento est une association Française loi 1901 dont l’objet est l’organisation d’événements pour la communauté de développeurs.\n\nLe Week-End Hackathon Opengento est l’évènement incontournable pour les développeurs, sur les technologies qui gravitent autour de l’e-commerce.\nAvec un attrait spécial pour les solutions comme Magento !",
     "actions": [
       {
         "href": "/association",
@@ -89,7 +89,7 @@
       },
       {
         "href": "/events/organisez-votre-evenement",
-        "label": "Organiser le prochain Week-End",
+        "label": "Organiser le prochain Week-End Hackathon",
         "level": "primary"
       }
     ]
