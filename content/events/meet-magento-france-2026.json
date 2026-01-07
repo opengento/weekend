@@ -1,0 +1,110 @@
+{
+  "identifier": "meet-magento-france-2026",
+  "title": "Meet Magento France 2026",
+  "logoSrc": "/images/logo/mmfr26.svg",
+  "bannerSrc": "/images/events/meet-magento-france-2026/bg-hero.jpg",
+  "description": "Rejoignez la communauté Magento et Adobe Commerce pour une journée d’innovations, d’échanges et d’expertise, à ne pas manquer !\n\nDe nombreux marchands, éditeurs et agences ont déjà confirmé leur présence.",
+  "content": "Une journée rythmée par des conférences inspirantes alliant stratégie business, E-Commerce, expertise technique et retours d’expérience de marchands. Entre chaque session, des moments de networking privilégiés permettront d’échanger entre participants et de renforcer les liens au sein de la communauté Magento et Adobe Commerce !",
+  "actions": {
+    "registration": {
+      "label": "Je prends mon billet !",
+      "href": "https://www.eventbrite.fr/e/billets-meet-magento-2026-france-1979332028379",
+      "level": "primary"
+    }
+  },
+  "date": {
+    "from": "2026-05-25T09:00:00",
+    "to": "2026-05-25T22:00:00"
+  },
+  "programs": [
+    {
+      "title": "Jeudi 25 juin 2026",
+      "schedules": [
+        {
+          "name": "Petit-déjeuner et networking",
+          "description": "",
+          "date": {
+            "from": "2026-02-18T09:00:00",
+            "to": "2026-02-18T10:00:00"
+          }
+        },
+        {
+          "name": "Conférences et ateliers",
+          "description": "Les experts de l’écosystème aborderont les thématiques phares de 2026 et partageront leurs retours d’expérience. Des ateliers business et techniques (fr/en) viendront compléter la programmation tout au long de la journée !",
+          "date": {
+            "from": "2026-02-18T10:00:00",
+            "to": "2026-02-18T12:30:00"
+          }
+        },
+        {
+          "name": "Déjeuner et networking",
+          "description": "",
+          "date": {
+            "from": "2026-02-18T12:30:00",
+            "to": "2026-02-18T14:00:00"
+          }
+        },
+        {
+          "name": "Conférences et ateliers",
+          "description": "Les experts de l’écosystème aborderont les thématiques phares de 2026 et partageront leurs retours d’expérience. Des ateliers business et techniques (fr/en) viendront compléter la programmation tout au long de la journée !",
+          "date": {
+            "from": "2026-02-18T14:00:00",
+            "to": "2026-02-18T16:30:00"
+          }
+        },
+        {
+          "name": "Pause et networking",
+          "description": "",
+          "date": {
+            "from": "2026-02-18T16:30:00",
+            "to": "2026-02-18T17:00:00"
+          }
+        },
+        {
+          "name": "Closing notes",
+          "description": "",
+          "date": {
+            "from": "2026-02-18T17:00:00",
+            "to": "2026-02-18T18:30:00"
+          }
+        },
+        {
+          "name": "Apéro dinatoire et soirée",
+          "description": "",
+          "date": {
+            "from": "2026-02-18T18:30:00",
+            "to": "2026-02-18T22:00:00"
+          }
+        },
+        {
+          "name": "After Party",
+          "description": "",
+          "date": {
+            "from": "2026-02-18T22:00:00",
+            "to": "2026-02-18T23:30:00"
+          }
+        }
+      ]
+    }
+  ],
+  "place": {
+    "name": "Salons de l’Aveyron",
+    "address": "217 Rue de l’Aubrac, 75012 Paris",
+    "url": "https://maps.app.goo.gl/sryYMjHKVLPPqh2m6",
+    "access": {
+      "publicTransport": {
+        "title": "Transports en commun",
+        "description": "Profitez des transports en commun à Paris.",
+        "itinerary": []
+      },
+      "parking": {
+        "title": "Venir en voiture",
+        "description": "Si vous venez en voiture, plusieurs parkings sont disponibles à proximité, tels que :",
+        "locations": []
+      }
+    }
+  },
+  "sponsors": [],
+  "staff": [],
+  "gallery": []
+}
