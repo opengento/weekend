@@ -9,6 +9,7 @@
     "registration": {
       "label": "Je prends mon billet !",
       "href": "https://www.helloasso.com/associations/opengento/evenements/we-opengento-selestat-2024",
+      "target": "_blank",
       "level": "primary"
     }
   },

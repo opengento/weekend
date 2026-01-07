@@ -9,6 +9,7 @@
     "registration": {
       "label": "Je prends mon billet !",
       "href": "https://www.eventbrite.fr/e/billets-meet-magento-2026-france-1979332028379",
+      "target": "_blank",
       "level": "primary"
     }
   },
