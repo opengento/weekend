@@ -14,8 +14,8 @@
     }
   },
   "date": {
-    "from": "2026-05-25T09:00:00",
-    "to": "2026-05-25T22:00:00"
+    "from": "2026-06-25T09:00:00",
+    "to": "2026-06-25T22:00:00"
   },
   "programs": [
     {
@@ -25,64 +25,64 @@
           "name": "Petit-déjeuner et networking",
           "description": "",
           "date": {
-            "from": "2026-02-18T09:00:00",
-            "to": "2026-02-18T10:00:00"
+            "from": "2026-06-25T09:00:00",
+            "to": "2026-06-25T10:00:00"
           }
         },
         {
           "name": "Conférences et ateliers",
           "description": "Les experts de l’écosystème aborderont les thématiques phares de 2026 et partageront leurs retours d’expérience. Des ateliers business et techniques (fr/en) viendront compléter la programmation tout au long de la journée !",
           "date": {
-            "from": "2026-02-18T10:00:00",
-            "to": "2026-02-18T12:30:00"
+            "from": "2026-06-25T10:00:00",
+            "to": "2026-06-25T12:30:00"
           }
         },
         {
           "name": "Déjeuner et networking",
           "description": "",
           "date": {
-            "from": "2026-02-18T12:30:00",
-            "to": "2026-02-18T14:00:00"
+            "from": "2026-06-25T12:30:00",
+            "to": "2026-06-25T14:00:00"
           }
         },
         {
           "name": "Conférences et ateliers",
           "description": "Les experts de l’écosystème aborderont les thématiques phares de 2026 et partageront leurs retours d’expérience. Des ateliers business et techniques (fr/en) viendront compléter la programmation tout au long de la journée !",
           "date": {
-            "from": "2026-02-18T14:00:00",
-            "to": "2026-02-18T16:30:00"
+            "from": "2026-06-25T14:00:00",
+            "to": "2026-06-25T16:30:00"
           }
         },
         {
           "name": "Pause et networking",
           "description": "",
           "date": {
-            "from": "2026-02-18T16:30:00",
-            "to": "2026-02-18T17:00:00"
+            "from": "2026-06-25T16:30:00",
+            "to": "2026-06-25T17:00:00"
           }
         },
         {
           "name": "Closing notes",
           "description": "",
           "date": {
-            "from": "2026-02-18T17:00:00",
-            "to": "2026-02-18T18:30:00"
+            "from": "2026-06-25T17:00:00",
+            "to": "2026-06-25T18:30:00"
           }
         },
         {
           "name": "Apéro dinatoire et soirée",
           "description": "",
           "date": {
-            "from": "2026-02-18T18:30:00",
-            "to": "2026-02-18T22:00:00"
+            "from": "2026-06-2518:30:00",
+            "to": "2026-06-25T22:00:00"
           }
         },
         {
           "name": "After Party",
           "description": "",
           "date": {
-            "from": "2026-02-18T22:00:00",
-            "to": "2026-02-18T23:30:00"
+            "from": "2026-06-25T22:00:00",
+            "to": "2026-06-25T23:30:00"
           }
         }
       ]
@@ -90,7 +90,7 @@
   ],
   "place": {
     "name": "Salons de l’Aveyron",
-    "address": "217 Rue de l’Aubrac, 75012 Paris",
+    "address": "17 Rue de l’Aubrac, 75012 Paris",
     "url": "https://maps.app.goo.gl/sryYMjHKVLPPqh2m6",
     "access": {
       "publicTransport": {
