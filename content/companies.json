@@ -199,6 +199,14 @@
       "url": "https://www.410-gone.fr/",
       "logoSrc": "/images/logo/410gone.svg",
       "iconSrc": "/images/logo/icon/410gone.svg"
+    },
+    {
+      "id": 26,
+      "name": "Zento",
+      "description": "Nous accompagnons les industriels et distributeurs dans leur transformation commerciale digitale : structuration du catalogue (PIM/DAM), plateforme e-commerce B2B /B2C, et équipes d'agents IA pour automatiser et performer.",
+      "url": "https://www.zento.fr/",
+      "logoSrc": "/images/logo/zento.svg",
+      "iconSrc": "/images/logo/icon/zento.png"
     }
   ]
 }
