@@ -26,6 +26,9 @@ export default function Page() {
         <Typography color="dark">
           Siège social : 17 rue Idrac - 31000 Toulouse - France.
         </Typography>
+        <Typography color="dark">
+          N° TVA intracommunautaire : FR07999822034
+        </Typography>
         <Logo
           href="https://opengento.fr/"
           logoText="Opengento"
