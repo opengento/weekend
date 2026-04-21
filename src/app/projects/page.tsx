@@ -10,7 +10,7 @@ export default function Page() {
         <Typography variant="h1" color="dark" underlineColor="primary">
           Nos réalisations
         </Typography>
-        <Typography variant="h2" color="dark" underlineColor="primary">
+        <Typography variant="h2" color="dark">
           🔥 Modules les plus utiles (production / forte valeur)
         </Typography>
         <ul>
@@ -20,40 +20,44 @@ export default function Page() {
             </Link> – Migration Adobe Commerce → Open Source
           </li>
           <li>
+            <Link href="https://github.com/opengento/magento2-gdpr">
+              <strong>opengento/module-gdpr</strong>
+            </Link> – The module helps to be GDPR compliant
+          </li>
+          <li>
             <Link href="https://github.com/opengento/logger">
               <strong>logger</strong>
             </Link> – Logging avancé (Slack, Gelf, etc.)
+          </li><li>
+            <Link href="https://github.com/opengento/hoodoor">
+              <strong>opengento/module-hoodoor</strong>
+            </Link> – This module allows to you login without a password and without using a third-party service.
           </li>
           <li>
-            <Link href="https://github.com/opengento/featuretoggle">
-              <strong>featuretoggle</strong>
-            </Link> – Feature flags Magento
+            <Link href="https://github.com/opengento/magento2-saleable">
+              <strong>opengento/module-saleable</strong>
+            </Link> – This extension allows to set if a product is saleable and can show its price by scope and customer group.
           </li>
           <li>
-            <Link href="https://github.com/opengento/feature-toggle2">
-              <strong>feature-toggle2</strong>
-            </Link> – Version avancée des feature flags
+            <Link href="https://github.com/opengento/magento2-store-path-url">
+              <strong>opengento/module-store-path-url</strong>
+            </Link> – This module allows to override the store code in url with an other path value.
           </li>
           <li>
             <Link href="https://github.com/opengento/magento2-category-import-export">
-              <strong>magento2-category-import-export</strong>
+              <strong>opengento/module-category-import-export</strong>
             </Link> – Import / export catégories CSV
           </li>
           <li>
             <Link href="https://github.com/opengento/magento2-document">
-              <strong>module-document</strong>
+              <strong>opengento/module-document</strong>
             </Link> – Gestion documentaire dans Magento
           </li>
         </ul>
-        <Typography variant="h2" color="dark" underlineColor="primary">
+        <Typography variant="h2" color="dark">
           🧰 Modules utiles (amélioration dev / back-office / tooling)
         </Typography>
         <ul>
-          <li>
-            <Link href="https://github.com/opengento/magento2-store-path-url">
-              <strong>magento2-store-path-url</strong>
-            </Link> – Gestion personnalisée des URLs store
-          </li>
           <li>
             <Link href="https://github.com/opengento/module-magento2-hyva-admin">
               <strong>module-magento2-hyva-admin</strong>
@@ -75,18 +79,13 @@ export default function Page() {
             </Link> – Optimisation du chargement Magento via Composer
           </li>
           <li>
-            <Link href="https://github.com/opengento/magento-composer-installer">
-              <strong>magento-composer-installer</strong>
-            </Link> – Installer Composer pour modules Magento
-          </li>
-          <li>
             <Link href="https://github.com/opengento/magento2-makegento-cli">
               <strong>module-makegento-cli</strong>
             </Link> – CLI pour automatiser des tâches Magento
           </li>
         </ul>
-        <Typography variant="h2" color="dark" underlineColor="primary">
-          🧪 Projets techniques / base / expérimentaux
+        <Typography variant="h2" color="dark">
+          🧪 Projets expérimentaux
         </Typography>
         <ul>
           <li>
