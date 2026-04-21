@@ -21,13 +21,16 @@ export default function Page() {
           Ce site web est édité par l’association loi 1901 « OpenGento » (RNA W833003136).
         </Typography>
         <Typography color="dark">
+          N° SIRET : 99982203400016
+        </Typography>
+        <Typography color="dark">
+          N° TVA intracommunautaire : FR07999822034
+        </Typography>
+        <Typography color="dark">
           Directeur de la publication: Frédéric MARTINEZ (Président de l’association).
         </Typography>
         <Typography color="dark">
           Siège social : 17 rue Idrac - 31000 Toulouse - France.
-        </Typography>
-        <Typography color="dark">
-          N° TVA intracommunautaire : FR07999822034
         </Typography>
         <Logo
           href="https://opengento.fr/"
