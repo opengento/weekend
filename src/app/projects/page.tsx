@@ -167,6 +167,54 @@ export default function Page() {
       description: "This module allows the merchants to set a minimal price for products.",
       url: "https://github.com/opengento/magento2-minimal-price",
       tags: ["magento", "module"]
+    },
+    {
+      title: "Magento 2 – Document Search module",
+      description: "This module aims to make documents searchable for customers in Magento 2.",
+      url: "https://github.com/opengento/magento2-document-search",
+      tags: ["magento", "module"]
+    },
+    {
+      title: "Magento 2 – Country Store Phone module",
+      description: "This module add the phone number field to the country data object.",
+      url: "https://github.com/opengento/magento2-country-store-phone",
+      tags: ["magento", "module"]
+    },
+    {
+      title: "Magento 2 – Document Product Link module",
+      description: "This module aims to help merchants to link their documents to products in Magento 2.",
+      url: "https://github.com/opengento/magento2-document-product-link",
+      tags: ["magento", "module"]
+    },
+    {
+      title: "Magento 2 – AI Merchant Assistant module",
+      description: "This module add an AI chatbot in the admin panel in order to assist the merchants in their daily tasks.",
+      url: "https://github.com/opengento/magento2-admin-assistant",
+      tags: ["magento", "module", "ai", "experimental"]
+    },
+    {
+      title: "Magento 2 – Document Widget module",
+      description: "This module aims to make documents searchable for customers in Magento 2.",
+      url: "https://github.com/opengento/magento2-document-widget",
+      tags: ["magento", "module"]
+    },
+    {
+      title: "Magento 2 – Document Product Search module",
+      description: "This module aims to make documents searchable with product keywords in Magento 2.",
+      url: "https://github.com/opengento/magento2-document-product-search",
+      tags: ["magento", "module"]
+    },
+    {
+      title: "Magento 2 – Sample Data",
+      description: "This module allows the merchants to generate sample data directly from the admin panel and AI.",
+      url: "https://github.com/opengento/magento2-sample-ai-data",
+      tags: ["magento", "module", "ai", "experimental"]
+    },
+    {
+      title: "Magento 2 – Document Restrict module",
+      description: "This module aims to restrict documents by type in Magento 2.",
+      url: "https://github.com/opengento/magento2-document-restrict",
+      tags: ["magento", "module"]
     }
   ];
 
