@@ -31,7 +31,7 @@ const ProjectCard = (project: ProjectProps) => {
         </div>
         <p>{project.description}</p>
         <div className="card-actions justify-end">
-          <ButtonLink cta={cta}/>
+          <ButtonLink cta={cta} className="btn-outline"/>
         </div>
       </div>
     </div>
