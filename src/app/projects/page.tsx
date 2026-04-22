@@ -169,6 +169,12 @@ export default function Page() {
       tags: ["magento", "module"]
     },
     {
+      title: "Magento 2 – Stateless Application",
+      description: "This module allows the application to reuse the bootstrap and reset its state after the request. It allows to be used with stateless server (frankenphp worker, reactphp, swoole...)",
+      url: "https://github.com/opengento/magento2-application",
+      tags: ["magento", "module"]
+    },
+    {
       title: "Magento 2 – Document Search module",
       description: "This module aims to make documents searchable for customers in Magento 2.",
       url: "https://github.com/opengento/magento2-document-search",
