@@ -10,7 +10,7 @@ export default function Page() {
           FAQ
         </Typography>
         <Typography color="dark" className="whitespace-pre-wrap">
-          To Be Soon!
+          opengento@gmail.com
         </Typography>
       </Article>
     </Container>
